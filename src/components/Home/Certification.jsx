@@ -1,0 +1,122 @@
+import React from 'react'
+import img1 from '../../assets/images/isro.png'
+import img2 from '../../assets/images/iso.png'
+import img3 from '../../assets/images/lion.png'
+import usp1 from '../../assets/images/usp1.svg'
+import usp2 from '../../assets/images/usp2.svg'
+import usp3 from '../../assets/images/usp3.svg'
+import usp4 from '../../assets/images/usp4.svg'
+
+const uspData = [
+    {
+        id: 1,
+        title: 'Protection Solutions',
+        icon: usp1, // Example icon, can use actual icon components
+        description: 'Advanced filtration solutions designed to protect users samples, and the environment',
+    },
+    {
+        id: 2,
+        title: 'Contamination Control',
+        icon: usp2,
+        description: 'State-of-the-art technology built to minimize contamination risks across applications',
+    },
+    {
+        id: 3,
+        title: 'Trusted Safety',
+        icon: usp3,
+        description: 'Reliable safety systems trusted across laboratories, healthcare, and research sectors',
+    },
+    {
+        id: 4,
+        title: 'Sustainable Performance',
+        icon: usp4,
+        description: 'A perfect blend of performance, convenience, and environmental responsibility',
+    },
+];
+
+const Certification = () => {
+    return (
+        <div>
+            <div className=' md:flex justify-between items-center p-5 mt-8 border-blue-600'>
+                <h1 className='text-2xl md:w-[373px]  md:text-4xl md:text-left my-2 '>Certifications</h1>
+                <p className='text-[15px] py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>Proudly serving leading laboratories, hospitals, and research facilities.</p>
+            </div>
+            <div className="p-4  border-red-600">
+                {/* Image Row */}
+                <div className="w-auto h-[72px] grid grid-cols-3 md:grid-cols-5 gap-4  border-black">
+                    {/* Image 1 */}
+                    <div className="flex flex-col items-center">
+                        <img src={img1} alt="Image 1" className="w-[78px] h-[72px] md:h-[68px]" />
+                        <hr className="w-full md:w-1/4 border-t-2 mt-2" />
+                    </div>
+
+                    {/* Image 2 */}
+                    <div className="hidden md:flex flex-col items-center">
+                        <img src={img2} alt="Image 2" className="w-full h-auto md:w-auto md:h-[68px]" />
+                        <hr className="w-full md:w-1/4 border-t-2 mt-2" />
+                    </div>
+
+                    {/* Image 3 */}
+                    <div className="hidden md:flex flex-col items-center">
+                        <img src={img1} alt="Image 3" className="w-full h-auto md:w-auto md:h-[68px]" />
+                        <hr className="w-full md:w-1/4 border-t-2 mt-2" />
+                    </div>
+
+                    {/* Image 4 */}
+                    <div className="flex flex-col items-center justify-center">
+                        <img src={img3} alt="Image 4" className="w-[107px] h-[47px] md:h-[68px]" />
+                        <hr className="w-full md:w-1/4 border-t-2 mt-2" />
+                    </div>
+
+                    {/* Image 5 */}
+                    <div className="flex flex-col items-center justify-center">
+                        <img src={img2} alt="Image 5" className="w-[147px] h-[54px] md:h-[68px]" />
+                        <hr className="w-full md:w-1/4 border-t-2 mt-2" />
+                    </div>
+                </div>
+            </div>
+
+            {/* usp starts here */}
+            <div className="container mx-auto p-2 md:p-6">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-6">
+                    {uspData.map((card, index) => (
+                       <div
+                       key={card.id}
+                       className="w-full max-w-[250px] mx-auto flex flex-col justify-between bg-gray-100 rounded-lg shadow-md"
+                     >
+                       {/* Title and Icon */}
+                       <div
+                         className={`flex flex-col justify-center items-center p-5 rounded-lg shadow-md ${
+                           index === 0 || index === 2 ? 'bg-[#1782C5] text-white' : 'bg-white text-black border'
+                         } min-h-[150px]`}
+                       >
+                         <div
+                           className={`w-[48px] h-[48px] md:w-[84px] md:h-[84px] mb-2 flex justify-center items-center border rounded-full ${
+                             index === 0 || index === 2 ? 'border-white' : 'border-black'
+                           }`}
+                         >
+                           <img src={card.icon} className="w-[20px] h-[20px] md:w-[48px] md:h-[48px]" alt="usp icon" />
+                         </div>
+                         <h2 className="text-[14px] md:text-lg text-center font-semibold">
+                           {card.title}
+                         </h2>
+                       </div>
+                 
+                       {/* Description */}
+                       <div
+                         className={`w-full p-5 flex justify-center items-center text-center shadow-md rounded-lg flex-grow ${
+                           index === 0 || index === 2 ? 'bg-[#1782C5] text-white' : 'bg-white text-black border'
+                         } min-h-[150px]`}
+                       >
+                         <p>{card.description}</p>
+                       </div>
+                     </div>
+                    ))}
+                </div>
+            </div>
+
+        </div>
+    )
+}
+
+export default Certification
