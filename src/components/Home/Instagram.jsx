@@ -1,7 +1,7 @@
 import React from "react";
-import post1 from '../../assets/images/post1.png'
-import post2 from '../../assets/images/post2.png'
-import post3 from '../../assets/images/post3.png'
+import post1 from '../../assets/images/Post1.png'
+import post2 from '../../assets/images/Post2.png'
+import post3 from '../../assets/images/Post3.png'
 import Arrow from '../../assets/images/down-light.svg'
 
 const postsData = [
