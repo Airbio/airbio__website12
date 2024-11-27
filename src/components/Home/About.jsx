@@ -3,7 +3,7 @@ import banner from '../../assets/images/banner.jpeg'
 import art1 from '../../assets/images/art1.jpeg'
 import art2 from '../../assets/images/art2.jpeg'
 import art3 from '../../assets/images/art3.jpeg'
-import vector from '../../assets/images/vector.svg'
+import vector from '../../assets/images/Vector.svg'
 
 const About = () => {
     return (
