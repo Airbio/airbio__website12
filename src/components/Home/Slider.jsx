@@ -1,6 +1,6 @@
 import React from 'react'
-import image1 from '../../assets/images/slider-Horizontal.jpg'
-import image2 from '../../assets/images/slider-Horizontal1.jpg'
+import image1 from '../../assets/images/Slider-Horizontal.jpg'
+import image2 from '../../assets/images/Slider-Horizontal1.jpg'
 
 const Slider = () => {
     return (
