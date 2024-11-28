@@ -39,7 +39,7 @@ const Header = () => {
                     <div className='bg-black flex items-center justify-center text-white w-[48px] h-[48px] p-1 px-4 rounded-full'>
                         <img src={arrow} className='w-[20px] h-[20px]' alt="Down arrow icon" />
                     </div>
-                </div>
+                </div>  
 
                 {/* Mobile Menu Button */}
                 <button onClick={toggleMenu} className="md:hidden focus:outline-none">
@@ -50,7 +50,7 @@ const Header = () => {
             {/* Mobile Navigation - Slide-in Menu */}
             <div
                 className={`fixed top-0 right-0 h-full w-4/5 bg-[#FFFFFF] transform ${isOpen ? 'translate-x-0' : 'translate-x-full'
-                    } transition-transform duration-300 ease-in-out z-50 rounded-tl-3xl rounded-bl-3xl border border-red-500`}
+                    } transition-transform duration-300 ease-in-out z-50 rounded-tl-3xl rounded-bl-3xl  border-red-500`}
             >
                 {/* Close Icon at the Top */}
                 <div className="flex justify-end p-4">
@@ -65,7 +65,7 @@ const Header = () => {
                 </div>
 
                 {/* Menu Items */}
-                <div className="p-7 border border-black">
+                <div className="p-7 ">
                     <nav className="flex flex-col space-y-6 text-lg">
                         <a href="#home" className="hover:text-gray-400" onClick={toggleMenu}>Home</a>
                         <a href="#product" className="hover:text-gray-400" onClick={toggleMenu}>Product</a>

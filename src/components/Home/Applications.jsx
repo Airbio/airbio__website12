@@ -60,8 +60,8 @@ const Applications = () => {
 
     return (
         <>
-            <h1 className='text-2xl md:w-[373px]  md:text-4xl md:text-left my-2 '>Applications</h1>
-            <div className="bg-gray-100 py-8 px-4">
+            <h1 className='text-2xl text-center font-semibold px-5 pt-5 md:p-10 md:w-[373px]  md:text-4xl md:text-start my-2 '>Applications</h1>
+            <div className=" py-8 px-4">
                 <div className="w-[95%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 ">
                     {cards.map((card) => (
                         <div

@@ -11,7 +11,7 @@ const Products = () => {
     return (
         <div className="p-5 border-red-500">
         {/* Centered Title */}
-        <div className="flex justify-center items-center mt-5 mb-10">
+        <div id='product-section' className="flex justify-center items-center mt-5 mb-10">
           <h1 className="text-center p-1 px-3 border border-[#C0C0C0] rounded-full text-black font-semibold">
             Our Products
           </h1>

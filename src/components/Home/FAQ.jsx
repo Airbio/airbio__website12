@@ -13,29 +13,34 @@ const FAQ = () => {
     },
     {
       question: 'Do your products meet industry standards?',
-      answer: '',
+      answer: ' Yes, all AirBio products comply with global safety and quality standards, including ISO and EN certifications, ensuring reliable performance.',
     },
     {
       question: 'Can AirBio provide custom solutions?',
-      answer: '',
+      answer: '  Absolutely! We tailor solutions based on specific requirements, whether it’s for laboratory environments or specialized industrial needs.',
     },
     {
       question: 'Does AirBio offer installation and maintenance support?',
-      answer: '',
+      answer: ' Yes, we provide end-to-end support, including installation, calibration, training, and ongoing maintenance services.',
     },
     {
       question: 'How often should biosafety cabinets be serviced?',
-      answer: '',
+      answer: 'We recommend servicing every 6-12 months to maintain optimal performance and ensure compliance with safety standards.',
     },
   ];
 
   // State to track which question is currently open
   const [openIndex, setOpenIndex] = useState(null);
+  const [clickedQuestion, setClickedQuestion] = useState(null);
 
   // Toggle the open/close state of the answer
   const handleToggle = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+    setClickedQuestion(clickedQuestion === index ? null : index);
   };
+
+  const handleClick = () => {
+    setIsClicked(!isClicked);  // Toggle clicked state
+  };  
 
   return (
     <div className="max-w-2xl mx-auto p-4">
@@ -48,7 +53,9 @@ const FAQ = () => {
               className="flex justify-between items-center cursor-pointer"
               onClick={() => handleToggle(index)}
             >
-              <h2 className="text-lg font-semibold">{faq.question}</h2>
+              <h2 onClick={() => handleClick(index)} className={`text-lg font-semibold ${
+              clickedQuestion === index ? 'text-[#1782C5]' : 'text-black'
+            } cursor-pointer`}>{faq.question}</h2>
               <button
                 className="text-xl font-bold focus:outline-none"
                 aria-label="Toggle Answer"
@@ -57,7 +64,7 @@ const FAQ = () => {
               </button>
             </div>
             {/* Answer Section */}
-            {openIndex === index && (
+            {clickedQuestion === index && (
               <div className="mt-2 text-gray-700">
                 {faq.answer}
               </div>

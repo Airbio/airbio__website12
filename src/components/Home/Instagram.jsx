@@ -30,8 +30,8 @@ const postsData = [
 const Instagram = () => {
     return (
         <div className="container mx-auto px-4">
-            <div className=' md:flex justify-between items-center p-5  mt-8 border-blue-600'>
-                <h1 className='text-2xl text-center md:w-[373px]  md:text-4xl md:text-left my-2 '>What’s going on at Airbio</h1>
+            <div className=' md:flex justify-between items-center p-5 md:p-10  mt-8 border-blue-600'>
+                <h1 className='text-2xl font-semibold text-center md:w-[373px]  md:text-4xl md:text-left my-2 '>What’s going on at Airbio</h1>
                 <p className='text-[15px] hidden md:flex py-2 md:py-0 md:w-[553px] text-[#7A7A7A]'>We know that selecting the right product can feel overwhelming, which is why we’ve thoughtfully curated a comprehensive FAQ section to guide you through the decision-making process with ease and confidence.</p>
             </div>
             {/* Card Wrapper */}

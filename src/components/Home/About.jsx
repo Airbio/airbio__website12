@@ -14,15 +14,15 @@ const About = () => {
                     <div className='my-5'><img src={banner} className='w-[370px] md:w-[520px] h-[243px] md:h-[358px]' alt="" /></div>
                     <div className='flex flex-col gap-10 md:w-[50%] border-blue-500'>
                         <h1 className='hidden md:inline-block p-[6px] font-urbanist px-4 border border-[#C0C0C0] rounded-full text-black font-semibold w-fit'>About Airbio</h1>
-                        <p className=' font-custom text-[#868686]'>At AirBio, we specialize in manufacturing innovative, high quality safety systems designed to protect people, systems and the environment. From ductless fume hoods to biological safety cabinets, our product range provides protection against hazardous materials, air pollution and hazardous vapors. <span className='text-black'>With the most advanced technology, our solutions are designed to meet global environmental standards and support green initiatives such as LEED compliance.</span></p>
+                        <p className='text-center md:text-start font-custom text-[#868686]'>At AirBio, we specialize in manufacturing innovative, high quality safety systems designed to protect people, systems and the environment. From ductless fume hoods to biological safety cabinets, our product range provides protection against hazardous materials, air pollution and hazardous vapors. <span className='text-black'>With the most advanced technology, our solutions are designed to meet global environmental standards and support green initiatives such as LEED compliance.</span></p>
                     </div>
                 </div>
             </div>
 
             <div>
-                <div className=' md:flex justify-between p-5 mt-8 border-blue-600'>
-                    <h1 className='text-2xl md:w-[373px] md:h-[96px] md:text-4xl md:text-left my-2 font-urbanist'>State-of-the-art manufacturing</h1>
-                    <p className='text-[15px] py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A] '>Our state-of-the-art research and manufacturing facilities reflect our commitment to excellence. Every part we manufacture is tested to meet the highest industry standards. From engineering and manufacturing to installation and technical support, the entire process is managed by the integrated team to ensure the best customer experience.</p>
+                <div className=' md:flex justify-between p-5 md:p-10 mt-8 border-blue-600'>
+                    <h1 className='text-2xl font-semibold text-center md:text-start md:w-[373px] md:h-[96px] md:text-4xl my-2 font-urbanist'>State-of-the-art manufacturing</h1>
+                    <p className='text-[15px] text-center md:text-start py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A] '>Our state-of-the-art research and manufacturing facilities reflect our commitment to excellence. Every part we manufacture is tested to meet the highest industry standards. From engineering and manufacturing to installation and technical support, the entire process is managed by the integrated team to ensure the best customer experience.</p>
                 </div>
                 <div>
                     <div className="flex overflow-x-scroll md:grid md:grid-cols-3 gap-4 md:gap-10 p-4 mx-auto max-w-screen-lg">

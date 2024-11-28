@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
-import product1 from '../../assets/images/slide1.jpg'
-import product2 from '../../assets/images/slide2.jpg'
-import product3 from '../../assets/images/slide3.jpg'
-import product4 from '../../assets/images/slide4.jpg'
+import product1 from '../../assets/images/Frame2.png'
+import product2 from '../../assets/images/Frame2.png'
+import product3 from '../../assets/images/Frame3.png'
+import product4 from '../../assets/images/Frame4.png'
 
 
 const Hero = () => {
@@ -14,7 +14,7 @@ const Hero = () => {
     const slides = [
         {
             image: product1,
-            text: 'Text for Image 1'
+            text: 'Revolutionizing Safety Solutions Across Healthcare and Research Industry'
         },
         {
             image: product2,
@@ -34,14 +34,14 @@ const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     return (
-        <div className="carousel-container flex justify-between w-full overflow-hidden border-red-400">
+        <div className="carousel-container md:w-[90%] mx-auto flex flex-col justify-center items-center md:flex-row md:justify-between w-full overflow-hidden border border-red-400">
             {/* Text Section */}
-            <div className="text-section w-1/2 p-4 flex items-center justify-center">
-                <p className="text-lg  font-bold">{slides[currentSlide].text}</p>
+            <div className="text-section w-1/2 p-4 flex items-center justify-center border md:ml-16">
+                <p className="text-lg text-center font-bold">{slides[currentSlide].text}</p>
             </div>
 
             {/* Image Carousel */}
-            <div className="image-carousel w-[243px]  border-blue-500">
+            <div className="image-carousel w-[243px] border  border-blue-500">
                 <Swiper
                     modules={[Autoplay, Pagination]} // Use modules here
                     spaceBetween={0}
