@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
-import product1 from '../../assets/images/Frame2.png'
-import product2 from '../../assets/images/Frame2.png'
-import product3 from '../../assets/images/Frame3.png'
-import product4 from '../../assets/images/Frame4.png'
+import product1 from '../../assets/images/frame2.png'
+import product2 from '../../assets/images/frame2.png'
+import product3 from '../../assets/images/frame3.png'
+import product4 from '../../assets/images/frame4.png'
 
 
 const Hero = () => {
