@@ -104,7 +104,7 @@ const Applications = () => {
                                 {/* 3rd Div: Descriptions */}
                                 <div className="flex flex-col md:w-[50%]  text-gray-700 relative  border-green-500">
                                     {/* Timeline */}
-                                    <div className="absolute bg-[#1782C5] top-4 left-[6px] bottom-12 md:bottom-16 w-[1px]"></div>
+                                    <div className="absolute bg-[#1782C5] top-4 left-[6px] bottom-16 sm:bottom-12 md:bottom-16 w-[1px]"></div>
 
                                     {/* Description 1 */}
                                     <div className="flex items-start">
@@ -130,9 +130,6 @@ const Applications = () => {
                                         <p className="ml-4 leading-5">{card.description3}</p>
                                     </div>
                                 </div>
-
-
-
                             </div>
                         </div>
                     ))}
