@@ -33,10 +33,10 @@ const Header = () => {
 
                 {/* Quote Request Button and Down Arrow (Hidden on mobile) */}
                 <div className="hidden md:flex items-center">
-                    <button className="bg-black hover:bg-blue-600 w-auto h-[48px] text-white px-4 p-2 rounded-full">
+                    <button className="bg-black hover:bg-[#1782C5] w-auto h-[48px] text-white px-4 p-2 rounded-full">
                         Quote Request
                     </button>
-                    <div className='bg-black flex items-center justify-center text-white w-[48px] h-[48px] p-1 px-4 rounded-full'>
+                    <div className='bg-black hover:bg-[#1782C5] flex items-center justify-center text-white w-[48px] h-[48px] p-1 px-4 rounded-full'>
                         <img src={arrow} className='w-[20px] h-[20px]' alt="Down arrow icon" />
                     </div>
                 </div>  
@@ -74,12 +74,12 @@ const Header = () => {
                         <a href="#contact" className="hover:text-gray-400" onClick={toggleMenu}>Contact</a>
 
                         {/* Quote Request Button */}
-                        <button className="bg-[#000000] hover:bg-blue-600 w-[251px] h-[40px] text-white px-4 py-2 rounded-lg mt-8 flex items-center justify-between">
+                        <button className="bg-[#000000] hover:bg-[#1782C5] w-[251px] h-[40px] text-white px-4 py-2 rounded-lg mt-8 flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img src={quote} alt="Quote icon" />
                                 <span>Quote Request</span>
                             </div>
-                            <img src={quote2} alt="Quote icon" />
+                            <img src={quote2} alt="Quote icon"/>
                         </button>
                     </nav>
                 </div>

@@ -87,15 +87,15 @@ const Certification = () => {
                        {/* Title and Icon */}
                        <div
                          className={`flex flex-col justify-center items-center p-5 rounded-lg shadow-md ${
-                           index === 0 || index === 2 ? 'bg-[#1782C5] text-white' : 'bg-white text-black border'
+                           index === 0 || index === 2 ? 'bg-[#1782C5] text-white' : 'bg-white text-black  '
                          } min-h-[150px]`}
                        >
                          <div
-                           className={`w-[48px] h-[48px] md:w-[84px] md:h-[84px] mb-2 flex justify-center items-center border rounded-full ${
+                           className={`w-[38px] h-[38px] md:w-[44px] md:h-[44px] mb-4 flex justify-center items-center border rounded-full ${
                              index === 0 || index === 2 ? 'border-white' : 'border-black'
                            }`}
                          >
-                           <img src={card.icon} className="w-[20px] h-[20px] md:w-[48px] md:h-[48px]" alt="usp icon" />
+                           <img src={card.icon} className="w-[20px] h-[20px] md:w-[28px] md:h-[28px]" alt="usp icon" />
                          </div>
                          <h2 className="text-[14px] md:text-lg text-center font-semibold">
                            {card.title}

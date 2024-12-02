@@ -34,7 +34,7 @@ const Products = () => {
           }}
           loop={true}
           autoplay={{ delay: 3000 }}
-          navigation={true}
+          // navigation={true}
           pagination={{
             clickable: true,
             el: '.custom-pagination', // Custom class for pagination
@@ -53,10 +53,10 @@ const Products = () => {
                 <div className="order-2 md:w-1/2 md:p-8 md:py-10 ">
                   {/* 1st Div: Name & Title */}
                   <div className="mb-4 text-center md:text-start">
-                    <h2 className="text-xl md:text-4xl font-bold">{product.name}</h2>
+                    <h2 className="text-2xl m-2 py-2 md:m-0 md:text-4xl font-bold">{product.name}</h2>
                     <h3 className="text-md text-gray-600">{product.title}</h3>
                   </div>
-                  <div className="hidden border md:flex flex-row items-center gap-6 mb-3">
+                  <div className="hidden  md:flex flex-row items-center gap-6 mb-3">
                     <img
                       src={product.img2}
                       alt="Product Image 2"
@@ -81,11 +81,11 @@ const Products = () => {
                   </div>
   
                   {/* 3rd Div: Buttons */}
-                  <div className="mb-4 flex justify-center md:justify-start space-x-4">
+                  <div className="mb-4 flex flex-col justify-center items-center gap-3 md:flex-row md:justify-start space-x-4">
                     <button className="bg-[#1782C5] text-white px-4 py-2 rounded-full hover:bg-blue-600">
                       Buy Now
                     </button>
-                    <button className="px-4 py-2 text-sm flex items-center gap-2 rounded-full hover:bg-green-600 border border-[#7A7A7A]">
+                    <button className="px-4 py-2 text-sm flex items-center gap-2 rounded-full border border-[#7A7A7A]">
                       Download Brochure
                       <img src={SVG} alt="" />
                     </button>
@@ -93,7 +93,7 @@ const Products = () => {
                 </div>
   
                 {/* 4th Div: Images */}
-                <div className="flex justify-between order-1 border-black">
+                <div className="flex flex-col justify-center items-center order-1  border-black mb-5">
                   <div className="w-[70%] md:w-full flex justify-center items-center pr-2 ">
                     <img
                       src={product.img1}
@@ -101,21 +101,21 @@ const Products = () => {
                       className="w-[151px] h-[215px] md:w-[423px] md:h-[458px] object-cover rounded-lg  border-green-600"
                     />
                   </div>
-                  <div className="w-1/2 h-auto md:hidden pl-2 border flex flex-col justify-center items-center">
+                  <div className=" h-auto md:hidden pl-2  flex justify-between items-center gap-5">
                     <img
                       src={product.img2}
                       alt="Product Image 2"
-                      className="w-[69px] h-[69px] mt-2 object-cover rounded-lg border"
+                      className="w-[69px] h-[69px]  object-cover rounded-lg border"
                     />
                     <img
                       src={product.img3}
                       alt="Product Image 2"
-                      className="w-[69px] h-[69px] my-2 object-cover rounded-lg"
+                      className="w-[69px] h-[69px]  object-cover rounded-lg"
                     />
                     <img
                       src={product.img2}
                       alt="Product Image 2"
-                      className="w-[69px] h-[69px] mb-2 object-cover rounded-lg"
+                      className="w-[69px] h-[69px] object-cover rounded-lg"
                     />
                   </div>
                 </div>

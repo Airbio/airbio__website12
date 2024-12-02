@@ -1,8 +1,8 @@
 import React from 'react'
 import banner from '../../assets/images/banner.jpeg'
-import art1 from '../../assets/images/art1.jpeg'
-import art2 from '../../assets/images/art2.jpeg'
-import art3 from '../../assets/images/art3.jpeg'
+import art1 from '../../assets/images/art1.webp'
+import art2 from '../../assets/images/art2.webp'
+import art3 from '../../assets/images/art3.webp'
 import vector from '../../assets/images/Vector.svg'
 
 const About = () => {
