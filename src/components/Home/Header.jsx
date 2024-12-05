@@ -4,6 +4,7 @@ import logo from '../../assets/images/logo.svg'
 import quote from '../../assets/images/quote-icon.svg'
 import quote2 from '../../assets/images/quote-icon2.svg'
 import arrow from '../../assets/images/down_arrow.svg'
+import { Link } from "react-router-dom";
 
 const Header = () => {
     // State to control the visibility of the mobile menu
@@ -24,8 +25,8 @@ const Header = () => {
 
                 {/* Navigation Section (Hidden on mobile) */}
                 <nav className="hidden md:flex justify-center items-center space-x-8 w-[442px] h-[54px] border rounded-full bg-white">
-                    <a href="#home" className="hover:text-gray-400 bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full text-white border">Home</a>
-                    <a href="#product" className="hover:text-gray-400">Product</a>
+                    <Link to="/" className="hover:text-gray-400 bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full text-white border">Home</Link>
+                    <Link to="/product" className="hover:text-gray-400">Product</Link>
                     <a href="#about" className="hover:text-gray-400">About</a>
                     <a href="#blog" className="hover:text-gray-400">Blog</a>
                     <a href="#contact" className="hover:text-gray-400">Contact</a>
@@ -68,7 +69,7 @@ const Header = () => {
                 <div className="p-7 ">
                     <nav className="flex flex-col space-y-6 text-lg">
                         <a href="#home" className="hover:text-gray-400" onClick={toggleMenu}>Home</a>
-                        <a href="#product" className="hover:text-gray-400" onClick={toggleMenu}>Product</a>
+                        <Link to="/product" className="hover:text-gray-400" onClick={toggleMenu}>Product</Link>
                         <a href="#about" className="hover:text-gray-400" onClick={toggleMenu}>About</a>
                         <a href="#blog" className="hover:text-gray-400" onClick={toggleMenu}>Blog</a>
                         <a href="#contact" className="hover:text-gray-400" onClick={toggleMenu}>Contact</a>
