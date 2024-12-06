@@ -30,8 +30,8 @@ const cardData = [
 const DiscoverProducts = () => {
     return (
         <div>
-            <div>
-                <div className="flex justify-center items-center mt-5 mb-10">
+            <div className='my-10'>
+                <div className="flex justify-center items-center pt-12 pb-5">
                     <h1 className="text-center p-1 px-3 border border-[#C0C0C0] rounded-full text-black font-semibold">
                         Discover Our Products
                     </h1>

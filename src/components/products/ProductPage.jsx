@@ -22,16 +22,22 @@ const ProductPage = () => {
                 {productData.map((product, index) => (
                     <div
                         key={index}
-                        className="relative md:w-[90%] mx-auto md:flex justify-between items-center md:gap-8 shadow-md pt-2 rounded-lg  border-[#1782C5]"
+                        className="relative md:w-[90%] mx-auto md:flex justify-between items-center md:gap-8 pt-2 rounded-lg  border-[#1782C5]"
                     >
+                        <div className="mb-4 text-center md:hidden">
+                                <h2 className="text-2xl text-[#1782C5] m-2 py-2 md:m-0  font-bold">
+                                    {product.name}
+                                </h2>
+                                <h3 className="md:text-3xl text-[#1E1E1E]">{product.title}</h3>
+                            </div>
                         {/* 1st Div: Images */}
                         <div className="flex flex-col  md:flex-row justify-center items-center  border-[#1782C5] mb-5">
                             {/* Main Image Display */}
-                            <div className="w-[70%] md:w-full flex justify-center items-center pr-2 ">
+                            <div className="w-[70%] md:w-full flex justify-center items-center  ">
                                 <img
                                     src={selectedImage}
                                     alt="Selected Product Image"
-                                    className="w-[229px] h-[335px] md:w-[423px] md:h-[458px] object-cover rounded-lg border border-[#1782C5]"
+                                    className="w-[229px] h-[335px] md:w-[423px] md:h-[458px] object-cover rounded-lg mb-5 md:m-0 border border-[#1782C5]"
                                 />
                             </div>
 
@@ -62,7 +68,7 @@ const ProductPage = () => {
                         </div>
                         <div className="md:w-[60%] ">
                             {/* 1st Div: Name & Title */}
-                            <div className="mb-4 text-center md:text-start">
+                            <div className="hidden md:block mb-4 text-center md:text-start">
                                 <h2 className="text-2xl text-[#1782C5] m-2 py-2 md:m-0  font-bold">
                                     {product.name}
                                 </h2>
@@ -76,11 +82,11 @@ const ProductPage = () => {
                             
 
                             {/* 2nd Div: Description */}
-                            <div className="mb-4">
-                                <p className=" mb-2 md:text-sm md:text-start">
+                            <div className="mb-4 text-justify ">
+                                <p className=" mb-2 md:text-sm ">
                                     {product.description1}
                                 </p>
-                                <p className="md:text-sm md:text-start">
+                                <p className="md:text-sm">
                                     {product.description2}
                                 </p>
                             </div>
@@ -112,13 +118,15 @@ const ProductPage = () => {
 
             <div className='p-6 md:w-[90%] mx-auto'>
                 <h1 className='text-center md:text-start text-xl text-[#1782C5] p-1 py-3 rounded-lg bg-[#F5F5F5] font-bold'>Meet AirBio’s Velocity Laminar Air Flow Cabinet   </h1>
-                <p className='my-5'>A trusted solution in laboratories worldwide, the Velocity vertical laminar air flow cabinet combines advanced technology with user-friendly features to elevate safety and efficiency. Available in multiple sizes, it boasts a modern touch-screen interface for seamless operation. </p>
+                <p className='my-5 text-justify'>A trusted solution in laboratories worldwide, the Velocity vertical laminar air flow cabinet combines advanced technology with user-friendly features to elevate safety and efficiency. Available in multiple sizes, it boasts a modern touch-screen interface for seamless operation. </p>
             </div>
             
             <KeyFeatures/>
             <Download/>
             <DiscoverProducts/>
+            <div className='py-10'>
             <Assistants/>
+            </div>
         </div>
     )
 }

@@ -13,7 +13,7 @@ const Download = () => {
                 backgroundImage: `url(${bgimageMobile})`,
                 backgroundSize: 'cover', // Ensures the image covers the entire div
                 backgroundPosition: 'center', // Centers the image
-            }} className='flex flex-col justify-center items-center md:hidden gap-5 p-6 h-screen'>
+            }} className='flex flex-col justify-center items-center md:hidden my-10 gap-5 p-6 h-screen'>
                 <div>
                     <h1 className='text-xl text-center font-semibold  w-[298px]'>Download <span className='text-[#1782C5] text-xl px-1'>Airbio</span> Product Information  </h1>
                 </div>
@@ -35,7 +35,7 @@ const Download = () => {
                 backgroundImage: `url(${bgimage})`,
                 backgroundSize: 'cover', // Ensures the image covers the entire div
                 backgroundPosition: 'center', // Centers the image
-            }} className='hidden md:flex flex-col justify-center items-center gap-5 p-6 h-screen '>
+            }} className='hidden md:flex flex-col justify-center items-center my-10 gap-5 p-6 h-screen '>
                 <div className=''>
                     <h1 className='text-2xl text-center font-semibold mb-5'>Download <span className='text-[#1782C5] text-2xl px-1'>Airbio</span> Product Information  </h1>
                 </div>

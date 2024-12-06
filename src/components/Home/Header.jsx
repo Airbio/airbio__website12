@@ -68,7 +68,7 @@ const Header = () => {
                 {/* Menu Items */}
                 <div className="p-7 ">
                     <nav className="flex flex-col space-y-6 text-lg">
-                        <a href="#home" className="hover:text-gray-400" onClick={toggleMenu}>Home</a>
+                        <Link to="/" className="hover:text-gray-400" onClick={toggleMenu}>Home</Link>
                         <Link to="/product" className="hover:text-gray-400" onClick={toggleMenu}>Product</Link>
                         <a href="#about" className="hover:text-gray-400" onClick={toggleMenu}>About</a>
                         <a href="#blog" className="hover:text-gray-400" onClick={toggleMenu}>Blog</a>
