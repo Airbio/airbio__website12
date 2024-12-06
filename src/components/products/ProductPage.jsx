@@ -4,7 +4,7 @@ import productData from './productPageData';
 import SVG from '../../assets/images/downloadSVG.svg'
 import logo from '../../assets/images/teamSvg.svg'
 import product1 from '../../assets/images/product1.png'
-import whatsapp from '../../assets/images/whatsapp1.svg'
+import whatsapp from '../../assets/images/Whatsapp1.svg'
 import arrow from '../../assets/images/crossArrow.svg'
 import KeyFeatures from './KeyFeatures';
 import Download from './Download';
