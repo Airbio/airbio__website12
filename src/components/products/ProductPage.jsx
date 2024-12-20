@@ -17,7 +17,7 @@ const ProductPage = () => {
 
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <div className="p-6">
                 {productData.map((product, index) => (
                     <div

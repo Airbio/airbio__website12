@@ -28,13 +28,15 @@ const slides = [
         image: product2,
         mImage: mproduct2,
         text: 'AirBio : Your Trusted Partner in Safety Solutions',
-        highlights: ["Trusted", "Safety", "and", "Industry"]
+        highlights: ["Safety", "Solutions",],
+        italics: ["AirBio", "Trusted",]
     },
     {
         image: product3,
         mImage: mproduct3,
         text: 'Minimize Risk, Maximize Safety with AirBio Technology',
-        highlights: ["Minimize", "Safety", "AirBio",]
+        highlights: ["Minimize", "Safety", "AirBio",],
+        italics: ["Maximize", "Risk,"]
     },
     // {
     //     image: product4,
@@ -50,9 +52,9 @@ const Crousal = () => {
         <div>
            <div className="relative hidden md:block w-full h-screen overflow-hidden">
     {/* Header */}
-    <div className="absolute top-0 left-0 w-full z-10 bg-opacity-50">
+    {/* <div className="absolute top-0 left-0 w-full z-10 bg-opacity-50">
         <Header />
-    </div>
+    </div> */}
 
     {/* Swiper Slider */}
     <Swiper
@@ -100,8 +102,8 @@ const Crousal = () => {
                                 Explore More
                             </button>
                         </Link>
-                        <div className="bg-black flex items-center justify-center text-white w-[48px] h-[48px] p-1 px-4 rounded-full">
-                            <img src={Arrow} className="w-[20px] h-[20px]" alt="Down arrow icon" />
+                        <div className="bg-black flex items-center justify-center text-white w-[48px] h-[48px] p-1  rounded-full">
+                            <img src={Arrow} className="w-[24px] h-[24px]" alt="Down arrow icon" />
                         </div>
                     </div>
                 </div>

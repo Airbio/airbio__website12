@@ -1,5 +1,9 @@
 import React from 'react';
 import img1 from '../../assets/images/application1.jpeg'
+import img2 from '../../assets/images/application2.png'
+import img3 from '../../assets/images/application3.png'
+import img4 from '../../assets/images/application4.png'
+import img5 from '../../assets/images/application5.png'
 import icon1 from '../../assets/images/aicon1.svg'
 import icon2 from '../../assets/images/icon2.svg'
 import icon3 from '../../assets/images/icon3.svg'
@@ -28,7 +32,7 @@ const Applications = () => {
         },
         {
             id: 2,
-            imgSrc: img1,
+            imgSrc: img2,
             icon: icon2,
             title: 'Pharmaceuticals',
             description1: des1,
@@ -38,7 +42,7 @@ const Applications = () => {
         {
             id: 3,
             icon: icon3,
-            imgSrc: img1,
+            imgSrc: img3,
             title: 'Farming & Agriculture',
             description1: des1,
             description2: des2,
@@ -47,7 +51,7 @@ const Applications = () => {
         {
             id: 4,
             icon: icon4,
-            imgSrc: img1,
+            imgSrc: img4,
             title: 'Botanicals & Herbal Products',
             description1: des1,
             description2: des2,
@@ -56,7 +60,7 @@ const Applications = () => {
         {
             id: 5,
             icon: icon5,
-            imgSrc: img1,
+            imgSrc: img5,
             title: 'Forensics',
             description1: des1,
             description2: des2,
@@ -104,12 +108,14 @@ const Applications = () => {
                                 {/* 3rd Div: Descriptions */}
                                 <div className="flex flex-col md:w-[50%]  text-gray-700 relative  border-green-500">
                                     {/* Timeline */}
-                                    <div className="absolute bg-[#1782C5] top-4 left-[6px] bottom-16 sm:bottom-12 md:bottom-16 w-[1px]"></div>
+                                    {/* <div className="absolute bg-[#1782C5] top-4 left-[6px] bottom-16 sm:bottom-12 md:bottom-16 w-[1px]"></div> */}
 
                                     {/* Description 1 */}
-                                    <div className="flex items-start">
+                                    <div className="flex items-start ">
                                         <div className="relative flex-shrink-0">
-                                            <div className="w-3 h-3 bg-[#1782C5] rounded-full mt-[4px]"></div> {/* Dot */}
+                                            <div className="w-3 h-3 mt-1 border border-[#1782C5] rounded-full flex items-center justify-center">
+                                                <div className="w-2 h-2 bg-[#1782C5] rounded-full"></div> {/* Inner Dot */}
+                                            </div>
                                         </div>
                                         <p className="ml-4 mb-3 leading-5">{card.description1}</p>
                                     </div>
@@ -117,7 +123,9 @@ const Applications = () => {
                                     {/* Description 2 */}
                                     <div className="flex items-start">
                                         <div className="relative flex-shrink-0">
-                                            <div className="w-3 h-3 bg-[#1782C5] rounded-full mt-[4px]"></div> {/* Dot */}
+                                            <div className="w-3 h-3 mt-1 border border-[#1782C5] rounded-full flex items-center justify-center">
+                                                <div className="w-2 h-2 bg-[#1782C5] rounded-full"></div> {/* Inner Dot */}
+                                            </div>
                                         </div>
                                         <p className="ml-4 mb-3 leading-5">{card.description2}</p>
                                     </div>
@@ -125,7 +133,9 @@ const Applications = () => {
                                     {/* Description 3 */}
                                     <div className="flex items-start">
                                         <div className="relative flex-shrink-0">
-                                            <div className="w-3 h-3 bg-[#1782C5] rounded-full mt-[4px]"></div> {/* Dot */}
+                                            <div className="w-3 h-3 mt-1 border border-[#1782C5] rounded-full flex items-center justify-center">
+                                                <div className="w-2 h-2 bg-[#1782C5] rounded-full"></div> {/* Inner Dot */}
+                                            </div>
                                         </div>
                                         <p className="ml-4 leading-5">{card.description3}</p>
                                     </div>

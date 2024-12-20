@@ -1,5 +1,9 @@
 import React from 'react';
-import card1 from '../../assets/images/card1.jpeg'
+import card1 from '../../assets/images/Article_Image1.jpeg'
+import card2 from '../../assets/images/Article_Image2.png'
+import card3 from '../../assets/images/Article_Image3.png'
+import card4 from '../../assets/images/Article_Image4.png'
+
 
 const CardPost = () => {
   const posts = [
@@ -13,24 +17,24 @@ const CardPost = () => {
     },
     {
       id: 2,
-      imgSrc: card1,
-      title: 'Cleanroom-Grade Laminar Flow Cabinets',
+      imgSrc: card2,
+      title: 'Efficient and Safe Ductless Fume Hoods',
       date: '2024-11-24',
       time: '3 min read',
       readMore: '#',
     },
     {
       id: 3,
-      imgSrc: card1,
-      title: 'Cleanroom-Grade Laminar Flow Cabinets',
+      imgSrc: card3,
+      title: 'Advanced Class II Biosafety Cabinets',
       date: '2024-11-23',
       time: '3 min read',
       readMore: '#',
     },
     {
       id: 4,
-      imgSrc: card1,
-      title: 'Cleanroom-Grade Laminar Flow Cabinets',
+      imgSrc: card4,
+      title: 'Customizable Solutions for Laboratory Safety',
       date: '2024-11-22',
       time: '3 min read',
       readMore: '#',

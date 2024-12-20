@@ -35,7 +35,7 @@ const Home = () => {
                 <Instagram />
                 <CardPost />
                 <Assistants />
-                <Footer />
+                {/* <Footer /> */}
 
             </div>
 

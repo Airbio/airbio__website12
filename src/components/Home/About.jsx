@@ -25,7 +25,7 @@ const About = () => {
                     <p className='text-[15px] text-center md:text-start py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A] '>Our state-of-the-art research and manufacturing facilities reflect our commitment to excellence. Every part we manufacture is tested to meet the highest industry standards. From engineering and manufacturing to installation and technical support, the entire process is managed by the integrated team to ensure the best customer experience.</p>
                 </div>
                 <div>
-                    <div className="flex overflow-x-scroll md:grid md:grid-cols-3 gap-4 md:gap-10 p-4 mx-auto max-w-screen-lg">
+                    <div className="flex overflow-x-scroll md:overflow-x-hidden md:grid md:grid-cols-3 gap-4 md:gap-10 p-4 mx-auto max-w-screen-lg">
                         {/* Card 1 */}
                         <div className="min-w-[318px] h-[530px] md:w-[318px] md:h-[448px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
                             <h2 className="text-[16px] p-[4px]  px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">Ductless Fume Hoods</h2>

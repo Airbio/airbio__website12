@@ -105,7 +105,7 @@ const Certification = () => {
                        {/* Description */}
                        <div
                          className={`w-full p-5 flex justify-center items-center text-center shadow-md rounded-lg flex-grow ${
-                           index === 0 || index === 2 ? 'bg-[#1782C5] text-white' : 'bg-white text-black border'
+                           index === 0 || index === 2 ? 'bg-[#1782C5] text-white' : 'bg-white text-black '
                          } min-h-[150px]`}
                        >
                          <p>{card.description}</p>

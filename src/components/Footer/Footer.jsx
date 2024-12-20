@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/images/flogo.svg'
+import logo from '../../assets/images/flogo.png'
 import contact from '../../assets/images/fcontact.svg'
 import email from '../../assets/images/femail.svg'
 import facebook from '../../assets/images/facebook.svg'
@@ -50,12 +50,13 @@ const Footer = () => {
                     <div className="flex justify-between items-center">
                         {/* Contact Email */}
                         <div className='md:flex flex-center justify-center gap-10'>
-                            <div className='flex  items-center gap-3'>
-                                <img src={contact} alt="" />
-                                <h3 className="text-lg font-semibold mb-2"> 1010101010</h3>
+                            <div className="flex items-center gap-3  py-3">
+                                <img src={contact} alt="Contact Icon" className="w-6 h-6" />
+                                <h3 className="text-lg font-semibold">1010101010</h3>
                             </div>
-                            <div className='flex items-center gap-3'>
-                                <img src={email} alt="" />
+
+                            <div className='flex items-center gap-3 '>
+                                <img src={email} alt="" className="w-6 h-6"/>
                                 <p>info@example.com</p>
                             </div>
                         </div>
@@ -66,17 +67,17 @@ const Footer = () => {
                                 <img src={facebook} alt="" />
                             </a>
                             <a href="#" className="hover:text-gray-400">
-                            <img src={linkedin} alt="" />
+                                <img src={linkedin} alt="" />
                             </a>
                             <a href="#" className="hover:text-gray-400">
-                            <img src={whatsapp} alt="" />
+                                <img src={whatsapp} alt="" />
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
             <br /><p className='text-[10px] md:hidden text-center'>Copyright © 2024</p>
-            <hr className='w-full'/>
+            <hr className='w-full' />
         </div>
     );
 };

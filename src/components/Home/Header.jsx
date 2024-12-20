@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineDown, AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import logo from '../../assets/images/logo.svg'
+import logo from '../../assets/images/logo.png'
 import quote from '../../assets/images/quote-icon.svg'
 import quote2 from '../../assets/images/quote-icon2.svg'
 import arrow from '../../assets/images/crossArrow.svg'
@@ -25,18 +25,18 @@ const Header = () => {
 
                 {/* Navigation Section (Hidden on mobile) */}
                 <nav className="hidden md:flex justify-center items-center space-x-8 w-[442px] h-[54px] border rounded-full bg-white">
-                    <Link to="/" className="hover:text-gray-400 bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full text-white border">Home</Link>
-                    <Link to="/product" className="hover:text-gray-400">Product</Link>
-                    <a href="#about" className="hover:text-gray-400">About</a>
-                    <a href="#blog" className="hover:text-gray-400">Blog</a>
-                    <a href="#contact" className="hover:text-gray-400">Contact</a>
+                    <Link to="/" className=" bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full hover:text-white border">Home</Link>
+                    <Link to="/product" className="hover:text-white">Product</Link>
+                    <Link to="/about" className="hover:text-gray-400">About</Link>
+                    <Link to="/blog" className="hover:text-gray-400">Blog</Link>
+                    <Link to="/contact" className="hover:text-gray-400">Contact</Link>
                 </nav>
 
                 {/* Quote Request Button and Down Arrow (Hidden on mobile) */}
                 <div className="hidden md:flex items-center">
-                    <button className="bg-white flex justify-between items-center gap-3 hover:bg-[#1782C5] w-auto h-[48px] px-3 p-2 bg-transparent border border-black rounded-full">
+                    <button className="bg-white flex justify-between items-center gap-3 hover:bg-[#1782C5] hover:text-white w-auto h-[48px] px-3 p-2 bg-transparent  border-black rounded-full">
                         Quote Request
-                        <div className='bg-black hover:bg-[#1782C5] flex items-center justify-center text-white w-[28px] h-[28px] p-2 rounded-full'>
+                        <div className='bg-black  flex items-center justify-center text-white w-[28px] h-[28px] p-2 rounded-full'>
                         <img src={arrow} className='' alt="Down arrow icon" />
                     </div>
                     </button>
@@ -70,9 +70,9 @@ const Header = () => {
                     <nav className="flex flex-col space-y-6 text-lg">
                         <Link to="/" className="hover:text-gray-400" onClick={toggleMenu}>Home</Link>
                         <Link to="/product" className="hover:text-gray-400" onClick={toggleMenu}>Product</Link>
-                        <a href="#about" className="hover:text-gray-400" onClick={toggleMenu}>About</a>
-                        <a href="#blog" className="hover:text-gray-400" onClick={toggleMenu}>Blog</a>
-                        <a href="#contact" className="hover:text-gray-400" onClick={toggleMenu}>Contact</a>
+                        <Link to="/about" className="hover:text-gray-400" onClick={toggleMenu}>About</Link>
+                        <Link to="/blog" className="hover:text-gray-400" onClick={toggleMenu}>Blog</Link>
+                        <Link to="/contact" className="hover:text-gray-400" onClick={toggleMenu}>Contact</Link>
 
                         {/* Quote Request Button */}
                         <button className="bg-[#000000] hover:bg-[#1782C5] w-[251px] h-[40px] text-white px-4 py-2 rounded-lg mt-8 flex items-center justify-between">
