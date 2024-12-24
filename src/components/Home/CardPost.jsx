@@ -2,7 +2,6 @@ import React from 'react';
 import card1 from '../../assets/images/Article_Image1.jpeg'
 import card2 from '../../assets/images/Article_Image2.png'
 import card3 from '../../assets/images/Article_Image3.png'
-import card4 from '../../assets/images/Article_Image4.png'
 
 
 const CardPost = () => {
