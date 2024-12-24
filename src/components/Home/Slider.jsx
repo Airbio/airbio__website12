@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../assets/images/client logo.svg'
+import image from '../../assets/images/Client logo.svg'
 // import image2 from '../../assets/images/Slider-Horizontal1.jpg'
 import image1 from '../../assets/images/certification1.png'
 import image2 from '../../assets/images/certification2.png'
