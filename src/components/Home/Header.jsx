@@ -5,6 +5,7 @@ import quote from '../../assets/images/quote-icon.svg'
 import quote2 from '../../assets/images/quote-icon2.svg'
 import arrow from '../../assets/images/crossArrow.svg'
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
     // State to control the visibility of the mobile menu
@@ -24,23 +25,68 @@ const Header = () => {
                 </div>
 
                 {/* Navigation Section (Hidden on mobile) */}
-                <nav className="hidden md:flex justify-center items-center space-x-8 w-[442px] h-[54px] border rounded-full bg-white">
-                    <Link to="/" className=" bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full hover:text-white border">Home</Link>
-                    <Link to="/product" className="hover:text-white">Product</Link>
-                    <Link to="/about" className="hover:text-gray-400">About</Link>
-                    <Link to="/blog" className="hover:text-gray-400">Blog</Link>
-                    <Link to="/contact" className="hover:text-gray-400">Contact</Link>
+                <nav className="hidden md:flex justify-center items-center px-2 space-x-8 w-auto h-[54px] border border-[#CDCDCD] rounded-full bg-white">
+                    <NavLink
+                        to="/"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full text-white"
+                                : "hover:text-gray-400"
+                        }
+                    >
+                        Home
+                    </NavLink>
+                    <NavLink
+                        to="/product"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full text-white"
+                                : "hover:text-gray-400"
+                        }
+                    >
+                        Product
+                    </NavLink>
+                    <NavLink
+                        to="/about"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full text-white"
+                                : "hover:text-gray-400"
+                        }
+                    >
+                        About
+                    </NavLink>
+                    <NavLink
+                        to="/blog"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full text-white"
+                                : "hover:text-gray-400"
+                        }
+                    >
+                        Blog
+                    </NavLink>
+                    <NavLink
+                        to="/contact"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full text-white"
+                                : "hover:text-gray-400"
+                        }
+                    >
+                        Contact
+                    </NavLink>
                 </nav>
 
                 {/* Quote Request Button and Down Arrow (Hidden on mobile) */}
                 <div className="hidden md:flex items-center">
-                    <button className="bg-white flex justify-between items-center gap-3 hover:bg-[#1782C5] hover:text-white w-auto h-[48px] px-3 p-2 bg-transparent  border-black rounded-full">
+                    <button className="bg-white flex justify-between items-center gap-3 hover:bg-[#1782C5] hover:text-white w-auto h-[48px] px-3 p-2 bg-transparent border-[#CDCDCD] rounded-full border">
                         Quote Request
                         <div className='bg-black  flex items-center justify-center text-white w-[28px] h-[28px] p-2 rounded-full'>
-                        <img src={arrow} className='' alt="Down arrow icon" />
-                    </div>
+                            <img src={arrow} className='' alt="Down arrow icon" />
+                        </div>
                     </button>
-                </div>  
+                </div>
 
                 {/* Mobile Menu Button */}
                 <button onClick={toggleMenu} className="md:hidden focus:outline-none">
@@ -80,7 +126,7 @@ const Header = () => {
                                 <img src={quote} alt="Quote icon" />
                                 <span>Quote Request</span>
                             </div>
-                            <img src={quote2} alt="Quote icon"/>
+                            <img src={quote2} alt="Quote icon" />
                         </button>
                     </nav>
                 </div>

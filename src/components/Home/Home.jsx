@@ -20,6 +20,7 @@ const Home = () => {
     return (
         <>
             <div className="w-full relative">
+                
                 <Crousal/>
 
                 {/* Slider Section */}

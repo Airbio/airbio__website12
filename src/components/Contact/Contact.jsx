@@ -6,13 +6,15 @@ import location from '../../assets/images/location.svg'
 import social1 from '../../assets/images/social1.svg'
 import social2 from '../../assets/images/social2.svg'
 import social3 from '../../assets/images/social3.svg'
+import Header from '../Home/Header'
 
 
 
 const Contact = () => {
     return (
         <div>
-            <hr className="w-[95%] h-1 border-t-1 border-[#C3C3C3] mx-auto" />
+            <Header/>
+            <hr className="w-[95%] h-1 mt-6 border-t-1 border-[#C3C3C3] mx-auto" />
             <div className='p-5 py-10 '>
                 <div className=' text-center'>
                     <h1 className='font-semibold md:text-2xl'>Get in touch with us for more information</h1>

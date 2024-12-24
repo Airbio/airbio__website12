@@ -17,7 +17,8 @@ const ProductPage = () => {
 
     return (
         <div>
-            {/* <Header /> */}
+            <Header />
+            <hr className="w-[95%] h-1 mt-6 border-t-1 border-[#C3C3C3] mx-auto" />
             <div className="p-6">
                 {productData.map((product, index) => (
                     <div

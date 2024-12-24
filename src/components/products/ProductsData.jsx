@@ -9,7 +9,7 @@ const productData = [
     title: 'Ensure contaminant free, precision tasks in research, healthcare and manufacturing.',
     description1: 'The AirBio laminar flow hood series is available in horizontal and vertical models that provide a clean, sterile, clean environment. These workstations are designed to keep materials and equipment free of contamination, making them ideal for jobs where cleanliness is critical.',
     description2: 'Our laminar flow hoods are ideal for handling non-hazardous materials and provide easy access to the work area. They feature AirBios filtration technology to maintain a clean environment for multiple uses.',
-    img1: product1,  // Replace with actual image paths
+    img1: product1,  
     img2: product2,
     img3: product3,
     img4: product2,

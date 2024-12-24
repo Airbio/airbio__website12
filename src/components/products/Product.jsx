@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import productData from './ProductsData';
 import SVG from '../../assets/images/downloadSVG.svg'
 import logo from '../../assets/images/teamSvg.svg'
@@ -8,6 +8,12 @@ import 'swiper/css/pagination';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Products = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleReadMore = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <div className="p-5 border-red-500">
       {/* Centered Title */}
@@ -21,7 +27,7 @@ const Products = () => {
       <Swiper
         spaceBetween={20} // Adjust spacing between slides
         slidesPerView={1.2} // Show part of the next/previous slides
-        centeredSlides={true} 
+        centeredSlides={true}
         breakpoints={{
           640: {
             slidesPerView: 1,
@@ -86,8 +92,18 @@ const Products = () => {
 
                 {/* 2nd Div: Description */}
                 <div className="mb-4">
-                  <p className="text-center mb-2 md:text-sm md:text-start">{product.description1}</p>
-                  <p className="text-center md:text-sm md:text-start">{product.description2}</p>
+                  <p className={`text-center mb-2 md:text-sm md:text-start ${!isExpanded && "line-clamp-2"}`}>
+                    {product.description1}
+                  </p>
+                  <p className={`text-center md:text-sm md:text-start ${!isExpanded && "line-clamp-2"}`}>
+                    {product.description2}
+                  </p>
+                  <button
+                    onClick={toggleReadMore}
+                    className="text-blue-500 text-sm  mt-2 block mx-auto md:mx-0"
+                  >
+                    {isExpanded ? "Read Less" : "Read More..."}
+                  </button>
                 </div>
 
                 {/* 3rd Div: Buttons */}
@@ -104,11 +120,11 @@ const Products = () => {
 
               {/* 4th Div: Images */}
               <div className="flex flex-col justify-center items-center order-1  border-black mb-5">
-                <div className="w-[70%] md:w-full flex justify-center items-center pr-2 ">
+                <div className="md:w-full flex justify-center items-center">
                   <img
                     src={product.img1}
                     alt="Product Image 1"
-                    className="w-[151px] h-[215px] md:w-[423px] md:h-[458px] object-cover rounded-lg  border-green-600"
+                    className="w-[220px] h-[250px] md:w-[400px] md:h-[458px] object-cover rounded-lg  border-green-600"
                   />
                 </div>
                 <div className=" h-auto md:hidden pl-2  flex justify-between items-center gap-5">

@@ -31,19 +31,19 @@ const CardPost = () => {
       time: '3 min read',
       readMore: '#',
     },
-    {
-      id: 4,
-      imgSrc: card4,
-      title: 'Customizable Solutions for Laboratory Safety',
-      date: '2024-11-22',
-      time: '3 min read',
-      readMore: '#',
-    },
+    // {
+    //   id: 4,
+    //   imgSrc: card4,
+    //   title: 'Customizable Solutions for Laboratory Safety',
+    //   date: '2024-11-22',
+    //   time: '3 min read',
+    //   readMore: '#',
+    // },
   ];
 
   return (
-    <div className="bg-gray-100 py-8 px-4">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div className=" py-8 px-4 border">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {posts.map((post) => (
           <div
             key={post.id}
@@ -54,7 +54,7 @@ const CardPost = () => {
               <img
                 src={post.imgSrc}
                 alt={post.title}
-                className="w-full h-40 object-cover rounded-md"
+                className="w-full h-[195px] object-cover rounded-md"
               />
             </div>
 

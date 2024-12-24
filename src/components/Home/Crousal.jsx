@@ -52,9 +52,9 @@ const Crousal = () => {
         <div>
            <div className="relative hidden md:block w-full h-screen overflow-hidden">
     {/* Header */}
-    {/* <div className="absolute top-0 left-0 w-full z-10 bg-opacity-50">
+    <div className="absolute top-0 left-0 w-full z-10 bg-opacity-50">
         <Header />
-    </div> */}
+    </div>
 
     {/* Swiper Slider */}
     <Swiper
