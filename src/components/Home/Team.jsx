@@ -19,16 +19,16 @@ const Team = () => {
       </div>
 
 
-      <div className="relative py-8 px-4 mb-10">
+      <div className="relative py-8 px-4 mb-10 border">
         {/* Navigation Buttons */}
-        <div className="swiper-button-prev custom-swiper-button absolute left-[-50px] top-[50%] translate-y-[-50%] z-10 w-10 h-10  rounded-full flex items-center justify-center cursor-pointer">
-         
+        <div className="swiper-button-prev custom-swiper-button absolute left-[-50px] top-[50%] bottom-0 translate-y-[-50%] z-10 w-10 h-10  rounded-full flex items-center justify-center cursor-pointer">
+         dgsh
         </div>
         <div className="swiper-button-next custom-swiper-button absolute right-[-50px] top-[50%] translate-y-[-50%] z-10 w-10 h-10  rounded-full flex items-center justify-center cursor-pointer">
          
         </div>
 
-        <Swiper
+        <Swiper 
           modules={[Autoplay, Pagination, Navigation]}
           spaceBetween={20}
           slidesPerView={2}

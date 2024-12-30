@@ -46,27 +46,27 @@ const Certification = () => {
                 {/* Image Row */}
                 <div className="w-auto  grid grid-cols-2 md:grid-cols-4 gap-4  border-black">
                     {/* Image 1 */}
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center mb-5 md:mb-0">
                         <img src={img1} alt="Image 1" className="w-auto h-[72px] md:h-[68px] md:w-auto" />
-                        <hr className="w-full md:w-1/4 border-t-2 mt-2" />
+                        {/* <hr className="w-full md:w-1/4 border-t-2 mt-2" /> */}
                     </div>
 
                     {/* Image 2 */}
                     <div className="flex flex-col items-center">
                         <img src={img2} alt="Image 2" className="w-auto h-[72px] md:w-auto md:h-[68px]" />
-                        <hr className="w-full md:w-1/4 border-t-2 mt-2" />
+                        {/* <hr className="w-full md:w-1/4 border-t-2 mt-2" /> */}
                     </div>
 
                     {/* Image 3 */}
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center mb-5 md:mb-0">
                         <img src={img3} alt="Image 3" className="w-auto h-[72px] md:w-auto md:h-[68px]" />
-                        <hr className="w-full md:w-1/4 border-t-2 mt-2" />
+                        {/* <hr className="w-full md:w-1/4 border-t-2 mt-2" /> */}
                     </div>
 
                     {/* Image 4 */}
                     <div className="flex flex-col items-center justify-center">
                         <img src={img4} alt="Image 4" className="w-auto h-[72px] md:h-[68px] md:w-auto" />
-                        <hr className="w-full md:w-1/4 border-t-2 mt-2" />
+                        {/* <hr className="w-full md:w-1/4 border-t-2 mt-2" /> */}
                     </div>
                 </div>
             </div>
