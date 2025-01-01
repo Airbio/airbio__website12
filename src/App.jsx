@@ -8,7 +8,7 @@ import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
 import Header from './components/Home/Header';
 import Footer from './components/Footer/Footer';
-
+import AllProductPage from './components/Allproductpage/AllProductPage';
 
 function App() {
  
@@ -18,7 +18,7 @@ function App() {
       {/* <Header/> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/product" element={<ProductPage />} />
+        <Route path="/product" element={<AllProductPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />

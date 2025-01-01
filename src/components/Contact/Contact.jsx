@@ -35,7 +35,7 @@ const Contact = () => {
 
                 <div className=' border-black md:w-[80%] mx-auto md:flex justify-center my-8'>
                     <div className='md:order-2'>
-                        <img src={contact3} alt="" className='w-full h-[245px] md:w-[540px] md:h-[300px] object-cover rounded-t-lg md:rounded-t-none md:rounded-r-lg' />
+                        <img src={contact3} alt="" className='w-full h-[245px] md:w-[540px] md:h-[300px] object-cover rounded-t-lg md:rounded-l-none md:rounded-r-lg' />
                     </div>
                     <div className='bg-[#1782C5] md:order-1 md:w-[45%] md:flex items-center p-5 px-8 gap-5 text-white rounded-b-lg md:rounded-b-none md:rounded-l-lg '>
                         <div className=''>
@@ -43,7 +43,7 @@ const Contact = () => {
                             <h1 className='font-semibold text-xl md:text-2xl mt-5 mb-3'>Schedule a Meeting
                                 <br /> with our Experts</h1>
                             <p className='text-[#D9D9D9] text-sm my-3'>Book a session with our experts to get <br /> personalized solutions tailored to your needs!</p>
-                            <button className='border bg-white text-black font-semibold p-1 px-3 md:py-2 rounded-3xl'>Schedule meeting</button>
+                            <button className=' bg-white text-black p-1 px-3 md:py-2 rounded-3xl'>Schedule meeting</button>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ const Contact = () => {
                             <p className='text-[#1E1E1E] text-opacity-75 mb-6'>New Delhi, India.</p>
                             <div className='flex justify-center items-center'>
                                 <a href="https://www.google.com/maps?q=28.67151000,77.35550000" target="_blank" rel="noopener noreferrer">
-                                    <button className='border bg-black text-white  p-1 px-3 rounded-3xl'>Locate on Maps</button>
+                                    <button className=' bg-black text-white  p-1 px-3 rounded-3xl'>Locate on Maps</button>
                                 </a>
                             </div>
                         </div>
