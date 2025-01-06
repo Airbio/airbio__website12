@@ -1,7 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/navigation';
+// import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
@@ -22,10 +22,10 @@ const Team = () => {
       <div className="relative py-8 px-4 mb-10 border">
         {/* Navigation Buttons */}
         <div className="swiper-button-prev custom-swiper-button absolute left-[-50px] top-[50%] bottom-0 translate-y-[-50%] z-10 w-10 h-10  rounded-full flex items-center justify-center cursor-pointer">
-         dgsh
+         left
         </div>
         <div className="swiper-button-next custom-swiper-button absolute right-[-50px] top-[50%] translate-y-[-50%] z-10 w-10 h-10  rounded-full flex items-center justify-center cursor-pointer">
-         
+         right
         </div>
 
         <Swiper 
@@ -56,7 +56,7 @@ const Team = () => {
                 <img
                   src={member.imgSrc}
                   alt={`${member.name} Icon`}
-                  className="w-[113px] h-[109px] md:h-[211px] md:w-auto"
+                  className="w-auto h-[150px] md:h-[211px] md:w-auto"
                 />
 
                 {/* Name and Role */}
