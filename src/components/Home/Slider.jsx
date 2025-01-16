@@ -15,7 +15,7 @@ const Slider = () => {
     return (
         <div className="slider-container relative overflow-hidden w-full my-8 ">
             <div className=' md:flex justify-between px-5 pb-5 md:px-10 md:p-5  border-blue-600'>
-                <h1 className='text-2xl font-semibold text-center md:text-start md:w-[373px] md:text-4xl  '>Client we have catered </h1>
+                <h1 className='text-2xl font-semibold text-center md:text-start md:w-[500px] md:text-[40px]'>Trusted by great team </h1>
                 <p className='text-[15px] text-center py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A]  '>Meet the clients of Airbio who has used our products.</p>
             </div>
 
@@ -26,12 +26,12 @@ const Slider = () => {
                 <img src={image3} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" />
                 <img src={image4} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" />
                 <img src={image5} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" /> */}
-                <img src={image} alt="" className='h-16 w-auto'/>
-                <img src={image} alt="" className='h-16 w-auto'/>
-                <img src={image} alt="" className='h-16 w-auto'/>
+                <img src={image} alt="" className='h-20 w-auto'/>
+                <img src={image} alt="" className='h-20 w-auto'/>
+                <img src={image} alt="" className='h-20 w-auto'/>
             </div>
 
-            <hr className="w-[95%] h-1 border-t-1 border-[#C3C3C3] mx-auto" />
+            {/* <hr className="w-[95%] h-1 border-t-1 border-[#C3C3C3] mx-auto" /> */}
 
             {/* <div className="slider-right h- flex justify-center items-center gap-5 animate-slide mt-3 ">
                 <img src={image5} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mr-12" />

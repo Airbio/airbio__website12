@@ -36,11 +36,11 @@ const Header = () => {
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo Section */}
                 <div className="flex items-center space-x-2">
-                    <img src={logo} alt="Logo" className="h-10" /> {/* Replace with your logo */}
+                    <img src={logo} alt="Logo" className="h-14" />
                 </div>
 
                 {/* Navigation Section (Hidden on mobile) */}
-                <nav className="hidden md:flex justify-center items-center px-2 space-x-8 w-auto h-[54px] border border-[#CDCDCD] rounded-full bg-white">
+                <nav className="hidden md:flex justify-center items-center px-4 space-x-8 w-auto h-[54px] border border-[#CDCDCD] rounded-full bg-white">
                     <NavLink
                         to="/"
                         className={({ isActive }) =>

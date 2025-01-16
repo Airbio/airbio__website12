@@ -66,6 +66,15 @@ const Applications = () => {
             description2: des2,
             description3: des3,
         },
+        {
+            id: 5,
+            icon: icon5,
+            imgSrc: img5,
+            title: 'Food & Beverages',
+            description1: des1,
+            description2: des2,
+            description3: des3,
+        },
     ];
 
     return (

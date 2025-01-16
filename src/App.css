@@ -45,17 +45,17 @@ p {
 
 /* Apply the animation to the slider */
 .slider-left {
-  animation: slide-left 10s linear infinite;
+  animation: slide-left 20s linear infinite;
 }
 
 .slider-right {
-  animation: slide-right 10s linear infinite;
+  animation: slide-right 20s linear infinite;
 }
 
-.slider-image {
+/* .slider-image {
   width: 100%;
   object-fit: cover;
-}
+} */
 
 .custom-pagination .swiper-pagination-bullet {
   background-color: #1782C5; /* Blue color for dots */

@@ -22,8 +22,8 @@ const Footer = () => {
                         <div>
                             <h3 className="font-semibold md:text-lg mb-4 uppercase">Company</h3>
                             <ul className="space-y-2">
-                                <li><a href="#" className="hover:text-gray-400">About Us</a></li>
-                                <li><a href="#" className="hover:text-gray-400">Products</a></li>
+                                <li><a href="/about" className="hover:text-gray-400">About Us</a></li>
+                                <li><a href="/product" className="hover:text-gray-400">Products</a></li>
                             </ul>
                         </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
                         <div>
                             <h3 className="mb-4 font-semibold md:text-lg uppercase">Need Help</h3>
                             <ul className="space-y-2">
-                                <li><a href="#" className="hover:text-gray-400">Contact Us</a></li>
+                                <li><a href="/contact" className="hover:text-gray-400">Contact Us</a></li>
                             </ul>
                         </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
                             <ul className="space-y-2">
                                 <li><a href="#" className="hover:text-gray-400">T&C</a></li>
                                 <li><a href="#" className="hover:text-gray-400">Privacy Policy</a></li>
-                                <li><a href="#" className="hover:text-gray-400">FAQ</a></li>
+                                <li><a href="#faq" className="hover:text-gray-400">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -52,24 +52,24 @@ const Footer = () => {
                         <div className='md:flex flex-center justify-center gap-10'>
                             <div className="flex items-center gap-3  py-3">
                                 <img src={contact} alt="Contact Icon" className="w-6 h-6" />
-                                <h3 className="text-lg font-semibold">1010101010</h3>
+                                <h3 className="text-lg font-semibold">+91 9899829299</h3>
                             </div>
 
                             <div className='flex items-center gap-3 '>
                                 <img src={email} alt="" className="w-6 h-6"/>
-                                <p>info@example.com</p>
+                                <p>Info@airbio.in</p>
                             </div>
                         </div>
 
                         {/* Social Icons */}
                         <div className="flex space-x-4">
-                            <a href="#" className="hover:text-gray-400">
+                            <a href="https://m.facebook.com/airbio/" className="hover:text-gray-400">
                                 <img src={facebook} alt="" />
                             </a>
-                            <a href="#" className="hover:text-gray-400">
+                            <a href="https://www.linkedin.com/company/airbiotechnologies/?originalSubdomain=in" className="hover:text-gray-400">
                                 <img src={linkedin} alt="" />
                             </a>
-                            <a href="#" className="hover:text-gray-400">
+                            <a href="https://api.whatsapp.com/send?phone=9899829299" className="hover:text-gray-400">
                                 <img src={whatsapp} alt="" />
                             </a>
                         </div>

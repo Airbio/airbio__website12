@@ -17,10 +17,11 @@ const Products = () => {
   return (
     <div className="p-5 border-red-500">
       {/* Centered Title */}
-      <div id='product-section' className="flex justify-center items-center mt-5 mb-10">
-        <h1 className="text-center p-1 px-3 border border-[#C0C0C0] rounded-full text-black font-semibold">
-          Our Products
-        </h1>
+
+
+      <div className=' md:flex justify-between p-5 md:p-10 mt-8 border-blue-600'>
+        <h1 className='text-2xl font-semibold text-center md:text-start md:w-[373px] md:h-[96px] md:text-4xl my-2'>State-of-the-art manufacturing</h1>
+        <p className='text-[15px] text-center md:text-start py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A] '>Our state-of-the-art research and manufacturing facilities reflect our commitment to excellence. Every part we manufacture is tested to meet the highest industry standards. From engineering and manufacturing to installation and technical support, the entire process is managed by the integrated team to ensure the best customer experience.</p>
       </div>
 
       {/* Swiper Container */}

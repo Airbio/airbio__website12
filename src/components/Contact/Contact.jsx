@@ -71,10 +71,10 @@ const Contact = () => {
                         <div>
                             <p className='text-[#1E1E1E] text-opacity-75'>connect with our social handles stay updated with latest news</p>
                             <div className='font-custom flex justify-center mt-4 gap-5 '>
-                                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://m.facebook.com/airbio/" target="_blank" rel="noopener noreferrer">
                                     <img src={social1} alt="Facebook" className='w-[28px] h-[28px]'/>
                                 </a>
-                                <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://api.whatsapp.com/send?phone=9899829299" target="_blank" rel="noopener noreferrer">
                                     <img src={social2} alt="WhatsApp" />
                                 </a>
                                 <a href="https://www.linkedin.com/company/airbiotechnologies/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">

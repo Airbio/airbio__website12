@@ -2,7 +2,10 @@ import React from 'react';
 import card1 from '../../assets/images/Article_Image1.jpeg'
 import card2 from '../../assets/images/Article_Image2.png'
 import card3 from '../../assets/images/Article_Image3.png'
-
+import img1 from '../../assets/images/iso.png'
+import img2 from '../../assets/images/CDSO.png'
+import img3 from '../../assets/images/medical.png'
+import img4 from '../../assets/images/makeIn.png'
 
 const CardPost = () => {
   const posts = [
@@ -41,8 +44,47 @@ const CardPost = () => {
   ];
 
   return (
-    <div className=" py-8 px-4">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <>
+    <div>
+        <div className=' md:flex justify-between items-center p-5 md:p-10 mt-8 border-blue-600'>
+          <h1 className='text-2xl text-center font-semibold md:w-[373px]  md:text-4xl md:text-start my-2 '>Certifications</h1>
+          <p className='text-[15px] text-center  py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>Proudly serving leading laboratories, hospitals, and research facilities.</p>
+        </div>
+        <div className="p-4  border-red-600">
+          {/* Image Row */}
+          <div className="w-auto  grid grid-cols-2 md:grid-cols-4 gap-4  border-black">
+            {/* Image 1 */}
+            <div className="flex flex-col items-center mb-5 md:mb-0">
+              <img src={img1} alt="Image 1" className="w-auto h-[72px] md:h-[68px] md:w-auto" />
+              {/* <hr className="w-full md:w-1/4 border-t-2 mt-2" /> */}
+            </div>
+
+            {/* Image 2 */}
+            <div className="flex flex-col items-center">
+              <img src={img2} alt="Image 2" className="w-auto h-[72px] md:w-auto md:h-[68px]" />
+              {/* <hr className="w-full md:w-1/4 border-t-2 mt-2" /> */}
+            </div>
+
+            {/* Image 3 */}
+            <div className="flex flex-col items-center mb-5 md:mb-0">
+              <img src={img3} alt="Image 3" className="w-auto h-[72px] md:w-auto md:h-[68px]" />
+              {/* <hr className="w-full md:w-1/4 border-t-2 mt-2" /> */}
+            </div>
+
+            {/* Image 4 */}
+            <div className="flex flex-col items-center justify-center">
+              <img src={img4} alt="Image 4" className="w-auto h-[72px] md:h-[68px] md:w-auto" />
+              {/* <hr className="w-full md:w-1/4 border-t-2 mt-2" /> */}
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    <div className="py-8 px-4">
+
+      <div className="max-w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {posts.map((post) => (
           <div
             key={post.id}
@@ -70,14 +112,15 @@ const CardPost = () => {
                 </a>
               </p>
               <div className='flex justify-between'>
-              <p>{post.date}</p>
-              <p>{post.time}</p>
+                <p>{post.date}</p>
+                <p>{post.time}</p>
               </div>
             </div>
           </div>
         ))}
       </div>
     </div>
+    </>
   );
 };
 
