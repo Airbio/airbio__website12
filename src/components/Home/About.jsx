@@ -44,13 +44,13 @@ const uspData = [
 const About = () => {
     return (
         <div>
-            <div className='p-5  flex flex-col md:flex justify-center items-center border-red-600'>
-                <h1 className='text-center md:hidden p-1 px-3 border border-[#C0C0C0] rounded-full text-black font-semibold inline-block mx-auto'>About Airbio</h1>
+            <div className='p-5 md:mt-12 flex flex-col md:flex justify-center items-center border-red-600'>
+                <h1 className='text-center  md:hidden p-3 px-8 mb-5 border border-[#C0C0C0] rounded-full text-black font-[500px] inline-block mx-auto'>About Airbio</h1>
                 <div className='md:flex justify-between md:px-5 items-center border-black'>
                     <div className='my-5'><img src={banner} className='w-[370px] md:w-[520px] h-[243px] md:h-[358px] rounded-xl' alt="" /></div>
                     <div className='flex flex-col gap-10 md:w-[50%] border-blue-500'>
-                        <h1 className='hidden md:inline-block p-[6px] font-urbanist px-4 border border-[#C0C0C0] rounded-full text-black font-semibold w-fit'>About Airbio</h1>
-                        <p className='text-center md:text-start font-custom text-[#868686]'>At AirBio, we specialize in manufacturing innovative, high quality safety systems designed to protect people, systems and the environment. From ductless fume hoods to biological safety cabinets, our product range provides protection against hazardous materials, air pollution and hazardous vapors. <span className='text-black'>With the most advanced technology, our solutions are designed to meet global environmental standards and support green initiatives such as LEED compliance.</span></p>
+                        <h1 className='hidden md:inline-block text-[24px] p-[6px] font-urbanist px-4 border border-[#C0C0C0] rounded-full text-black font-[500px] w-fit'>About Airbio</h1>
+                        <p className='text-justify md:text-lg md:text-start font-custom text-[#868686]'>At AirBio, we specialize in manufacturing innovative, high quality safety systems designed to protect people, systems and the environment. From ductless fume hoods to biological safety cabinets, our product range provides protection against hazardous materials, air pollution and hazardous vapors. <span className='text-black'>With the most advanced technology, our solutions are designed to meet global environmental standards and support green initiatives such as LEED compliance.</span></p>
                     </div>
                 </div>
             </div>
@@ -82,37 +82,37 @@ const About = () => {
             </div>
 
             <div>
-                <div id='product-section' className="flex justify-center items-center mt-5 mb-10">
-                    <h1 className="text-center p-1 px-3 border border-[#C0C0C0] rounded-full text-black font-semibold">
+                <div id='product-section' className="flex justify-center items-center pt-10 mt-10 mb-10     ">
+                    <h1 className="text-center md:text-2xl  p-3 px-8 border border-[#C0C0C0] rounded-full text-black">
                         Our Products
                     </h1>
                 </div>
                 <div>
-                    <div className="flex overflow-x-scroll md:overflow-x-hidden md:grid md:grid-cols-3 gap-4 md:gap-10 p-4 mx-auto max-w-screen-lg">
+                    <div className="flex md:justify-center items-center overflow-x-scroll md:overflow-x-hidden gap-4 p-4 max-w-screen-xl mx-auto">
                         {/* Card 1 */}
-                        <div className="min-w-[318px] h-[530px] md:w-[318px] md:h-[448px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
+                        <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
                             <h2 className="text-[16px] p-[4px]  px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">Biosafety Cabinets</h2>
-                            <img src={art3} alt="Card 3" className="w-full h-auto md:w-[221px] object-cover mb-4" />
-                            <button className=" px-4 py-1 flex  justify-center items-center gap-2 rounded-[50px] border border-[#CDCDCD]">View More
+                            <img src={art3} alt="Card 3" className="w-full h-auto md:w-[280px] object-cover mb-4" />
+                            <button className="px-4 py-2 flex hover:bg-[#1782C5] hover:text-white justify-center items-center gap-2 rounded-[50px] border border-[#CDCDCD]">View More
                                 <img src={vector} alt="vector icon" /></button>
                         </div>
                         
 
                         {/* Card 2 */}
-                        <div className="min-w-[318px] h-[530px] md:w-[318px] md:h-[448px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
+                        <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
                             <h2 className="text-[16px] p-[4px]  px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">Fume Hoods</h2>
-                            <img src={art1} alt="Card 1" className="w-full md:w-[221px] h-auto object-cover mb-4" />
-                            <button className=" px-4 py-1 flex  justify-center items-center gap-2 rounded-[50px] border border-[#CDCDCD]">View More
+                            <img src={art1} alt="Card 1" className="w-full md:w-[280px] h-auto object-cover mb-4" />
+                            <button className=" px-4 py-2 flex  justify-center items-center hover:bg-[#1782C5] hover:text-white gap-2 rounded-[50px] border border-[#CDCDCD]">View More
                                 <img src={vector} alt="vector icon" />
                             </button>
                         </div>
 
                         {/* Card 3 */}
                         
-                        <div className="min-w-[318px] h-[530px] md:w-[318px] md:h-[448px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
+                        <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
                             <h2 className="text-[16px] p-[4px]  px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">Laminar Flow Cabinets</h2>
-                            <img src={art2} alt="Card 2" className="w-full h-auto md:w-[221px] object-cover mb-4" />
-                            <button className=" px-4 py-1 flex  justify-center items-center gap-2 rounded-[50px] border border-[#CDCDCD]">View More
+                            <img src={art2} alt="Card 2" className="w-full h-auto md:w-[260px] object-cover mb-4" />
+                            <button className=" px-4 py-2 flex  justify-center items-center hover:bg-[#1782C5] hover:text-white gap-2 rounded-[50px] border border-[#CDCDCD]">View More
                                 <img src={vector} alt="vector icon" /></button>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto p-2 md:p-6">
+            <div className="container mx-auto mt-14 p-2 md:p-6">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-6">
                     {uspData.map((card, index) => (
                        <div

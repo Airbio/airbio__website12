@@ -13,13 +13,13 @@ const Team = () => {
   return (
     <>
       <div className='text-center md:text-start md:flex justify-between items-center p-5 md:p-10  mt-8 border-blue-600'>
-        <h1 className='text-2xl font-semibold md:w-[373px]  md:text-4xl md:text-left my-2 '>Our
+        <h1 className='text-2xl font-[500px] md:w-[373px]  md:text-[40px] md:text-left my-2 '>Our
           Expert Team</h1>
-        <p className='text-[15px] py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>Meet the passionate team behind Airbio—experts in biosafety, engineering, and innovation—driven by a commitment to delivering cutting-edge air and safety solutions tailored to your needs.</p>
+        <p className='md:text-[18px] py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>Meet the passionate team behind Airbio—experts in biosafety, engineering, and innovation—driven by a commitment to delivering cutting-edge air and safety solutions tailored to your needs.</p>
       </div>
 
 
-      <div className="relative py-8 px-4 mb-10 border">
+      <div className="relative py-8 px-4 mb-10">
         {/* Navigation Buttons */}
         {/* <div className="swiper-button-prev custom-swiper-button absolute left-[-50px] top-[50%] bottom-0 translate-y-[-50%] z-10 w-10 h-10  rounded-full flex items-center justify-center cursor-pointer">
          

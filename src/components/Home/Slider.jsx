@@ -13,10 +13,10 @@ import image5 from '../../assets/images/certification5.png'
 
 const Slider = () => {
     return (
-        <div className="slider-container relative overflow-hidden w-full my-8 ">
-            <div className=' md:flex justify-between px-5 pb-5 md:px-10 md:p-5  border-blue-600'>
-                <h1 className='text-2xl font-semibold text-center md:text-start md:w-[500px] md:text-[40px]'>Trusted by great team </h1>
-                <p className='text-[15px] text-center py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A]  '>Meet the clients of Airbio who has used our products.</p>
+        <div className="slider-container relative overflow-hidden w-full my-8">
+            <div className=' md:flex justify-between px-5 pb-5 md:px-10 md:p-5  my-5 border-blue-600'>
+                <h1 className='text-2xl font-[500px] text-center md:text-start md:w-[500px] md:text-[40px] '>Trusted by great team </h1>
+                <p className='md:text-lg text-center py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A]  '>Meet the clients of Airbio who has used our products.</p>
             </div>
 
             {/* Image wrapper that will slide */}

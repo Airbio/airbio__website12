@@ -45,12 +45,13 @@ const CardPost = () => {
 
   return (
     <>
-    <div>
-        <div className=' md:flex justify-between items-center p-5 md:p-10 mt-8 border-blue-600'>
-          <h1 className='text-2xl text-center font-semibold md:w-[373px]  md:text-4xl md:text-start my-2 '>Certifications</h1>
-          <p className='text-[15px] text-center  py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>Proudly serving leading laboratories, hospitals, and research facilities.</p>
+      <div>
+        <div className=' md:flex justify-between items-center p-5 md:p-10 mt-8  border-blue-600'>
+          <h1 className='text-2xl text-center font-[500px] md:w-[373px]  md:text-[40px] md:text-start my-2 '>Certifications</h1>
+          <p className='md:text-lg text-center md:text-start py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>Proudly serving leading laboratories, hospitals, and research facilities.</p>
         </div>
-        <div className="p-4  border-red-600">
+
+        <div className="p-5 md:p-10  border-red-600">
           {/* Image Row */}
           <div className="w-auto  grid grid-cols-2 md:grid-cols-4 gap-4  border-black">
             {/* Image 1 */}
@@ -82,44 +83,44 @@ const CardPost = () => {
 
 
       </div>
-    <div className="py-8 px-4">
 
-      <div className="max-w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {posts.map((post) => (
-          <div
-            key={post.id}
-            className="bg-white shadow-md rounded-lg p-4 border border-gray-200"
-          >
-            {/* Image */}
-            <div className="mb-4">
-              <img
-                src={post.imgSrc}
-                alt={post.title}
-                className="w-full h-[195px] object-cover rounded-md"
-              />
-            </div>
+      <div className="py-10 px-4 mb-16">
+        <div className="max-w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {posts.map((post) => (
+            <div
+              key={post.id}
+              className="bg-white shadow-md rounded-lg p-4 border border-gray-200"
+            >
+              {/* Image */}
+              <div className="mb-4">
+                <img
+                  src={post.imgSrc}
+                  alt={post.title}
+                  className="w-full h-[195px] object-cover rounded-md"
+                />
+              </div>
 
-            {/* Title */}
-            <div className="mb-2">
-              <h2 className=" font-semibold">{post.title}</h2>
-            </div>
+              {/* Title */}
+              <div className="mb-2">
+                <h2 className=" font-semibold">{post.title}</h2>
+              </div>
 
-            {/* Info Section */}
-            <div className="text-sm text-gray-600 space-y-1">
-              <p>
-                <a href={post.readMore} className="text-blue-500 hover:underline">
-                  Read More
-                </a>
-              </p>
-              <div className='flex justify-between'>
-                <p>{post.date}</p>
-                <p>{post.time}</p>
+              {/* Info Section */}
+              <div className="text-sm text-gray-600 space-y-1">
+                <p>
+                  <a href={post.readMore} className="text-blue-500 hover:underline">
+                    Read More
+                  </a>
+                </p>
+                <div className='flex justify-between'>
+                  <p>{post.date}</p>
+                  <p>{post.time}</p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
     </>
   );
 };

@@ -12,15 +12,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-h1,h2 {
-  font-family: 'Urbanist', serif;
-}
-
-p {
   font-family: 'satoshi', sans-serif;
 }
+
+/* /h1,h2 {
+  font-family: 'Urbanist', serif;
+  font-weight: 500px
+} */
+
+/* p {
+  font-family: 'satoshi', sans-serif;
+} */
 
 
 

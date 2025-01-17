@@ -39,7 +39,7 @@ const Certification = () => {
     return (
         <div>
             <div className=' md:flex justify-between items-center p-5 md:p-10 mt-8 border-blue-600'>
-                <h1 className='text-2xl text-center font-semibold md:w-[373px]  md:text-4xl md:text-start my-2 '>Certifications</h1>
+                <h1 className='text-2xl text-center font-[500px] md:w-[373px]  md:text-[40px] md:text-start my-2 '>Certifications</h1>
                 <p className='text-[15px] text-center  py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>Proudly serving leading laboratories, hospitals, and research facilities.</p>
             </div>
             <div className="p-4  border-red-600">

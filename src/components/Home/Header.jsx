@@ -7,7 +7,7 @@ import arrow from '../../assets/images/crossArrow.svg'
 import right from '../../assets/images/right.svg'
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import { FaPlus, FaMinus } from "react-icons/fa";
+import { FaPlus, FaMinus } from "react-icons/fa6";
 
 const Header = () => {
     // State to control the visibility of the mobile menu
@@ -36,7 +36,7 @@ const Header = () => {
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo Section */}
                 <div className="flex items-center space-x-2">
-                    <img src={logo} alt="Logo" className="h-14" />
+                    <img src={logo} alt="Logo" className="h-12 md:h-14" />
                 </div>
 
                 {/* Navigation Section (Hidden on mobile) */}

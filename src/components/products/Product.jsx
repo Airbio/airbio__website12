@@ -19,9 +19,9 @@ const Products = () => {
       {/* Centered Title */}
 
 
-      <div className=' md:flex justify-between p-5 md:p-10 mt-8 border-blue-600'>
-        <h1 className='text-2xl font-semibold text-center md:text-start md:w-[373px] md:h-[96px] md:text-4xl my-2'>State-of-the-art manufacturing</h1>
-        <p className='text-[15px] text-center md:text-start py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A] '>Our state-of-the-art research and manufacturing facilities reflect our commitment to excellence. Every part we manufacture is tested to meet the highest industry standards. From engineering and manufacturing to installation and technical support, the entire process is managed by the integrated team to ensure the best customer experience.</p>
+      <div className=' md:flex justify-between p-5 md:p-10 mt-8 border-blue-600 '>
+        <h1 className='text-2xl font-[500px] text-center md:text-start md:w-[373px] md:h-[96px] md:text-[40px] leading-10 my-2 '>State-of-the-art manufacturing</h1>
+        <p className='md:text-lg text-center md:text-start py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A] '>From engineering and manufacturing to installation and technical support, the entire process is managed by the integrated team to ensure the best customer experience.</p>
       </div>
 
       {/* Swiper Container */}
@@ -52,7 +52,7 @@ const Products = () => {
       >
         {productData.map((product, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-[#1782C51A] relative md:w-[80%] mx-auto md:flex justify-between items-center shadow-md px-4 pt-2 rounded-lg border border-[#1782C5]">
+            <div className="bg-[#F7F7F7] relative md:w-[80%] mx-auto md:flex justify-between items-center px-4 pt-2 rounded-lg  border-[#1782C5]">
               <img
                 src={logo}
                 alt="logo"
@@ -61,7 +61,7 @@ const Products = () => {
               <div className="order-2 md:w-1/2 md:p-8 md:py-10 ">
                 {/* 1st Div: Name & Title */}
                 <div className="mb-4 text-center md:text-start">
-                  <h2 className="text-2xl m-2 py-2 md:m-0 md:text-4xl font-bold">{product.name}</h2>
+                  <h2 className="text-2xl m-2 py-2 md:m-0 md:text-4xl font-[500px]">{product.name}</h2>
                   <h3 className="text-md text-gray-600 ">
                     {product.title.split(' ').map((word, index) => (
                       <span
@@ -110,7 +110,7 @@ const Products = () => {
                 {/* 3rd Div: Buttons */}
                 <div className="mb-4 flex flex-col justify-center items-center gap-3 md:flex-row md:justify-start space-x-4">
                   <button className="bg-[#1782C5] text-white px-4 py-2 rounded-full hover:bg-black">
-                    Buy Now
+                    Explore
                   </button>
                   <button className="px-4 py-2 text-sm flex items-center gap-2 rounded-full border border-[#7A7A7A] hover:bg-[#1782C5] hover:text-white">
                     Download Brochure

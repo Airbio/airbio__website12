@@ -52,7 +52,7 @@ const Footer = () => {
                         <div className='md:flex flex-center justify-center gap-10'>
                             <div className="flex items-center gap-3  py-3">
                                 <img src={contact} alt="Contact Icon" className="w-6 h-6" />
-                                <h3 className="text-lg font-semibold">+91 9899829299</h3>
+                                <h3>+91 9899829299</h3>
                             </div>
 
                             <div className='flex items-center gap-3 '>

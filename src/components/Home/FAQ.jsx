@@ -45,12 +45,12 @@ const FAQ = () => {
   return (
     <>
     <div id='faq' className='hidden text-center md:text-start md:flex justify-between items-center p-5 md:p-10  mt-8 border-blue-600'>
-        <h1 className='text-2xl font-semibold md:w-[373px]  md:text-4xl md:text-left my-2 '>FAQs <br /> 
+        <h1 className='text-2xl font-[500px] md:w-[373px]  md:text-[40px] leading-[44px] md:text-left my-2 '>FAQs <br /> 
         AirBio Technologies</h1>
-        <p className='text-[15px] py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>We know that selecting the right product can feel overwhelming, which is why we’ve thoughtfully curated a comprehensive FAQ section to guide you through the decision-making process with ease and confidence.</p>
+        <p className='md:text-lg py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>comprehensive FAQ section to guide you through the decision-making process with ease and confidence.</p>
       </div>
     <div className="max-w-2xl mx-auto p-4">
-      <h1 className='md:hidden text-2xl font-semibold text-center mb-5'>FAQs AirBio Technologies</h1>
+      <h1 className='md:hidden text-2xl font-[500px] text-center mb-5'>FAQs AirBio Technologies</h1>
       <div className="space-y-4">
         {faqData.map((faq, index) => (
           <div key={index} className=" bg-[#F5F5F5] rounded-lg p-2 px-4 border-gray-300 pb-3">
@@ -59,11 +59,11 @@ const FAQ = () => {
               className="flex justify-between items-center cursor-pointer"
               onClick={() => handleToggle(index)}
             >
-              <h2 onClick={() => handleClick(index)} className={`text-lg font-semibold ${
+              <h2 onClick={() => handleClick(index)} className={`text-lg font-[500px] ${
               clickedQuestion === index ? 'text-[#1782C5]' : 'text-black'
             } cursor-pointer`}>{faq.question}</h2>
               <button
-                className="text-xl font-bold focus:outline-none"
+                className="text-xl font-[500px] focus:outline-none"
                 aria-label="Toggle Answer"
               >
                 {openIndex === index ? '×' : '+'}
