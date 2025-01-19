@@ -4,8 +4,10 @@ import SVG from '../../assets/images/downloadSVG.svg'
 import logo from '../../assets/images/teamSvg.svg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+// import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { GoChevronRight, GoChevronLeft } from "react-icons/go";
 
 const Products = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -15,19 +17,26 @@ const Products = () => {
   };
 
   return (
-    <div className="p-5 border-red-500">
+    <div className="p-5 relative border-red-500">
       {/* Centered Title */}
 
 
       <div className=' md:flex justify-between p-5 md:p-10 mt-8 border-blue-600 '>
-        <h1 className='text-2xl font-[500px] text-center md:text-start md:w-[373px] md:h-[96px] md:text-[40px] leading-10 my-2 '>State-of-the-art manufacturing</h1>
+        <h1 className='text-3xl font-[500px] text-center md:text-start md:w-[373px] md:h-[96px] md:text-[40px] leading-10 my-2 '>State-of-the-art manufacturing</h1>
         <p className='md:text-lg text-center md:text-start py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A] '>From engineering and manufacturing to installation and technical support, the entire process is managed by the integrated team to ensure the best customer experience.</p>
+      </div>
+
+      <div className="swiper-button-prev custom-prev absolute left-0 top-[65%] translate-y-[-50%] z-10 cursor-pointer ">
+        <span className="material-icons"><GoChevronLeft className="text-[#1782C5] w-auto h-11 md:w-auto md:h-16" /></span>
+      </div>
+      <div className="swiper-button-next custom-next absolute right-0 top-[65%] translate-y-[-50%] z-10 cursor-pointer ">
+        <span className="material-icons"><GoChevronRight className="text-[#1782C5] w-auto h-11 md:w-auto md:h-16 " /></span>
       </div>
 
       {/* Swiper Container */}
       <Swiper
         spaceBetween={20} // Adjust spacing between slides
-        slidesPerView={1.2} // Show part of the next/previous slides
+        slidesPerView={1} // Show part of the next/previous slides
         centeredSlides={true}
         breakpoints={{
           640: {
@@ -42,12 +51,12 @@ const Products = () => {
         }}
         loop={true}
         autoplay={{ delay: 3000 }}
-        navigation={true}
-        pagination={{
-          clickable: true,
-          el: '.custom-pagination', // Custom class for pagination
+        navigation={{
+          nextEl: '.custom-next', // Link to your custom next button
+          prevEl: '.custom-prev', // Link to your custom prev button
         }}
-        modules={[Navigation, Pagination]}
+        pagination={{clickable: true}}
+        modules={[Navigation, Autoplay, Pagination]}
         className="pb-16"
       >
         {productData.map((product, index) => (
@@ -101,7 +110,7 @@ const Products = () => {
                   </p>
                   <button
                     onClick={toggleReadMore}
-                    className="text-blue-500 text-sm  mt-2 block mx-auto md:mx-0"
+                    className="text-[#1782C5] text-sm  mt-2 block mx-auto md:mx-0"
                   >
                     {isExpanded ? "Read Less" : "Read More..."}
                   </button>
@@ -128,7 +137,7 @@ const Products = () => {
                     className="w-[220px] h-[250px] md:w-[400px] md:h-[458px] object-cover rounded-lg  border-green-600"
                   />
                 </div>
-                <div className=" h-auto md:hidden pl-2  flex justify-between items-center gap-5">
+                <div className=" h-auto md:hidden pl-2 flex justify-between items-center gap-5 mb-5">
                   <img
                     src={product.img2}
                     alt="Product Image 2"

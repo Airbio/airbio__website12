@@ -50,7 +50,7 @@ const FAQ = () => {
         <p className='md:text-lg py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>comprehensive FAQ section to guide you through the decision-making process with ease and confidence.</p>
       </div>
     <div className="max-w-2xl mx-auto p-4">
-      <h1 className='md:hidden text-2xl font-[500px] text-center mb-5'>FAQs AirBio Technologies</h1>
+      <h1 className='md:hidden text-3xl font-[500px] leading-10 text-center mb-8'>FAQs AirBio Technologies</h1>
       <div className="space-y-4">
         {faqData.map((faq, index) => (
           <div key={index} className=" bg-[#F5F5F5] rounded-lg p-2 px-4 border-gray-300 pb-3">

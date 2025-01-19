@@ -47,7 +47,7 @@ const CardPost = () => {
     <>
       <div>
         <div className=' md:flex justify-between items-center p-5 md:p-10 mt-8  border-blue-600'>
-          <h1 className='text-2xl text-center font-[500px] md:w-[373px]  md:text-[40px] md:text-start my-2 '>Certifications</h1>
+          <h1 className='text-3xl text-center font-[500px] md:w-[373px]  md:text-[40px] md:text-start my-2 '>Certifications</h1>
           <p className='md:text-lg text-center md:text-start py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>Proudly serving leading laboratories, hospitals, and research facilities.</p>
         </div>
 
@@ -102,13 +102,13 @@ const CardPost = () => {
 
               {/* Title */}
               <div className="mb-2">
-                <h2 className=" font-semibold">{post.title}</h2>
+                <h2 className="font-medium">{post.title}</h2>
               </div>
 
               {/* Info Section */}
               <div className="text-sm text-gray-600 space-y-1">
                 <p>
-                  <a href={post.readMore} className="text-blue-500 hover:underline">
+                  <a href={post.readMore} className="text-[#1782C5] hover:underline">
                     Read More
                   </a>
                 </p>

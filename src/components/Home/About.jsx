@@ -45,7 +45,7 @@ const About = () => {
     return (
         <div>
             <div className='p-5 md:mt-12 flex flex-col md:flex justify-center items-center border-red-600'>
-                <h1 className='text-center  md:hidden p-3 px-8 mb-5 border border-[#C0C0C0] rounded-full text-black font-[500px] inline-block mx-auto'>About Airbio</h1>
+                <h1 className='text-center text-xl  md:hidden p-3 px-8 mb-5 border border-[#C0C0C0] rounded-full text-black font-[500px] inline-block mx-auto'>About Airbio</h1>
                 <div className='md:flex justify-between md:px-5 items-center border-black'>
                     <div className='my-5'><img src={banner} className='w-[370px] md:w-[520px] h-[243px] md:h-[358px] rounded-xl' alt="" /></div>
                     <div className='flex flex-col gap-10 md:w-[50%] border-blue-500'>
@@ -83,7 +83,7 @@ const About = () => {
 
             <div>
                 <div id='product-section' className="flex justify-center items-center pt-10 mt-10 mb-10     ">
-                    <h1 className="text-center md:text-2xl  p-3 px-8 border border-[#C0C0C0] rounded-full text-black">
+                    <h1 className="text-center text-xl md:text-2xl  p-3 px-8 border border-[#C0C0C0] rounded-full text-black">
                         Our Products
                     </h1>
                 </div>
@@ -93,8 +93,9 @@ const About = () => {
                         <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
                             <h2 className="text-[16px] p-[4px]  px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">Biosafety Cabinets</h2>
                             <img src={art3} alt="Card 3" className="w-full h-auto md:w-[280px] object-cover mb-4" />
-                            <button className="px-4 py-2 flex hover:bg-[#1782C5] hover:text-white justify-center items-center gap-2 rounded-[50px] border border-[#CDCDCD]">View More
-                                <img src={vector} alt="vector icon" /></button>
+                            <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px] border border-[#CDCDCD] hover:border-[#1782C5] group">View More
+                                <img src={vector} alt="vector icon" className='text-white'/>
+                              </button>
                         </div>
                         
 
@@ -102,7 +103,7 @@ const About = () => {
                         <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
                             <h2 className="text-[16px] p-[4px]  px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">Fume Hoods</h2>
                             <img src={art1} alt="Card 1" className="w-full md:w-[280px] h-auto object-cover mb-4" />
-                            <button className=" px-4 py-2 flex  justify-center items-center hover:bg-[#1782C5] hover:text-white gap-2 rounded-[50px] border border-[#CDCDCD]">View More
+                            <button className=" px-4 py-2 bg-black flex  justify-center items-center hover:bg-[#1782C5] text-white gap-2 rounded-[50px] border border-[#CDCDCD] hover:border-[#1782C5]">View More
                                 <img src={vector} alt="vector icon" />
                             </button>
                         </div>
@@ -111,8 +112,8 @@ const About = () => {
                         
                         <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
                             <h2 className="text-[16px] p-[4px]  px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">Laminar Flow Cabinets</h2>
-                            <img src={art2} alt="Card 2" className="w-full h-auto md:w-[260px] object-cover mb-4" />
-                            <button className=" px-4 py-2 flex  justify-center items-center hover:bg-[#1782C5] hover:text-white gap-2 rounded-[50px] border border-[#CDCDCD]">View More
+                            <img src={art2} alt="Card 2" className="w-full h-[369px] md:w-[260px] object-cover mb-4" />
+                            <button className=" px-4 py-2 bg-black flex  justify-center items-center hover:bg-[#1782C5] text-white gap-2 rounded-[50px] border border-[#CDCDCD] hover:border-[#1782C5]">View More
                                 <img src={vector} alt="vector icon" /></button>
                         </div>
                     </div>
@@ -134,13 +135,13 @@ const About = () => {
                          } min-h-[150px]`}
                        >
                          <div
-                           className={`w-[38px] h-[38px] md:w-[44px] md:h-[44px] mb-4 flex justify-center items-center border rounded-full ${
+                           className={`w-[38px] h-[38px] md:w-[48px] md:h-[48px] mb-5 flex justify-center items-center border rounded-full ${
                              index === 0 || index === 2 ? 'border-white' : 'border-black'
                            }`}
                          >
-                           <img src={card.icon} className="w-[20px] h-[20px] md:w-[28px] md:h-[28px]" alt="usp icon" />
+                           <img src={card.icon} className="w-[20px] h-[20px] md:w-[32px] md:h-[32px]" alt="usp icon" />
                          </div>
-                         <h2 className="text-[14px] md:text-lg text-center font-semibold">
+                         <h2 className="text-[14px] md:text-lg text-center font-medium">
                            {card.title}
                          </h2>
                        </div>

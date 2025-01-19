@@ -17,31 +17,31 @@ const Footer = () => {
 
                 <div className='md:flex flex-col justify-between md:w-[50%] md:h-[300px]'>
                     {/* Links Section */}
-                    <div className="flex justify-between md:justify-around text-[14px] my-5  gap-8 md:gap-0">
+                    <div className="flex justify-between md:justify-around text-[14px] my-5 gap-6 md:gap-0">
                         {/* Company Section */}
                         <div>
-                            <h3 className="font-semibold md:text-lg mb-4 uppercase">Company</h3>
+                            <h3 className="font-[500px] text-base md:text-2xl mb-4 ">Company</h3>
                             <ul className="space-y-2">
-                                <li><a href="/about" className="hover:text-gray-400">About Us</a></li>
-                                <li><a href="/product" className="hover:text-gray-400">Products</a></li>
+                                <li><a href="/about" className="md:text-lg hover:text-gray-400">About Us</a></li>
+                                <li><a href="/product" className="md:text-lg hover:text-gray-400">Products</a></li>
                             </ul>
                         </div>
 
                         {/* Need Help Section */}
                         <div>
-                            <h3 className="mb-4 font-semibold md:text-lg uppercase">Need Help</h3>
+                            <h3 className="mb-4 text-base font-medium md:text-2xl ">Need Help</h3>
                             <ul className="space-y-2">
-                                <li><a href="/contact" className="hover:text-gray-400">Contact Us</a></li>
+                                <li><a href="/contact" className="md:text-lg hover:text-gray-400">Contact Us</a></li>
                             </ul>
                         </div>
 
                         {/* More Info Section */}
                         <div>
-                            <h3 className="font-semibold mb-4 md:text-lg uppercase">More Info</h3>
+                            <h3 className="font-[500px] text-base mb-4 md:text-2xl ">More Info</h3>
                             <ul className="space-y-2">
-                                <li><a href="#" className="hover:text-gray-400">T&C</a></li>
-                                <li><a href="#" className="hover:text-gray-400">Privacy Policy</a></li>
-                                <li><a href="#faq" className="hover:text-gray-400">FAQ</a></li>
+                                <li><a href="#" className="md:text-lg hover:text-gray-400">T&C</a></li>
+                                <li><a href="#" className="md:text-lg hover:text-gray-400">Privacy Policy</a></li>
+                                <li><a href="#faq" className="md:text-lg hover:text-gray-400">FAQ</a></li>
                             </ul>
                         </div>
                     </div>

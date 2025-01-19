@@ -79,20 +79,20 @@ const Applications = () => {
 
     return (
         <>
-            <h1 className='text-2xl text-center px-5 pt-5 md:p-10 md:w-[373px] md:text-[40px] font-[500px] md:text-start mt-16'>Applications</h1>
+            <h1 className='text-3xl text-center px-5 pt-5 md:p-10 md:w-[373px] md:text-[40px] font-[500px] md:text-start mt-16'>Applications</h1>
             <div className=" py-8 px-4 ">
                 <div className="w-[95%] mx-auto grid  border-black grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 ">
                     {cards.map((card) => (
                         <div
                             key={card.id}
-                            className="bg-white  justify-center items-center gap-5 rounded-lg p-6 border border-[#CDCDCD]"
+                            className=" bg-[#F7F7F7]  justify-center items-center gap-5 rounded-lg p-6  border-[#CDCDCD]"
                         >
                             {/* 1st Div: Title */}
                             <div className="mb-4 flex gap-4 items-center">
                                 <div className='border border-black p-2 rounded-full'>
                                     <img src={card.icon} alt="" />
                                 </div>
-                                <h2 className="text-lg font-bold">{card.title}</h2>
+                                <h2 className="text-xl md:text-2xl font-medium">{card.title}</h2>
                             </div>
 
 

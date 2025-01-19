@@ -6,12 +6,21 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        customBlue: '#1782C5',
+      },
       fontFamily: {
         custom: ['satoshi', 'sans-serif'],
         urbanist: ['Urbanist', 'sans-serif'],
       },
     },
+    variants: {
+      scrollbar: ['rounded'], // Enable rounded utilities
+    },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+    require('tailwind-scrollbar')({ nocompatible: true }),
+  ],
 }
 

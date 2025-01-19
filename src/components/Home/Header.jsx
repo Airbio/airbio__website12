@@ -8,6 +8,7 @@ import right from '../../assets/images/right.svg'
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { FaPlus, FaMinus } from "react-icons/fa6";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const Header = () => {
     // State to control the visibility of the mobile menu
@@ -57,19 +58,21 @@ const Header = () => {
                             to="/product"
                             className={({ isActive }) =>
                                 isActive
-                                    ? "bg-[#1782C5] w-[70px] h-[43px] flex justify-center items-center rounded-full text-white"
-                                    : "hover:text-gray-400"
+                                    ? "bg-[#1782C5] w-[85px] h-[43px] gap-1 flex justify-center items-center rounded-full text-white"
+                                    : "hover:text-gray-400 flex justify-center items-center gap-1  py-2"
                             }
                             onMouseEnter={() => setIsSubmenuOpen(true)}
                             onMouseLeave={() => setIsSubmenuOpen(false)}
                         >
                             Product
+                            <div className='pt-1'><MdOutlineKeyboardArrowDown /></div>
+                            
                         </NavLink>
 
                         {/* Submenu */}
                         {isSubmenuOpen && (
                             <div
-                                className="absolute top-[42px] left-0 bg-white shadow-lg  w-[230px] py-2 z-10  border-green-400"
+                                className="absolute top-[45px] -left-5 bg-white shadow-lg  w-[230px] py-2 z-10 border border-[#CDCDCD]"
                                 onMouseEnter={() => setIsSubmenuOpen(true)}
                                 onMouseLeave={() => setIsSubmenuOpen(false)}
                             >
@@ -160,7 +163,7 @@ const Header = () => {
                 </div>
 
                 {/* Mobile Menu Button */}
-                <button onClick={toggleMenu} className="md:hidden focus:outline-none">
+                <button onClick={toggleMenu} className="md:hidden focus:outline-none pb-3 mr-2">
                     {isOpen ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
                 </button>
             </div>
@@ -192,7 +195,7 @@ const Header = () => {
                                 className="flex justify-between items-center hover:text-gray-400 cursor-pointer"
                                 onClick={toggleSubmenu}
                             >
-                                <span>Product</span>
+                                <Link to="/product">Product</Link>
                                 {isSubmenuOpen ? <FaMinus /> : <FaPlus />}
                             </div>
                             {isSubmenuOpen && (
@@ -249,7 +252,7 @@ const Header = () => {
                         <Link to="/contact" className="hover:text-gray-400" onClick={toggleMenu}>Contact</Link>
 
                         {/* Quote Request Button */}
-                        <button className="bg-[#000000] hover:bg-[#1782C5] w-[251px] h-[40px] text-white px-4 py-2 rounded-lg mt-8 flex items-center justify-between">
+                        <button className="bg-[#000000] hover:bg-[#1782C5] w-[251px] h-[40px] text-white px-4 py-2 rounded-lg animate-bounce mt-8 flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img src={quote} alt="Quote icon" />
                                 <span>Quote Request</span>

@@ -85,7 +85,7 @@ const Crousal = () => {
                                 key={idx}
                                 className={`
                                     ${slide.highlights.includes(word) ? "text-[#1782C5]" : ""}
-                                    ${slide.italics && slide.italics.includes(word) ? "italic font-semibold" : ""}
+                                    ${slide.italics && slide.italics.includes(word) ? "italic font-[500px]" : ""}
                                 `}
                             >
                                 {word}{" "}

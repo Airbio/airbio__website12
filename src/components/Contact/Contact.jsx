@@ -23,9 +23,9 @@ const Contact = () => {
             <div className='p-5 py-10 '>
                 <div className=' text-center'>
                     <div>
-                        <h1 className='font-semibold text-[#1782C5] text-3xl md:text-4xl'>Connect & Support
+                        <h1 className='font-medium text-[#1782C5] text-3xl md:text-4xl'>Connect & Support
                         </h1>
-                        <p className=' mt-2 text-sm md:text-base'>Let us know how we can help you!</p>
+                        <p className=' mt-2 md:text-base'>Let us know how we can help you!</p>
                     </div>
 
                     <div className='flex justify-center items-center '>
@@ -40,7 +40,7 @@ const Contact = () => {
                     <div className='bg-[#1782C5] md:order-1 md:w-[45%] md:flex items-center p-5 px-8 gap-5 text-white rounded-b-lg md:rounded-b-none md:rounded-l-lg '>
                         <div className=''>
                             <img src={icon} alt="" className=' md:w-10 justify-start items-center p-2 rounded-lg  border ' />
-                            <h1 className='font-semibold text-xl md:text-2xl mt-5 mb-3'>Schedule a Meeting
+                            <h1 className='font-medium text-xl md:text-2xl mt-5 mb-3'>Schedule a Meeting
                                 <br /> with our Experts</h1>
                             <p className='text-[#D9D9D9] text-sm my-3'>Book a session with our experts to get <br /> personalized solutions tailored to your needs!</p>
                             <button className=' bg-white text-black p-1 px-3 md:py-2 rounded-3xl'>Schedule meeting</button>
@@ -50,35 +50,46 @@ const Contact = () => {
 
                 <div className='flex flex-col gap-8 md:flex-row md:gap-8 md:w-[80%] mx-auto my-10 '>
                     <div className='border flex flex-col gap-4 p-5 pb-10 px-7 w-[90%] mx-auto font-custom rounded-xl border-[#1782C5]'>
-                        <img src={contact} alt="" className='w-10 h-10' />
-                        <h1 className='text-lg font-semibold '>Connect with us</h1>
+                        <img src={contact} alt="" className='w-12 h-12' />
+                        <h1 className='text-lg font-medium '>Connect with us</h1>
                         <div>
                             <div className='flex gap-3'>
                                 <img src={connect1} alt="" />
-                                <p className='font-custom text-[#1E1E1E] text-opacity-75'>+91-7942962885</p>
+                                <a
+                                    href="tel:+917942962885"
+                                    className="font-custom text-[#1E1E1E] text-opacity-75"
+                                >
+                                    +91-7942962885
+                                </a>
                             </div>
                             <div className='flex gap-3 mt-2 mb-3'>
                                 <img src={connect2} alt="" />
-                                <p className='font-custom text-[#1E1E1E] text-opacity-75'>contact.airbio@gmail.com</p>
+                                <a
+                                    href="mailto:contact.airbio@gmail.com"
+                                    className="font-custom text-[#1E1E1E] text-opacity-75"
+                                >
+                                    contact.airbio@gmail.com
+                                </a>
+
                             </div>
 
                         </div>
                     </div>
 
                     <div className='border flex flex-col gap-4 p-5 px-7 w-[90%] mx-auto font-custom rounded-lg border-[#1782C5]'>
-                        <img src={social} alt="" className='w-10 h-10' />
-                        <h1 className='text-lg font-semibold '>Follow our socials</h1>
+                        <img src={social} alt="" className='w-12 h-12' />
+                        <h1 className='text-lg font-medium '>Follow our socials</h1>
                         <div>
                             <p className='text-[#1E1E1E] text-opacity-75'>connect with our social handles stay updated with latest news</p>
                             <div className='font-custom flex justify-center mt-4 gap-5 '>
                                 <a href="https://m.facebook.com/airbio/" target="_blank" rel="noopener noreferrer">
-                                    <img src={social1} alt="Facebook" className='w-[28px] h-[28px]'/>
+                                    <img src={social1} alt="Facebook" className='w-[28px] h-[28px]' />
                                 </a>
                                 <a href="https://api.whatsapp.com/send?phone=9899829299" target="_blank" rel="noopener noreferrer">
                                     <img src={social2} alt="WhatsApp" />
                                 </a>
                                 <a href="https://www.linkedin.com/company/airbiotechnologies/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">
-                                    <img src={social3} alt="linkedin" className='w-[28px] h-[28px]'/>
+                                    <img src={social3} alt="linkedin" className='w-[28px] h-[28px]' />
                                 </a>
                             </div>
                         </div>
@@ -86,7 +97,7 @@ const Contact = () => {
 
                     {/* <div className='border flex flex-col gap-8 p-5 px-7 w-[90%] mx-auto font-custom rounded-lg border-[#1782C5]'>
                         <img src={meeting} alt="" className='w-10 h-10' />
-                        <p className='text-lg font-semibold '>Schedule a meeting</p>
+                        <p className='text-lg font-medium '>Schedule a meeting</p>
                         <div>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <p className='font-custom'>contact.airbio@gmail.com</p>
@@ -94,10 +105,10 @@ const Contact = () => {
                     </div> */}
 
                     <div className='border flex flex-col gap-4 p-5 pb-7 px-7 w-[90%] mx-auto font-custom rounded-lg border-[#1782C5]'>
-                        <img src={location} alt="" className='w-10 h-10' />
-                        <h1 className='text-lg font-semibold '>Address</h1>
+                        <img src={location} alt="" className='w-12 h-12' />
+                        <h1 className='text-lg font-medium '>Address</h1>
                         <div>
-                            <p className='text-[#1E1E1E] text-opacity-75 mb-6'>New Delhi, India.</p>
+                            <p className='text-[#1E1E1E] text-opacity-75 mb-6'>E25B, Ground Floor, Jawahar Park, Laxmi Nagar - 110092, New Delhi, India.</p>
                             <div className='flex justify-center items-center'>
                                 <a href="https://www.google.com/maps?q=28.67151000,77.35550000" target="_blank" rel="noopener noreferrer">
                                     <button className=' bg-black text-white  p-1 px-3 rounded-3xl'>Locate on Maps</button>
