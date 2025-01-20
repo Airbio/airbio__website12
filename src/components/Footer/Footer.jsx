@@ -52,12 +52,18 @@ const Footer = () => {
                         <div className='md:flex flex-center justify-center gap-10'>
                             <div className="flex items-center gap-3  py-3">
                                 <img src={contact} alt="Contact Icon" className="w-6 h-6" />
-                                <h3>+91 9899829299</h3>
+                                <a href="tel:0120 2988099">
+                                    <h3>0120 2988099</h3>
+                                </a>
+
                             </div>
 
                             <div className='flex items-center gap-3 '>
-                                <img src={email} alt="" className="w-6 h-6"/>
-                                <p>Info@airbio.in</p>
+                                <img src={email} alt="" className="w-6 h-6" />
+                                <a href="mailto:Info@airbio.in">
+                                    <p>Info@airbio.in</p>
+                                </a>
+
                             </div>
                         </div>
 

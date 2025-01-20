@@ -40,7 +40,7 @@ const About = () => {
       <div className='p-5'>
         <div className=' text-center md:max-w-[85%] mx-auto'>
           <h1 className='text-3xl font-medium'>Get to Know Us</h1>
-          <p className='mt-1'>Driving innovation and excellence to craft products that transform ideas into reality.</p>
+          <p className='mt-1 text-[#7A7A7A]'>Driving innovation and excellence to craft products that transform ideas into reality.</p>
           <img src={about} alt="" className='my-8 lg:w-full h-auto' />
           <p className='text-justify px-2'>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
@@ -76,7 +76,7 @@ const About = () => {
             {cards.map((card) => (
               <div
                 key={card.id}
-                className="flex-shrink-0 w-[90%] md:w-auto bg-white  border-green-500 rounded-lg"
+                className="flex-shrink-0 w-[90%] md:w-auto bg-white pb-5 md:pb-0 border-green-500 rounded-lg scrollbar scrollbar-thumb-customBlue scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full"
               >
                 <img
                   src={card.img}
@@ -92,7 +92,7 @@ const About = () => {
 
         <div className=' my-10 pt-5'>
           <div className='text-center md:text-start md:max-w-[85%] mx-auto md:flex justify-between items-center pt-5 border-blue-600'>
-            <h1 className='text-2xl font-medium md:w-[373px]  md:text-4xl md:text-left my-2 '>Our
+            <h1 className='text-3xl font-medium md:w-[373px]  md:text-4xl md:text-left my-2 '>Our
               Expert Team</h1>
             <p className='text-[15px] py-2 md:py-0 md:w-[283px] text-[#7A7A7A] '>Driving innovation and excellence to craft products that transform ideas into reality.</p>
           </div>

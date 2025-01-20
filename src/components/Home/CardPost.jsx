@@ -107,7 +107,7 @@ const CardPost = () => {
 
               {/* Info Section */}
               <div className="text-sm text-gray-600 space-y-1">
-                <p>
+                <p className='text-end'>
                   <a href={post.readMore} className="text-[#1782C5] hover:underline">
                     Read More
                   </a>

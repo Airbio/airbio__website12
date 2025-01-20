@@ -63,7 +63,7 @@ const Team = () => {
                 {/* Name and Role */}
                 <div className="absolute p-1 top-full translate-y-[-50%] min-w-[90%] md:mb-5 bg-white flex flex-col items-center rounded-lg border border-[#CDCDCD]">
                   <div className="px-2 md:mb-1">{member.name}</div>
-                  <div className="text-gray-500 text-[10px] md:text-base">
+                  <div className="text-gray-500 text-sm md:text-base">
                     {member.role}
                   </div>
                 </div>

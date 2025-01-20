@@ -32,6 +32,8 @@ const Header = () => {
         setIsOpen(!isOpen);
     };
 
+    const isActive = (path) => window.location.pathname === path;
+
     return (
         <header className="w-[95%] mx-auto pt-8 relative">
             <div className="container mx-auto flex justify-between items-center">
@@ -66,7 +68,7 @@ const Header = () => {
                         >
                             Product
                             <div className='pt-1'><MdOutlineKeyboardArrowDown /></div>
-                            
+
                         </NavLink>
 
                         {/* Submenu */}
@@ -187,79 +189,116 @@ const Header = () => {
 
                 {/* Menu Items */}
                 <div className="p-7 ">
-                    <nav className="flex flex-col space-y-6 text-lg">
-                        <Link to="/" className="hover:text-gray-400" onClick={toggleMenu}>Home</Link>
+                <nav className="flex flex-col space-y-6 text-lg">
+            <Link
+                to="/"
+                className={`hover:text-gray-400 ${isActive("/") ? "text-[#1782C5]" : ""}`}
+                onClick={toggleMenu}
+            >
+                Home
+            </Link>
+            <div>
+                {/* Product Menu */}
+                <div
+                    className="flex justify-between items-center hover:text-gray-400 cursor-pointer"
+                    onClick={toggleSubmenu}
+                >
+                    <Link
+                        to="/product"
+                        className={`${isActive("/product") ? "text-[#1782C5]" : ""}`}
+                    >
+                        Product
+                    </Link>
+                    {isSubmenuOpen ? <FaMinus /> : <FaPlus />}
+                </div>
+                {isSubmenuOpen && (
+                    <div className="ml-4 mt-2 space-y-4">
                         <div>
-                            {/* Product Menu */}
+                            {/* Submenu 1 */}
                             <div
                                 className="flex justify-between items-center hover:text-gray-400 cursor-pointer"
-                                onClick={toggleSubmenu}
+                                onClick={() => toggleNestedMenu("submenu1")}
                             >
-                                <Link to="/product">Product</Link>
-                                {isSubmenuOpen ? <FaMinus /> : <FaPlus />}
+                                <span>Laminar Flow Cabinets</span>
+                                {nestedMenuState.submenu1 ? <FaMinus /> : <FaPlus />}
                             </div>
-                            {isSubmenuOpen && (
-                                <div className="ml-4 mt-2 space-y-4">
-                                    <div>
-                                        {/* Submenu 1 */}
-                                        <div
-                                            className="flex justify-between items-center hover:text-gray-400 cursor-pointer"
-                                            onClick={() => toggleNestedMenu("submenu1")}
-                                        >
-                                            <span>Laminar Flow Cabinets</span>
-                                            {nestedMenuState.submenu1 ? <FaMinus /> : <FaPlus />}
-                                        </div>
-                                        {nestedMenuState.submenu1 && (
-                                            <div className="ml-4 mt-2 space-y-2">
-                                                <Link
-                                                    to="/product/category1/item1"
-                                                    className="block hover:text-gray-400"
-                                                    onClick={toggleMenu}
-                                                >
-                                                   Class II, Type A2 Biosafety Cabinet
-                                                </Link>
-                                                <Link
-                                                    to="/product/category1/item2"
-                                                    className="block hover:text-gray-400"
-                                                    onClick={toggleMenu}
-                                                >
-                                                    Class II, Type B2 Biosafety Cabinet
-                                                </Link>
-                                            </div>
-                                        )}
-                                    </div>
-                                    {/* Submenu 2 */}
+                            {nestedMenuState.submenu1 && (
+                                <div className="ml-4 mt-2 space-y-2">
                                     <Link
-                                        to="/product/category2"
-                                        className="block hover:text-gray-400"
+                                        to="/product/category1/item1"
+                                        className={`block hover:text-gray-400 ${
+                                            isActive("/product/category1/item1") ? "text-[#1782C5]" : ""
+                                        }`}
                                         onClick={toggleMenu}
                                     >
-                                        Ductless Fume Hoods
+                                        Class II, Type A2 Biosafety Cabinet
                                     </Link>
-                                    {/* Submenu 3 */}
                                     <Link
-                                        to="/product/category3"
-                                        className="block hover:text-gray-400"
+                                        to="/product/category1/item2"
+                                        className={`block hover:text-gray-400 ${
+                                            isActive("/product/category1/item2") ? "text-[#1782C5]" : ""
+                                        }`}
                                         onClick={toggleMenu}
                                     >
-                                        Biosafety Cabinets
+                                        Class II, Type B2 Biosafety Cabinet
                                     </Link>
                                 </div>
                             )}
                         </div>
-                        <Link to="/about" className="hover:text-gray-400" onClick={toggleMenu}>About</Link>
-                        <Link to="/blog" className="hover:text-gray-400" onClick={toggleMenu}>Blog</Link>
-                        <Link to="/contact" className="hover:text-gray-400" onClick={toggleMenu}>Contact</Link>
+                        {/* Submenu 2 */}
+                        <Link
+                            to="/product/category2"
+                            className={`block hover:text-gray-400 ${
+                                isActive("/product/category2") ? "text-[#1782C5]" : ""
+                            }`}
+                            onClick={toggleMenu}
+                        >
+                            Ductless Fume Hoods
+                        </Link>
+                        {/* Submenu 3 */}
+                        <Link
+                            to="/product/category3"
+                            className={`block hover:text-gray-400 ${
+                                isActive("/product/category3") ? "text-[#1782C5]" : ""
+                            }`}
+                            onClick={toggleMenu}
+                        >
+                            Biosafety Cabinets
+                        </Link>
+                    </div>
+                )}
+            </div>
+            <Link
+                to="/about"
+                className={`hover:text-gray-400 ${isActive("/about") ? "text-[#1782C5]" : ""}`}
+                onClick={toggleMenu}
+            >
+                About
+            </Link>
+            <Link
+                to="/blog"
+                className={`hover:text-gray-400 ${isActive("/blog") ? "text-[#1782C5]" : ""}`}
+                onClick={toggleMenu}
+            >
+                Blog
+            </Link>
+            <Link
+                to="/contact"
+                className={`hover:text-gray-400 ${isActive("/contact") ? "text-[#1782C5]" : ""}`}
+                onClick={toggleMenu}
+            >
+                Contact
+            </Link>
 
-                        {/* Quote Request Button */}
-                        <button className="bg-[#000000] hover:bg-[#1782C5] w-[251px] h-[40px] text-white px-4 py-2 rounded-lg animate-bounce mt-8 flex items-center justify-between">
-                            <div className="flex items-center gap-2">
-                                <img src={quote} alt="Quote icon" />
-                                <span>Quote Request</span>
-                            </div>
-                            <img src={quote2} alt="Quote icon" />
-                        </button>
-                    </nav>
+            {/* Quote Request Button */}
+            <button className="bg-[#000000] hover:bg-[#1782C5] w-[251px] h-[40px] text-white px-4 py-2 rounded-lg animate-bounce mt-8 flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                    <img src={quote} alt="Quote icon" />
+                    <span>Quote Request</span>
+                </div>
+                <img src={quote2} alt="Quote icon" />
+            </button>
+        </nav>
                 </div>
             </div>
 

@@ -61,7 +61,7 @@ const Products = () => {
       >
         {productData.map((product, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-[#F7F7F7] relative md:w-[80%] mx-auto md:flex justify-between items-center px-4 pt-2 rounded-lg  border-[#1782C5]">
+            <div className="bg-[#F7F7F7] relative md:w-[80%] mx-auto md:flex justify-between items-center px-4 pt-2 rounded-lg pb-5 md:pb-0 border-[#1782C5]">
               <img
                 src={logo}
                 alt="logo"
@@ -119,9 +119,9 @@ const Products = () => {
                 {/* 3rd Div: Buttons */}
                 <div className="mb-4 flex flex-col justify-center items-center gap-3 md:flex-row md:justify-start space-x-4">
                   <button className="bg-[#1782C5] text-white px-4 py-2 rounded-full hover:bg-black">
-                    Explore
+                    Explore More
                   </button>
-                  <button className="px-4 py-2 text-sm flex items-center gap-2 rounded-full border border-[#7A7A7A] hover:bg-[#1782C5] hover:text-white">
+                  <button className="px-4 py-2 bg-black text-white flex items-center gap-2 rounded-full border hover:border-[#1782C5] border-[#7A7A7A] hover:bg-[#1782C5] hover:text-white">
                     Download Brochure
                     <img src={SVG} alt="" className='' />
                   </button>

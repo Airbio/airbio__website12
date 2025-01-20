@@ -88,12 +88,12 @@ const About = () => {
                     </h1>
                 </div>
                 <div>
-                    <div className="flex md:justify-center items-center overflow-x-scroll md:overflow-x-hidden gap-4 p-4 max-w-screen-xl mx-auto">
+                    <div className="flex md:justify-center items-center overflow-x-scroll md:overflow-x-hidden gap-4 p-4 max-w-screen-xl mx-auto scrollbar scrollbar-thumb-customBlue scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
                         {/* Card 1 */}
                         <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
-                            <h2 className="text-[16px] p-[4px]  px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">Biosafety Cabinets</h2>
+                            <h2 className="p-[4px] py-2 px-4 mb-5 bg-[#1782C5] text-white  rounded-[50px]">Biosafety Cabinets</h2>
                             <img src={art3} alt="Card 3" className="w-full h-auto md:w-[280px] object-cover mb-4" />
-                            <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px] border border-[#CDCDCD] hover:border-[#1782C5] group">View More
+                            <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px]  border-[#CDCDCD] hover:border-[#1782C5] group">View More
                                 <img src={vector} alt="vector icon" className='text-white'/>
                               </button>
                         </div>
@@ -101,9 +101,9 @@ const About = () => {
 
                         {/* Card 2 */}
                         <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
-                            <h2 className="text-[16px] p-[4px]  px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">Fume Hoods</h2>
+                            <h2 className="p-[4px] py-2  px-4 mb-5 bg-[#1782C5] text-white  rounded-[50px]">Fume Hoods</h2>
                             <img src={art1} alt="Card 1" className="w-full md:w-[280px] h-auto object-cover mb-4" />
-                            <button className=" px-4 py-2 bg-black flex  justify-center items-center hover:bg-[#1782C5] text-white gap-2 rounded-[50px] border border-[#CDCDCD] hover:border-[#1782C5]">View More
+                            <button className=" px-4 py-2 bg-black flex  justify-center items-center hover:bg-[#1782C5] text-white gap-2 rounded-[50px]  border-[#CDCDCD] hover:border-[#1782C5]">View More
                                 <img src={vector} alt="vector icon" />
                             </button>
                         </div>
@@ -111,9 +111,9 @@ const About = () => {
                         {/* Card 3 */}
                         
                         <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
-                            <h2 className="text-[16px] p-[4px]  px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">Laminar Flow Cabinets</h2>
+                            <h2 className="p-[4px] py-2  px-4 mb-5 bg-[#1782C5] text-white  rounded-[50px]">Laminar Flow Cabinets</h2>
                             <img src={art2} alt="Card 2" className="w-full h-[369px] md:w-[260px] object-cover mb-4" />
-                            <button className=" px-4 py-2 bg-black flex  justify-center items-center hover:bg-[#1782C5] text-white gap-2 rounded-[50px] border border-[#CDCDCD] hover:border-[#1782C5]">View More
+                            <button className=" px-4 py-2 bg-black flex  justify-center items-center hover:bg-[#1782C5] text-white gap-2 rounded-[50px]  border-[#CDCDCD] hover:border-[#1782C5]">View More
                                 <img src={vector} alt="vector icon" /></button>
                         </div>
                     </div>
@@ -135,13 +135,13 @@ const About = () => {
                          } min-h-[150px]`}
                        >
                          <div
-                           className={`w-[38px] h-[38px] md:w-[48px] md:h-[48px] mb-5 flex justify-center items-center border rounded-full ${
+                           className={`w-[44px] h-[44px] md:w-[48px] md:h-[48px] mb-5 flex justify-center items-center border rounded-full ${
                              index === 0 || index === 2 ? 'border-white' : 'border-black'
                            }`}
                          >
-                           <img src={card.icon} className="w-[20px] h-[20px] md:w-[32px] md:h-[32px]" alt="usp icon" />
+                           <img src={card.icon} className="w-[28px] h-[28px] md:w-[32px] md:h-[32px] " alt="usp icon" />
                          </div>
-                         <h2 className="text-[14px] md:text-lg text-center font-medium">
+                         <h2 className="md:text-lg text-center font-medium">
                            {card.title}
                          </h2>
                        </div>

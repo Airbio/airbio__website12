@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Header from './components/Home/Header';
 import Footer from './components/Footer/Footer';
 import AllProductPage from './components/Allproductpage/AllProductPage';
+import DiscoverProducts from './components/products/DiscoverProducts';
 
 function App() {
  
@@ -19,6 +20,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<AllProductPage />} />
+        <Route path="/product/category1" element={<ProductPage />} />
+        <Route path="/product/category2" element={<DiscoverProducts />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />

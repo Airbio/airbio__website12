@@ -3,6 +3,7 @@ import art1 from '../../assets/images/art1.webp'
 import art2 from '../../assets/images/art2.webp'
 import art3 from '../../assets/images/art3.webp'
 import vector from '../../assets/images/Vector.svg'
+import Header from '../Home/Header'
 
 const cardData = [
     {
@@ -30,6 +31,8 @@ const cardData = [
 const DiscoverProducts = () => {
     return (
         <div>
+            <Header />
+            <hr className="w-[95%] h-1 mt-6 border-t-1 border-[#C3C3C3] mx-auto" />
             <div className='my-10'>
                 <div className="flex justify-center items-center pt-12 pb-5">
                     <h1 className="text-center p-1 px-3 border border-[#C0C0C0] rounded-full text-black font-semibold">
