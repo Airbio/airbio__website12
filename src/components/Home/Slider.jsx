@@ -1,5 +1,6 @@
 import React from 'react'
-import image from '../../assets/images/Client logo.svg'
+// import image from '../../assets/images/Client logo.svg'
+import image from '../../assets/images/client_logo.png'
 // import image2 from '../../assets/images/Slider-Horizontal1.jpg'
 import image1 from '../../assets/images/certification1.png'
 import image2 from '../../assets/images/certification2.png'
@@ -20,29 +21,11 @@ const Slider = () => {
             </div>
 
             {/* Image wrapper that will slide */}
-            <div className="slider-left flex gap-5 animate-slide mb-3 ">
-                {/* <img src={image1} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] ml-12" />
-                <img src={image2} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" />
-                <img src={image3} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" />
-                <img src={image4} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" />
-                <img src={image5} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" /> */}
-                <img src={image} alt="" className='h-20 w-auto'/>
-                <img src={image} alt="" className='h-20 w-auto'/>
-                <img src={image} alt="" className='h-20 w-auto'/>
+            <div className="slider-left flex gap-5 animate-slide mb-3">
+                <img src={image} alt="" className='h-16 md:h-20 w-auto object-cover'/>
+                <img src={image} alt="" className='h-16 md:h-20 w-auto object-cover'/>
+                <img src={image} alt="" className='h-16 md:h-20 w-auto object-cover'/>
             </div>
-
-            {/* <hr className="w-[95%] h-1 border-t-1 border-[#C3C3C3] mx-auto" /> */}
-
-            {/* <div className="slider-right h- flex justify-center items-center gap-5 animate-slide mt-3 ">
-                <img src={image5} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mr-12" />
-                <img src={image4} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" />
-                <img src={image3} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" />
-                <img src={image2} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" />
-                <img src={image1} alt="slider" className="slider-image w-10 h-10 md:w-[100px] md:h-[100px] mx-5" />
-                <img src={image} alt="" />
-                <img src={image} alt="" />
-                <img src={image} alt="" />
-            </div> */}
         </div>
     )
 }

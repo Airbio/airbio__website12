@@ -107,9 +107,9 @@ const CardPost = () => {
 
               {/* Info Section */}
               <div className="text-sm text-gray-600 space-y-1">
-                <p className='text-end'>
+                <p className=''>
                   <a href={post.readMore} className="text-[#1782C5] hover:underline">
-                    Read More
+                    Read More...
                   </a>
                 </p>
                 <div className='flex justify-between'>

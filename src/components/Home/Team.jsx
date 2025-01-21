@@ -22,11 +22,11 @@ const Team = () => {
 
       <div className="relative py-8 px-4 mb-10 ">
         {/* Navigation Buttons */}
-        <div className="swiper-button-prev custom-prev absolute left-9 md:left-[35%] bottom-[15px] md:-bottom-3 translate-y-[-50%] z-10 cursor-pointer ">
-          <span className="material-icons"><GoChevronLeft className="text-[#1782C5] w-auto h-9 md:w-auto md:h-16"/></span>
+        <div className="swiper-button-prev custom-prev absolute left-9 md:left-[37%] bottom-[15px] md:bottom-0 translate-y-[-50%] z-10 cursor-pointer ">
+          <span className="material-icons"><GoChevronLeft className="text-[#1782C5] w-auto h-9 md:w-auto md:h-12"/></span>
         </div>
-        <div className="swiper-button-next custom-next absolute right-9 md:right-[35%] bottom-[15px] md:-bottom-3 translate-y-[-50%] z-10 cursor-pointer ">
-          <span className="material-icons"><GoChevronRight className="text-[#1782C5] w-auto h-9 md:w-auto md:h-16 "/></span>
+        <div className="swiper-button-next custom-next absolute right-9 md:right-[37%] bottom-[15px] md:bottom-0 translate-y-[-50%] z-10 cursor-pointer ">
+          <span className="material-icons"><GoChevronRight className="text-[#1782C5] w-auto h-9 md:w-auto md:h-12 "/></span>
         </div>
 
         <Swiper
