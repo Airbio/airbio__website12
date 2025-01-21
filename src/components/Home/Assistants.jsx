@@ -11,6 +11,7 @@ const Assistants = () => {
                 </div>
                 <div className='md:w-[55%]'>
                     <div className="flex justify-end items-center mt-5">
+                        <a href="https://api.whatsapp.com/send?phone=9899829299" target="_blank" rel="noopener noreferrer">
                         <button
                             className="bg-white flex justify-between items-center gap-1 hover:bg-[#1782C5] w-auto h-[38px] p-2 px-3 rounded-full transition-colors duration-200 group"
                         >
@@ -50,6 +51,7 @@ const Assistants = () => {
                             </div>
 
                         </button>
+                        </a>
                     </div>
                 </div>
             </div>
