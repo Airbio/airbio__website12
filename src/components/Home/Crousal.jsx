@@ -3,18 +3,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
-import product1 from '../../assets/images/Frame9.png'
-// import product2 from '../../assets/images/Frame10.webp'
-import product3 from '../../assets/images/Frame11.webp'
-import product4 from '../../assets/images/Frame 12.png'
-import mproduct1 from '../../assets/images/mframe1.webp'
-// import mproduct2 from '../../assets/images/mframe2.webp'
-import mproduct2 from '../../assets/images/m2nd.jpg'
-import mproduct3 from '../../assets/images/mframe3.webp'
+import product1 from '../../assets/images/desktop_banner_1.webp'
+import product2 from '../../assets/images/desktop_banner_2.webp'
+import product3 from '../../assets/images/desktop_banner_3.webp'
+import mproduct1 from '../../assets/images/mobile_banner_1.png'
+import mproduct2 from '../../assets/images/mobile_banner_2.png'
+import mproduct3 from '../../assets/images/mobile_banner_3.png'
 import Arrow from '../../assets/images/down-light.svg'
 import Header from './Header';
 import { Link } from 'react-scroll';
-import product2 from '../../assets/images/2nd.jpg'
+// import product2 from '../../assets/images/2nd.jpg'
 // import product3 from '../../assets/images/Laminar.jpg'
 
 
@@ -41,11 +39,6 @@ const slides = [
         highlights: ["Minimize", "Safety", "AirBio",],
         italics: ["Maximize", "Risk,"]
     },
-    // {
-    //     image: product4,
-    //     text: '',
-
-    // },
 ];
 
 const Crousal = () => {

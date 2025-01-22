@@ -39,15 +39,15 @@ const DiscoverProducts = () => {
 
             <div className='my-10'>
                 <div className=' md:flex justify-between px-5 pb-5 md:px-10 md:p-5 my-5 border-blue-600'>
-                    <h1 className='text-3xl font-[500px] text-center md:text-start md:w-[500px] md:text-[40px] '>Trusted by great team </h1>
-                    <p className='md:text-lg text-center py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A]  '>Meet the clients of Airbio who has used our products.</p>
+                    <h1 className='text-3xl font-[500px] text-center md:text-start md:w-[500px] md:text-[40px] '>Discover our products </h1>
+                    {/* <p className='md:text-lg text-center py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A]  '>Meet the clients of Airbio who has used our products.</p> */}
                 </div>
 
-                <div className="flex justify-center items-center pb-5 ">
+                {/* <div className="flex justify-center items-center pb-5 ">
                     <h1 className="text-center text-xl md:text-2xl p-3 px-6 border border-[#C0C0C0] rounded-full text-black font-medium">
                         Discover Our Products
                     </h1>
-                </div>
+                </div> */}
                 <div className="flex overflow-x-scroll md:overflow-x-hidden md:grid md:grid-cols-3 gap-4 md:gap-10 p-4 mx-auto max-w-screen-lg scrollbar scrollbar-thumb-customBlue scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
                     {cardData.map((card, index) => (
                         <div

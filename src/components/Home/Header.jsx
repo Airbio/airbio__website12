@@ -228,7 +228,7 @@ const Header = () => {
                 {/* Quote Request Button and Down Arrow (Hidden on mobile) */}
                 <div className="hidden md:flex items-center">
                     <a href="https://api.whatsapp.com/send?phone=9899829299" target="_blank" rel="noopener noreferrer">
-                        <button className="bg-white flex justify-between items-center gap-3 hover:bg-[#1782C5] hover:text-white w-auto h-[48px] px-3 p-2 bg-transparent border-[#CDCDCD] hover:border-[#1782C5] animate-pulse rounded-full border">
+                        <button className="flex justify-between items-center gap-3 bg-[#1782C5] text-white w-auto h-[48px] px-3 p-2 rounded-full animate-pulse">
                             Quote Request
                             <div className='bg-black  flex items-center justify-center text-white w-[28px] h-[28px] p-2 rounded-full'>
                                 <img src={arrow} className='' alt="Down arrow icon" />
