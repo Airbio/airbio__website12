@@ -143,9 +143,19 @@ const Header = () => {
                                         to="/product/category2"
                                         className=" px-4 py-2 flex justify-between gap-4 hover:bg-gray-100"
                                     >
-                                        Fume Hoods
+                                        Air Fume Hoods
                                         <img src={right} alt="" className="w-4 h-4 mt-1" />
                                     </NavLink>
+                                    {activeSubmenu === "fume" && (
+                                        <div className="absolute top-0 left-[230px] bg-white shadow-lg  w-[280px] py-2 z-20">
+                                            <NavLink
+                                                to="/product/category2/sub1"
+                                                className="block px-4 py-2 hover:bg-gray-100"
+                                            >
+                                                Fume Hood
+                                            </NavLink>
+                                        </div>
+                                    )}
 
                                 </div>
 
@@ -218,7 +228,7 @@ const Header = () => {
                 {/* Quote Request Button and Down Arrow (Hidden on mobile) */}
                 <div className="hidden md:flex items-center">
                     <a href="https://api.whatsapp.com/send?phone=9899829299" target="_blank" rel="noopener noreferrer">
-                        <button className="bg-white flex justify-between items-center gap-3 hover:bg-[#1782C5] hover:text-white w-auto h-[48px] px-3 p-2 bg-transparent border-[#CDCDCD] hover:border-[#1782C5] hover:animate-pulse rounded-full border">
+                        <button className="bg-white flex justify-between items-center gap-3 hover:bg-[#1782C5] hover:text-white w-auto h-[48px] px-3 p-2 bg-transparent border-[#CDCDCD] hover:border-[#1782C5] animate-pulse rounded-full border">
                             Quote Request
                             <div className='bg-black  flex items-center justify-center text-white w-[28px] h-[28px] p-2 rounded-full'>
                                 <img src={arrow} className='' alt="Down arrow icon" />
@@ -282,42 +292,42 @@ const Header = () => {
                                             className={`flex justify-between items-center hover:text-gray-400 cursor-pointer ${currentSubmenu === "submenu1" ? "text-[#1782C5]" : ""}`}
                                             onClick={() => toggleMobileNestedMenu("submenu1")}
                                         >
-                                            <span>Biosafety Cabinets</span>
+                                            <Link to='/product/category1'>Biosafety Cabinets</Link>
                                             {currentSubmenu === "submenu1" ? <FaMinus /> : <FaPlus />}
                                         </div>
                                         {currentSubmenu === "submenu1" && (
                                             <div className="ml-4 mt-2 space-y-2">
                                                 <Link
-                                                    to="/product/category1/item1"
+                                                    to="/product/category1/sub1"
                                                     className={`block hover:text-gray-400 ${isActive("/product/category1/item1") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
                                                     BSC CLASS II B2 (Falcon)
                                                 </Link>
                                                 <Link
-                                                    to="/product/category1/item2"
+                                                    to="/product/category1/sub2"
                                                     className={`block hover:text-gray-400 ${isActive("/product/category1/item2") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
                                                     BSC CLASS II B2 (Agies)
                                                 </Link>
                                                 <Link
-                                                    to="/product/category1/item1"
-                                                    className={`block hover:text-gray-400 ${isActive("/product/category1/item1") ? "text-[#1782C5]" : ""}`}
+                                                    to="/product/category1/sub3"
+                                                    className={`block hover:text-gray-400 ${isActive("/product/category1/item3") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
                                                     BSC CLASS II A2
                                                 </Link>
                                                 <Link
-                                                    to="/product/category1/item2"
-                                                    className={`block hover:text-gray-400 ${isActive("/product/category1/item2") ? "text-[#1782C5]" : ""}`}
+                                                    to="/product/category1/sub4"
+                                                    className={`block hover:text-gray-400 ${isActive("/product/category1/item4") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
                                                     BSC CLASS II A2 (Agies)
                                                 </Link>
                                                 <Link
-                                                    to="/product/category1/item2"
-                                                    className={`block hover:text-gray-400 ${isActive("/product/category1/item2") ? "text-[#1782C5]" : ""}`}
+                                                    to="/product/category1/sub5"
+                                                    className={`block hover:text-gray-400 ${isActive("/product/category1/item5") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
                                                     Main BSC CLASS II A2 
@@ -332,9 +342,20 @@ const Header = () => {
                                             className={`flex justify-between items-center hover:text-gray-400 cursor-pointer ${currentSubmenu === "submenu2" ? "text-[#1782C5]" : ""}`}
                                             onClick={() => toggleMobileNestedMenu("submenu2")}
                                         >
-                                            <span>Fume Hoods</span>
+                                            <Link to='/product/category2'>Air Fume Hoods</Link>
                                             {currentSubmenu === "submenu2" ? <FaMinus /> : <FaPlus />}
                                         </div>
+                                        {currentSubmenu === "submenu2" && (
+                                            <div className="ml-4 mt-2 space-y-2">
+                                                <Link
+                                                    to="/product/category2/item1"
+                                                    className={`block hover:text-gray-400 ${isActive("/product/category2/item1") ? "text-[#1782C5]" : ""}`}
+                                                    onClick={toggleMenu}
+                                                >
+                                                    Fume Hood
+                                                </Link>
+                                            </div>
+                                        )}
                                     </div>
 
                                     {/* Submenu 3 */}
@@ -343,7 +364,7 @@ const Header = () => {
                                             className={`flex justify-between items-center hover:text-gray-400 cursor-pointer ${currentSubmenu === "submenu3" ? "text-[#1782C5]" : ""}`}
                                             onClick={() => toggleMobileNestedMenu("submenu3")}
                                         >
-                                            <span>Laminar Flow Cabinets</span>
+                                            <Link to='/product/category3'>Laminar Flow Cabinets</Link>
                                             {currentSubmenu === "submenu3" ? <FaMinus /> : <FaPlus />}
                                         </div>
                                         {currentSubmenu === "submenu3" && (

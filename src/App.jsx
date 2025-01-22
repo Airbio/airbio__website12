@@ -19,12 +19,13 @@ function App() {
       {/* <Header/> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/product" element={<AllProductPage />} />
-        <Route path="/product/category1" element={<ProductPage />} />
-        <Route path="/product/category2" element={<DiscoverProducts />} />
+        <Route path="/product" element={<DiscoverProducts />} />
+        <Route path="/product/:category" element={<AllProductPage />} />
+          <Route path="/product/:category/:subcategory" element={<ProductPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
       <Footer/>
     </Router>

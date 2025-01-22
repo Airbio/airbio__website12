@@ -5,7 +5,7 @@ import card1 from '../../assets/images/card1.png'
 import card2 from '../../assets/images/card2.png'
 import card3 from '../../assets/images/card3.png'
 import customer from '../../assets/images/customer.svg'
-import truck from '../../assets/images/cargo-truck.svg'
+import truck from '../../assets/images/delivered.svg'
 import industry from '../../assets/images/industry.svg'
 import booking from '../../assets/images/booking.svg'
 import TeamData from '../Home/TeamData';
@@ -47,25 +47,25 @@ const About = () => {
 
         <div className='md:max-w-[80%] mx-auto flex flex-col md:flex-row justify-center items-center gap-10 my-10 py-5'>
           <div className=' flex flex-col justify-center items-center mx-5'>
-            <img src={customer} alt="" />
+            <img src={customer} alt="" className='mb-2'/>
             <h1 className='font-bold text-2xl mt-2 mb-1 tracking-wide'>10,000+</h1>
             <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Happy Customers <br />& Couting</p>
           </div>
 
           <div className=' flex flex-col justify-center items-center mx-5'>
-            <img src={truck} alt="" />
+            <img src={truck} alt="" className='mb-2'/>
             <h1 className='font-bold text-2xl mt-2 mb-1 tracking-wide'>9,000+</h1>
             <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Pin code <br />delivered</p>
           </div>
 
           <div className=' flex flex-col justify-center items-center md:h-[156px] w-auto mx-5'>
-            <img src={industry} alt="" className='w-10 h-10 m-2' />
+            <img src={industry} alt="" className='mb-2' />
             <h1 className='font-bold text-2xl mt-2 mb-1 tracking-wide'>30+</h1>
             <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Industries <br />served</p>
           </div>
 
           <div className=' flex flex-col justify-center items-center mx-5'>
-            <img src={booking} alt="" />
+            <img src={booking} alt="" className='mb-2'/>
             <h1 className='font-bold text-2xl mt-2 mb-1 tracking-wide'>15,000+</h1>
             <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Order <br />placed</p>
           </div>

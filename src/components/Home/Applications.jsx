@@ -4,11 +4,13 @@ import img2 from '../../assets/images/application2.png'
 import img3 from '../../assets/images/application3.png'
 import img4 from '../../assets/images/application4.png'
 import img5 from '../../assets/images/application5.png'
-import icon1 from '../../assets/images/aicon1.svg'
+import img6 from '../../assets/images/application6.png'
+import icon1 from '../../assets/images/icon1.svg'
 import icon2 from '../../assets/images/icon2.svg'
 import icon3 from '../../assets/images/icon3.svg'
 import icon4 from '../../assets/images/icon4.svg'
 import icon5 from '../../assets/images/icon5.svg'
+import icon6 from '../../assets/images/icon6.svg'
 
 
 
@@ -68,8 +70,8 @@ const Applications = () => {
         },
         {
             id: 5,
-            icon: icon5,
-            imgSrc: img5,
+            icon: icon6,
+            imgSrc: img6,
             title: 'Food & Beverages',
             description1: des1,
             description2: des2,

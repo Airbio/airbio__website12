@@ -22,7 +22,7 @@ const productData = [
     description1: 'Our ductless fume hoods use high-quality activated carbon filters to absorb harmful fumes directly at the work surface, keeping both users and the environment safe. Built in the USA at our ISO 9001 and ISO 14001 certified facility, these fume hoods meet the highest international quality and environmental standards.',
     description2: 'With continuous airflow that pulls contaminants away from the user, our hoods recycle clean air back into the workspace. They are energy-efficient, safe, and easy to use. Available in multiple configurations—like mobile and polypropylene models—they offer flexibility to meet diverse laboratory needs.',
     img1: product4,  // Replace with actual image paths
-    img2: product2,
+    img2: product4,
     img3: product3,
     img4: product2,
     italics: ["Safe,", "efficient", "eco-friendly"]
