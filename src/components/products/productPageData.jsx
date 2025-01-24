@@ -13,7 +13,7 @@ const productPageData = [
       title3: 'Efficiency',
       description1: 'Laminar air flow cabinets, also known as laminar clean benches, flow hoods, or air flow benches, create a controlled sterile environment to safeguard samples and products from contaminants like microorganisms and airborne particles. These cabinets operate by drawing air through a high-efficiency HEPA filter and channeling it in a consistent, streamlined airflow towards the user – the hallmark of "laminar flow." ',
       description2: 'Essential for applications requiring stringent cleanliness, these cabinets protect sensitive samples by directing airflow outward to prevent contamination. For handling hazardous chemicals or infectious materials, a biological safety cabinet is recommended to ensure both sample integrity and user safety. ',
-      img1: product1,  // Replace with actual image paths
+      img1: product1,  
       img2: product2,
       img3: product3,
       img4: product2,

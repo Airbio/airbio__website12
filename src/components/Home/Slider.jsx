@@ -16,8 +16,8 @@ const Slider = () => {
     return (
         <div className="slider-container relative overflow-hidden w-full my-8">
             <div className=' md:flex justify-between px-5 pb-5 md:px-10 md:p-5  my-5 border-blue-600'>
-                <h1 className='text-3xl font-[500px] text-center md:text-start md:w-[500px] md:text-[40px] '>Trusted by great team </h1>
-                <p className='md:text-lg text-center py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A]  '>Meet the clients of Airbio who has used our products.</p>
+                <h1 className='text-3xl font-[500px] text-center md:text-start md:w-[500px] md:text-[40px] '>Trusted by great teams </h1>
+                <p className='md:text-lg text-center py-2 md:py-0 md:w-[553px] md:h-[80px] text-[#7A7A7A]  '>Chosen by leaders in science.</p>
             </div>
 
             {/* Image wrapper that will slide */}

@@ -75,7 +75,7 @@ const Products = () => {
                     {product.title.split(' ').map((word, index) => (
                       <span
                         key={index}
-                        className={`${product.italics && product.italics.includes(word) ? "italic font-semibold text-[#1782C5]" : ""}`}
+                        className={`${product.italics && product.italics.includes(word) ? "" : ""}`}
                       >
                         {word}{' '}
                       </span>
@@ -86,17 +86,17 @@ const Products = () => {
                   <img
                     src={product.img2}
                     alt="Product Image 2"
-                    className="w-[69px] h-[69px] object-cover rounded-lg border"
+                    className="w-[69px] h-[69px] p-1 bg-white object-cover rounded-lg border"
                   />
                   <img
                     src={product.img3}
                     alt="Product Image 2"
-                    className="w-[69px] h-[69px] object-cover rounded-lg"
+                    className="w-[69px] h-[69px] p-1 bg-white object-cover rounded-lg border"
                   />
                   <img
-                    src={product.img2}
+                    src={product.img4}
                     alt="Product Image 2"
-                    className="w-[69px] h-[69px] object-cover rounded-lg"
+                    className="w-[69px] h-[69px] p-1 bg-white object-cover rounded-lg border"
                   />
                 </div>
 

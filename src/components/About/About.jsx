@@ -45,29 +45,37 @@ const About = () => {
           <p className='text-justify px-2'>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
 
-        <div className='md:max-w-[80%] mx-auto flex flex-col md:flex-row justify-center items-center gap-10 my-10 py-5'>
+        <div className='md:max-w-[80%] mx-auto flex flex-col md:flex-row flex-wrap justify-center items-center gap-10 my-8 '>
           <div className=' flex flex-col justify-center items-center mx-5'>
-            <img src={customer} alt="" className='mb-2'/>
-            <h1 className='font-bold text-2xl mt-2 mb-1 tracking-wide'>10,000+</h1>
-            <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Happy Customers <br />& Couting</p>
+            <img src={customer} alt="" className='mb-4' />
+            <div className=' md:h-[100px]'>
+              <h1 className='font-bold text-center text-2xl mt-2 mb-1 tracking-wide'>100%</h1>
+              <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Equipment Quality</p>
+            </div>
           </div>
 
           <div className=' flex flex-col justify-center items-center mx-5'>
-            <img src={truck} alt="" className='mb-2'/>
-            <h1 className='font-bold text-2xl mt-2 mb-1 tracking-wide'>9,000+</h1>
-            <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Pin code <br />delivered</p>
+            <img src={truck} alt="" className='mb-4' />
+            <div className=' h-[100px]'>
+              <h1 className='font-bold text-center text-2xl mt-2 mb-1 tracking-wide'>40+</h1>
+              <p className='text-center text-[#1E1E1E] tracking-wider'>Years Team Experience</p>
+            </div>
           </div>
 
-          <div className=' flex flex-col justify-center items-center md:h-[156px] w-auto mx-5'>
-            <img src={industry} alt="" className='mb-2' />
-            <h1 className='font-bold text-2xl mt-2 mb-1 tracking-wide'>30+</h1>
-            <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Industries <br />served</p>
+          <div className=' flex flex-col justify-center items-center  w-auto mx-5'>
+            <img src={industry} alt="" className='mb-4' />
+            <div className=' md:h-[100px]'>
+              <h1 className='font-bold text-center text-2xl mt-2 mb-1 tracking-wide'>6+</h1>
+              <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Industries Served</p>
+            </div>
           </div>
 
           <div className=' flex flex-col justify-center items-center mx-5'>
-            <img src={booking} alt="" className='mb-2'/>
-            <h1 className='font-bold text-2xl mt-2 mb-1 tracking-wide'>15,000+</h1>
-            <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Order <br />placed</p>
+            <img src={booking} alt="" className='mb-4' />
+            <div className=' h-[100px]'>
+              <h1 className='font-bold text-center text-2xl mt-2 mb-1 tracking-wide'>54+</h1>
+              <p className='w-[150px] text-center text-[#1E1E1E] tracking-wider'>Country Reach</p>
+            </div>
           </div>
         </div>
 
@@ -76,7 +84,7 @@ const About = () => {
             {cards.map((card) => (
               <div
                 key={card.id}
-                className="flex-shrink-0 w-[90%] md:w-auto bg-white pb-5 md:pb-0 border-green-500 rounded-lg scrollbar scrollbar-thumb-customBlue scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full"
+                className="flex-shrink-0 w-[90%] min-w-[250px] md:w-auto bg-white pb-5 md:pb-0 border-green-500 rounded-lg scrollbar scrollbar-thumb-customBlue scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full"
               >
                 <img
                   src={card.img}

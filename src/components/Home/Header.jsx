@@ -143,7 +143,7 @@ const Header = () => {
                                         to="/product/category2"
                                         className=" px-4 py-2 flex justify-between gap-4 hover:bg-gray-100"
                                     >
-                                        Air Fume Hoods
+                                        Fume Hoods
                                         <img src={right} alt="" className="w-4 h-4 mt-1" />
                                     </NavLink>
                                     {activeSubmenu === "fume" && (
@@ -152,7 +152,7 @@ const Header = () => {
                                                 to="/product/category2/sub1"
                                                 className="block px-4 py-2 hover:bg-gray-100"
                                             >
-                                                Fume Hood
+                                                Air Fume Hood
                                             </NavLink>
                                         </div>
                                     )}
@@ -342,7 +342,7 @@ const Header = () => {
                                             className={`flex justify-between items-center hover:text-gray-400 cursor-pointer ${currentSubmenu === "submenu2" ? "text-[#1782C5]" : ""}`}
                                             onClick={() => toggleMobileNestedMenu("submenu2")}
                                         >
-                                            <Link to='/product/category2'>Air Fume Hoods</Link>
+                                            <Link to='/product/category2'>Fume Hoods</Link>
                                             {currentSubmenu === "submenu2" ? <FaMinus /> : <FaPlus />}
                                         </div>
                                         {currentSubmenu === "submenu2" && (
@@ -352,7 +352,7 @@ const Header = () => {
                                                     className={`block hover:text-gray-400 ${isActive("/product/category2/item1") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
-                                                    Fume Hood
+                                                    Air Fume Hood
                                                 </Link>
                                             </div>
                                         )}
@@ -429,22 +429,5 @@ const Header = () => {
         </header>
     );
 };
-{/* <Link
-                                        to="/product/category2"
-                                        className={`block hover:text-gray-400 ${isActive("/product/category2") ? "text-[#1782C5]" : ""
-                                            }`}
-                                        onClick={toggleMenu}
-                                    >
-                                        Fume Hoods
-                                    </Link>
-                                    
-                                    <Link
-                                        to="/product/category3"
-                                        className={`block hover:text-gray-400 ${isActive("/product/category3") ? "text-[#1782C5]" : ""
-                                            }`}
-                                        onClick={toggleMenu}
-                                    >
-                                        Biosafety Cabinets
-                                    </Link> */}
 
 export default Header;

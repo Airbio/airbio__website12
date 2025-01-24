@@ -95,7 +95,7 @@ const CardPost = () => {
 
               {/* Title */}
               <div className="mb-2">
-                <h2 className="font-medium text-justify">{post.title}</h2>
+                <h2 className="font-medium md:text-lg">{post.title}</h2>
               </div>
 
               {/* Info Section */}

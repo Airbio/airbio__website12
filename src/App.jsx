@@ -12,7 +12,7 @@ import AllProductPage from './components/Allproductpage/AllProductPage';
 import DiscoverProducts from './components/products/DiscoverProducts';
 
 function App() {
- 
+
 
   return (
     <Router>
@@ -21,13 +21,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<DiscoverProducts />} />
         <Route path="/product/:category" element={<AllProductPage />} />
-          <Route path="/product/:category/:subcategory" element={<ProductPage />} />
+        <Route path="/product/:category/:subcategory" element={<ProductPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
-      <Footer/>
+      <Footer />
     </Router>
   )
 }

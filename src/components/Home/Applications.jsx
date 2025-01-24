@@ -81,7 +81,11 @@ const Applications = () => {
 
     return (
         <>
-            <h1 className='text-3xl text-center px-5 pt-5 md:p-10 md:w-[373px] md:text-[40px] font-[500px] md:text-start mt-16'>Applications</h1>
+            <div className='text-center md:text-start md:flex justify-between items-center p-5 md:p-10  mt-10 border-blue-600'>
+                <h1 className='text-3xl font-[500px] md:w-[373px]  md:text-[40px] md:text-left my-2 '>Applications</h1>
+                <p className='md:text-[18px] py-2 md:py-0 md:w-[553px] text-[#7A7A7A] '>Versatile Solutions for Every Lab Environment.</p>
+            </div>
+
             <div className=" py-8 px-4 ">
                 <div className="w-[95%] mx-auto grid  border-black grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 ">
                     {cards.map((card) => (

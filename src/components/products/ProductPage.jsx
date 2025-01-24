@@ -38,31 +38,31 @@ const ProductPage = () => {
                                 <img
                                     src={selectedImage}
                                     alt="Selected Product Image"
-                                    className="w-[229px] h-[335px] md:w-[423px] md:h-[458px] object-cover rounded-lg mb-5 md:m-0 border border-[#1782C5]"
+                                    className="w-[229px] h-[335px]  md:w-[423px] md:h-[458px] object-cover rounded-lg mb-5 md:m-0 border border-[#1782C5]"
                                 />
                             </div>
 
                             {/* Thumbnail Images */}
-                            <div className="h-auto  pl-2 mb-5 flex md:flex-col justify-between items-center gap-5">
+                            <div className="h-auto pl-2 mb-5 flex md:flex-col justify-between items-center gap-5">
                                 <img
                                     src={product.img1}
                                     alt="Product Image 1"
-                                    onClick={() => setSelectedImage(product.img1)} // Update state on click
-                                    className={`w-[69px] h-[69px] md:w-[107px] md:h-[107px] object-cover rounded-lg border ${selectedImage === product.img1 ? "border-blue-500" : ""
+                                    onClick={() => setSelectedImage(product.img1)}
+                                    className={`w-[69px] h-[69px] md:w-[107px] md:h-[107px] object-cover rounded-lg border ${selectedImage === product.img1 ? "border-[#1782C5]" : ""
                                         }`}
                                 />
                                 <img
                                     src={product.img2}
                                     alt="Product Image 2"
-                                    onClick={() => setSelectedImage(product.img2)} // Update state on click
-                                    className={`w-[69px] h-[69px] md:w-[107px] md:h-[107px] object-cover rounded-lg border ${selectedImage === product.img2 ? "border-blue-500" : ""
+                                    onClick={() => setSelectedImage(product.img2)} 
+                                    className={`w-[69px] h-[69px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover rounded-lg border ${selectedImage === product.img2 ? "border-[#1782C5]" : ""
                                         }`}
                                 />
                                 <img
                                     src={product.img3}
                                     alt="Product Image 3"
-                                    onClick={() => setSelectedImage(product.img3)} // Update state on click
-                                    className={`w-[69px] h-[69px] md:w-[107px] md:h-[107px] object-cover rounded-lg border ${selectedImage === product.img3 ? "border-blue-500" : ""
+                                    onClick={() => setSelectedImage(product.img3)} 
+                                    className={`w-[69px] h-[69px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover rounded-lg border ${selectedImage === product.img3 ? "border-[#1782C5]" : ""
                                         }`}
                                 />
                             </div>
@@ -93,20 +93,22 @@ const ProductPage = () => {
                             </div>
 
                             {/* 3rd Div: Buttons */}
-                            <div className="mb-4 flex flex-col justify-center md:justify-start md:items-start items-center gap-3  ">
+                            <div className="mb-4 flex flex-col md:flex-row justify-center md:justify-start md:items-start items-center gap-3  ">
                                 <div className='flex justify-between gap-2'>
-                                    <button className="bg-[#1E1E1E] text-white px-4 py-2 rounded-full hover:bg-blue-600">
+                                    <button className="bg-[#1E1E1E] text-white px-4 py-2 rounded-full hover:bg-[#1782C5]">
                                         Get a Quote
                                     </button>
-                                    <button className="px-4 py-2 bg-[#1E1E1E] text-white flex items-center gap-2 rounded-full border border-[#7A7A7A]">
+                                    {/* <button className="px-4 py-2 bg-[#1E1E1E] text-white flex items-center gap-2 rounded-full border border-[#7A7A7A]">
                                         Request a Demo
-                                    </button>
+                                    </button> */}
                                 </div>
-                                <div className='px-4 py-1 text-sm flex justify-between items-center gap-4 rounded-full border border-[#7A7A7A]'>
+                                <div className='px-4 py-2 flex justify-between items-center gap-4 rounded-full border border-[#7A7A7A] hover:text-[#1782C5] hover:border-[#1782C5]'>
+                                    <a href="https://api.whatsapp.com/send?phone=9899829299" target="_blank" rel="noopener noreferrer">
                                     <button className='flex justify-center items-center gap-2'>
                                         <img src={whatsapp} alt="" />Speak With Expert
                                     </button>
-                                    <img src={arrow} alt="" className='bg-[#55AE36] p-1 rounded-full' />
+                                    </a>
+                                    {/* <img src={arrow} alt="" className='bg-[#55AE36] p-1 rounded-full' /> */}
                                 </div>
                             </div>
 
@@ -118,13 +120,13 @@ const ProductPage = () => {
             </div>
 
             <div className='p-6 md:w-[90%] mx-auto'>
-                <h1 className='text-center md:text-start text-xl text-[#1782C5] p-1 py-3 rounded-lg bg-[#F5F5F5] font-bold'>Meet AirBio’s Velocity Laminar Air Flow Cabinet   </h1>
-                <p className='my-5 text-justify'>A trusted solution in laboratories worldwide, the Velocity vertical laminar air flow cabinet combines advanced technology with user-friendly features to elevate safety and efficiency. Available in multiple sizes, it boasts a modern touch-screen interface for seamless operation. </p>
+                <h1 className='text-center md:text-start text-xl text-[#1782C5] p-1 px-2 py-3 rounded-lg bg-[#F5F5F5] font-medium'>Meet AirBio’s Velocity Laminar Air Flow Cabinet   </h1>
+                <p className='my-5 md:px-2 text-justify'>A trusted solution in laboratories worldwide, the Velocity vertical laminar air flow cabinet combines advanced technology with user-friendly features to elevate safety and efficiency. Available in multiple sizes, it boasts a modern touch-screen interface for seamless operation. </p>
             </div>
             
             <KeyFeatures/>
             <Download/>
-            <DiscoverProducts/>
+            {/* <DiscoverProducts/> */}
             <div className='py-10'>
             <Assistants/>
             </div>
