@@ -44,9 +44,11 @@ const Header = () => {
         <header className="w-[95%] mx-auto pt-8 relative">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo Section */}
-                <div className="flex items-center space-x-2">
-                    <img src={logo} alt="Logo" className="h-12 md:h-14" />
-                </div>
+                <Link to='/'>
+                    <div className="flex items-center space-x-2">
+                        <img src={logo} alt="Logo" className="h-12 md:h-14" />
+                    </div>
+                </Link>
 
                 {/* Navigation Section (Hidden on mobile) */}
                 <nav className="hidden md:flex justify-center items-center px-4 space-x-8 w-auto h-[54px] border border-[#CDCDCD] rounded-full bg-white">
@@ -330,7 +332,7 @@ const Header = () => {
                                                     className={`block hover:text-gray-400 ${isActive("/product/category1/item5") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
-                                                    Main BSC CLASS II A2 
+                                                    Main BSC CLASS II A2
                                                 </Link>
                                             </div>
                                         )}

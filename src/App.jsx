@@ -10,6 +10,8 @@ import Header from './components/Home/Header';
 import Footer from './components/Footer/Footer';
 import AllProductPage from './components/Allproductpage/AllProductPage';
 import DiscoverProducts from './components/products/DiscoverProducts';
+import BlogPage from './components/Blog/BlogPage';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
@@ -17,13 +19,15 @@ function App() {
   return (
     <Router>
       {/* <Header/> */}
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<DiscoverProducts />} />
         <Route path="/product/:category" element={<AllProductPage />} />
         <Route path="/product/:category/:subcategory" element={<ProductPage />} />
         <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/blog1" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>

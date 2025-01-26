@@ -84,7 +84,7 @@ const ProductPage = () => {
 
                             {/* 2nd Div: Description */}
                             <div className="mb-4 text-justify ">
-                                <p className=" mb-2 md:text-sm ">
+                                <p className="mb-2 md:text-sm ">
                                     {product.description1}
                                 </p>
                                 <p className="md:text-sm">
@@ -93,9 +93,9 @@ const ProductPage = () => {
                             </div>
 
                             {/* 3rd Div: Buttons */}
-                            <div className="mb-4 flex flex-col md:flex-row justify-center md:justify-start md:items-start items-center gap-3  ">
+                            <div className="mb-4 flex flex-col md:flex-row justify-center md:justify-start md:items-start md:flex-wrap items-center gap-5 mt-8 ">
                                 <div className='flex justify-between gap-2'>
-                                    <button className="bg-[#1E1E1E] text-white px-4 py-2 rounded-full hover:bg-[#1782C5]">
+                                    <button className="bg-[#1E1E1E] text-white w-[193px] px-4 py-2 rounded-full hover:bg-[#1782C5]">
                                         Get a Quote
                                     </button>
                                     {/* <button className="px-4 py-2 bg-[#1E1E1E] text-white flex items-center gap-2 rounded-full border border-[#7A7A7A]">

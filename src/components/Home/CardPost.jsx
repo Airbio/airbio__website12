@@ -7,6 +7,7 @@ import img2 from '../../assets/images/CDSO.png'
 import img3 from '../../assets/images/medical.png'
 import img4 from '../../assets/images/makeIn.png'
 import vector from '../../assets/images/Vector.svg'
+import { Link } from 'react-router-dom';
 
 const CardPost = () => {
   const posts = [
@@ -16,7 +17,7 @@ const CardPost = () => {
       title: 'Beyond Clean Air: What to Look for in Your Next Biosafety Cabinet',
       date: '2024-11-25',
       time: '3 min read',
-      readMore: '#',
+      readMore: '/blog/blog1',
     },
     {
       id: 2,
@@ -77,6 +78,16 @@ const CardPost = () => {
 
       </div>
 
+
+      <div className=' md:flex justify-between items-center p-5 md:p-10 mt-8 border-blue-600'>
+        <h1 className='text-3xl text-center font-[500px] md:w-[373px]  md:text-[40px] md:text-start my-2 '>Our articles and news</h1>
+        <Link to='/blog'>
+          <button className='text-center hidden md:flex text-xl p-3 px-8 mb-5 border border-[#C0C0C0] rounded-full text-black font-[500px] mx-auto'>
+            Check all
+          </button>
+        </Link>
+      </div>
+
       <div className="py-10 px-4 mb-16">
         <div className="max-w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {posts.map((post) => (
@@ -94,17 +105,19 @@ const CardPost = () => {
               </div>
 
               {/* Title */}
-              <div className="mb-2">
+              <div className="mb-2 lg:h-[84px]">
                 <h2 className="font-medium md:text-lg">{post.title}</h2>
               </div>
 
               {/* Info Section */}
               <div className="text-sm text-gray-600 space-y-1">
                 <p className='text-end'>
-                  <a href={post.readMore} className="text-[#1782C5] hover:underline">
-                    Read More
-                  </a>
-                  {/* <img src={vector} alt="vector icon" /> */}
+                  <Link
+                    to={post.readMore || '/'}
+                    className="text-[#1782C5] hover:underline"
+                  >
+                    {post.linkText || 'Read More'}
+                  </Link>
                 </p>
                 <div className='flex justify-between'>
                   <p>{post.date}</p>
