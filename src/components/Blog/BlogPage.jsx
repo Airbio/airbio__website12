@@ -67,7 +67,7 @@ const BlogPage = () => {
 
 
                             {/* Title */}
-                            <div className="mb-2">
+                            <div className="mb-2 lg:h-[84px]">
                                 <h2 className="font-medium md:text-lg">{post.title}</h2>
                             </div>
 
