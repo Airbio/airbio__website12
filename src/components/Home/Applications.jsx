@@ -14,13 +14,6 @@ import icon6 from '../../assets/images/icon6.svg'
 
 
 
-
-const des1 = "Provides sterile environments for research in microbiology, genetics, and tissue culture."
-
-const des2 = "Protects samples from contamination and ensures precise experimental outcomes."
-
-const des3 = "Ideal for handling non-hazardous biological materials and maintaining aseptic conditions."
-
 const Applications = () => {
     const cards = [
         {
@@ -43,7 +36,7 @@ const Applications = () => {
         },
         {
             id: 3,
-            icon: icon3,
+            icon: icon4,
             imgSrc: img4,
             title: 'Farming & Agriculture',
             description1: 'Promotes safe handling of soil, seeds, and plant samples for research.',
@@ -52,7 +45,7 @@ const Applications = () => {
         },
         {
             id: 4,
-            icon: icon4,
+            icon: icon5,
             imgSrc: img5,
             title: 'Botanicals & Herbal Products',
             description1: "Supports clean environments for processing herbs and botanical extracts.",
@@ -61,7 +54,7 @@ const Applications = () => {
         },
         {
             id: 5,
-            icon: icon5,
+            icon: icon3,
             imgSrc: img3,
             title: 'Forensics',
             description1: 'Facilitates secure examination of evidence without cross-contamination.',
@@ -73,9 +66,9 @@ const Applications = () => {
             icon: icon6,
             imgSrc: img6,
             title: 'Food & Beverages',
-            description1: des1,
-            description2: des2,
-            description3: des3,
+            description1: 'Biosafety cabinets provide a sterile environment for microbiological testing of food and beverages.',
+            description2: 'BSCs protect raw materials from airborne contaminants and microorganisms.',
+            description3: 'Ensuring the integrity of sensitive compounds and preventing cross-contamination.',
         },
     ];
 

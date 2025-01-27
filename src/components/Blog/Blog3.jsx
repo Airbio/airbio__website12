@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from '../Home/Header'
 import logo from '../../assets/images/logo.svg'
-import blog1 from '../../assets/images/blog1 (1).png'
-import blog2 from '../../assets/images/blog2 (1).png'
+import blog5 from '../../assets/images/blog5.png'
+import blog6 from '../../assets/images/blog6.png'
 
 
-const Blog = () => {
+const Blog3 = () => {
   return (
     <div>
       <Header />
@@ -16,10 +16,10 @@ const Blog = () => {
           <article className="mx-auto w-full max-w-screen-lg md:px-10 format format-sm sm:format-base lg:format-lg format-blue">
             <header className="mb-4 lg:mb-6 not-format">
               <h1 className="mb-4 text-3xl font-medium leading-tight text-gray-900 lg:mb-6 lg:text-4xl">
-                Beyond Clean Air: What to Look for in Your Next Biosafety Cabinet
+                Fume Hoods and the Future of Laboratory Safety: 5 Innovations to Watch
               </h1>
               <img
-                src={blog1}
+                src={blog5}
                 alt=""
                 className='mb-5 lg:w-full rounded-2xl'
               />
@@ -50,7 +50,7 @@ const Blog = () => {
 
             <div className='text-justify'>
               <p className="lead">
-                In the world of microbiology, safety isn’t optional—it’s essential. Whether you're managing a high-stakes research lab or a pharmaceutical testing facility, choosing the right biosafety cabinet (BSC) is a decision that directly impacts your work's accuracy and safety. But how do you separate a mediocre BSC from one that truly stands out?
+                Laboratory safety is evolving, and fume hoods are no exception. From energy efficiency to advanced monitoring systems, modern innovations are setting new benchmarks for safety and performance. Here are five trends shaping the future of fume hoods:
               </p>
               <p>
                 Before going digital, you might benefit from scribbling down some ideas
@@ -59,23 +59,31 @@ const Blog = () => {
               </p>
             </div>
 
-            <h1 className='font-medium text-center md:text-start md:text-3xl text-2xl mt-10 my-5'>Key Features That Matter</h1>
-
-            <ol className='text-justify'>
+            <ol className='text-justify my-5'>
               <li>
-                <strong>Real-Time Data Management:</strong> A high-quality BSC should integrate with your Lab Information Management System (LIMS). With real-time data monitoring, you can ensure regulatory compliance and streamline lab processes.
+                <strong className='text-xl font-semibold'>1. Energy-Efficient Blowers</strong>
+                <p className='mt-5'>Today’s fume hoods prioritize sustainability. Variable speed blowers, like those used in AirBio’s systems, reduce energy consumption without compromising performance.</p>
               </li>
-              <li className='my-5'>
-                <strong>Stable Airflow Monitoring:</strong> Low airflow sensors with self-compensation technology provide stability, minimizing contamination risks.
-
+              <li className='mt-5'>
+                <strong className='text-xl font-semibold'>2. Real-Time Contamination Alerts</strong>
+                <p className='mt-5'>Advanced sensors now offer real-time contamination detection, enabling labs to respond instantly and mitigate risks.</p>
               </li>
-              <li className='mb-5'>
-                <strong>Energy Efficiency:</strong> Energy-efficient blowers like DEC Star Variable Speed ECM save up to 70% energy while ensuring whisper-quiet operation—a win for both your budget and your team’s focus.
+              <li className='mt-5'>
+                <strong className='text-xl font-semibold'>3. Ergonomic Designs</strong>
+                <p className='mt-5'>User comfort is more than a luxury; it’s a necessity. New designs focus on reducing operator fatigue, ensuring efficiency during long lab hours.</p>
+              </li>
+              <li className='mt-5'>
+                <strong className='text-xl font-semibold'>4. Automated Safety Compliance</strong>
+                <p className='mt-5'>Integrated monitoring systems ensure your fume hood adheres to the latest safety regulations, taking the guesswork out of compliance.</p>
+              </li>
+              <li className='mt-5'>
+                <strong className='text-xl font-semibold'>5. Durability and Easy Maintenance</strong>
+                <p className='mt-5'>With seamless stainless steel construction, modern fume hoods are built for longevity and hassle-free cleaning.</p>
               </li>
             </ol>
 
             <img
-              src={blog2}
+              src={blog6}
               alt=""
               className='mb-5 lg:w-full rounded-2xl'
             />
@@ -84,13 +92,10 @@ const Blog = () => {
 
             <div className='text-justify'>
               <p >
-                Imagine working on groundbreaking research, only to have your results compromised by an unreliable cabinet. That’s the kind of risk you can’t afford. With advanced features like ergonomic sash designs, angular front grills for improved containment, and stainless steel work surfaces for easy cleaning, a reliable BSC doesn’t just safeguard your work—it enhances your workflow.
+              Safety isn’t just about protecting your team; it’s about advancing your work without unnecessary interruptions. By staying ahead of these trends, you ensure your lab remains a leader in innovation.
               </p>
               <p className='my-5'>
-                Investing in the right equipment isn’t just a financial decision; it’s a professional one. After all, your lab deserves nothing but the best.
-              </p>
-              <p>
-                Ready to elevate your lab’s safety and efficiency? Explore AirBio’s advanced biosafety cabinets today.
+              Future-proof your lab with AirBio’s cutting-edge fume hoods. Explore the possibilities today.
               </p>
             </div>
           </article>
@@ -101,4 +106,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Blog3

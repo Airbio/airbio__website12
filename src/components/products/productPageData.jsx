@@ -1,13 +1,13 @@
 import React from 'react'
-import product1 from '../../assets/images/product1.png'
-import product2 from '../../assets/images/product2.jpeg'
-import product3 from '../../assets/images/product3.jpeg'
+import product1 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/BSC CLASS _ B2 (Falcon)-FRONT1.webp'
+import product2 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/BSC CLASS _ B2 (Falcon)-CROSS.png'
+import product3 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/BSC CLASS _ B2 (Falcon)-SIDE.webp'
 
 
 const productPageData = [
     {
-      name: 'Laminar Flow Cabinets',
-      title: 'AirBio’s Velocity Laminar Air Flow Cabinet',
+      name: 'Biosafety Cabinets',
+      title: 'BSC Class 2 || B2 (Falcon)',
       title1: 'Precision',
       title2: 'Sterility',
       title3: 'Efficiency',

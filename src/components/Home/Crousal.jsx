@@ -139,7 +139,7 @@ const Crousal = () => {
                             </div>
 
                             {/* Text Overlay for mobile */}
-                            <div className="absolute h-[50%] inset-0 flex flex-col justify-center gap-5 mt-5  p-4  border-black">
+                            <div className="absolute h-[57%] inset-0 flex flex-col justify-center gap-5 mt-5  p-4 border-black">
                                 <h1 className="text-2xl text-center w-60 self-center">
                                     {slide.text.split(" ").map((word, idx) => (
                                         <span

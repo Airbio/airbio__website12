@@ -11,7 +11,7 @@ import img10 from '../../assets/images/Deepa Sharma.png'
 import img11 from '../../assets/images/Anil Kumar Bhutani.png'
 import img12 from '../../assets/images/Ajit Singh.png'
 import img13 from '../../assets/images/Faisal Khan.png'
-// import img14 from '../../assets/images/Manoj Yadav.png'
+import img14 from '../../assets/images/Vishal.png'
 
 
 
@@ -110,6 +110,13 @@ const TeamData = [
         name: 'Faisal Khan',
         role: 'Assembly',
     },
+    {
+      id: 14,
+      icon: svg,
+      imgSrc: img14,
+      name: 'Vishal',
+      role: 'Sales & Marketing',
+  },
     
     
   ];

@@ -80,7 +80,7 @@ const CardPost = () => {
 
 
       <div className=' md:flex justify-between items-center p-5 md:p-10 mt-8 border-blue-600'>
-        <h1 className='text-3xl text-center font-[500px] md:w-[373px]  md:text-[40px] md:text-start my-2 '>Our articles and news</h1>
+        <h1 className='text-3xl text-center font-[500px] md:w-[373px]  md:text-[40px] md:text-start my-2 '>Our Articles and News</h1>
         <Link to='/blog'>
           <button className='text-center hidden md:flex text-xl p-3 px-8 mb-5 border border-[#C0C0C0] rounded-full text-black font-[500px] mx-auto'>
             Check all

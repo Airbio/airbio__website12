@@ -4,7 +4,7 @@ import rightArrow from '../../assets/images/Chevron_Right.svg'
 const KeyFeatures = () => {
      return (
           <div className='p-6 md:w-[90%] mx-auto'>
-               <h1 className='text-center md:text-start text-xl text-[#1782C5] p-1 px-2 py-3 rounded-lg bg-[#F5F5F5] font-medium'>Key Features of Velocity</h1>
+               <h1 className='text-center md:text-start text-xl md:text-2xl text-[#1782C5] p-1 px-2 py-3 rounded-lg bg-[#F5F5F5] font-medium'>Key Features of Velocity</h1>
 
                <div className='md:px-2'>
                     <div className='flex items-start gap-3  mt-5'>

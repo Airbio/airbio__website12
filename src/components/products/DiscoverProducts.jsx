@@ -17,7 +17,7 @@ const cardData = [
     {
         title: "Air Fume Hoods",
         image: art2,
-        description: "Safe, efficient and eco-friendly protection from hazardous fumes",
+        description: "Safe, efficient and eco-friendly protection from hazardous fumes and pollutants",
     },
     {
         title: "Laminar Flow Cabinets",
@@ -54,7 +54,7 @@ const DiscoverProducts = () => {
                             key={index}
                             className="min-w-[318px] h-[550px] md:w-[318px] md:h-[530px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]"
                         >
-                            <h2 className="text-[16px] p-[4px] px-4 mb-5 bg-[#1782C5] text-white border rounded-[50px]">
+                            <h2 className="text-[16px] p-[4px] px-4 mb-5 bg-[#1782C5] text-white rounded-[50px]">
                                 {card.title}
                             </h2>
                             <img
@@ -63,7 +63,7 @@ const DiscoverProducts = () => {
                                 className="w-full md:w-[260px] md:h-[310px] mb-2 object-cover border"
                             />
                             <p className="mb-4 text-center text-[#1782C5] border">{card.description}</p>
-                            <button className="px-4 py-1 bg-black hover:bg-[#1782C5] text-white flex justify-center items-center gap-2 rounded-[50px] border border-[#CDCDCD] self-end">
+                            <button className="px-4 py-1 bg-black hover:bg-[#1782C5] text-white flex justify-center items-center gap-2 rounded-[50px] border-[#CDCDCD] self-end">
                                 View More
                                 <img src={vector} alt="vector icon" />
                             </button>

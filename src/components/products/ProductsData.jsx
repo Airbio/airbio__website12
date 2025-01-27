@@ -25,8 +25,8 @@ const productData = [
     description2: 'With continuous airflow that pulls contaminants away from the user, our hoods recycle clean air back into the workspace. They are energy-efficient, safe, and easy to use. Available in multiple configurations—like mobile and polypropylene models—they offer flexibility to meet diverse laboratory needs.',
     img1: product4,  
     img2: product4,
-    img3: product3,
-    img4: product2,
+    img3: product4,
+    img4: product4,
     italics: ["Safe,", "efficient", "eco-friendly"]
   },  
   {
