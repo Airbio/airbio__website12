@@ -60,9 +60,9 @@ const DiscoverProducts = () => {
                             <img
                                 src={card.image}
                                 alt={`Card ${index + 1}`}
-                                className="w-full md:w-[260px] md:h-[310px] mb-2 object-cover border"
+                                className="w-full md:w-[260px] md:h-[310px] mb-2 object-cover"
                             />
-                            <p className="mb-4 text-center text-[#1782C5] border">{card.description}</p>
+                            <p className="mb-4 text-center text-[#1782C5]">{card.description}</p>
                             <button className="px-4 py-1 bg-black hover:bg-[#1782C5] text-white flex justify-center items-center gap-2 rounded-[50px] border-[#CDCDCD] self-end">
                                 View More
                                 <img src={vector} alt="vector icon" />

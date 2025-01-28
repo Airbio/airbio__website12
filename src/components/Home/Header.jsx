@@ -105,13 +105,13 @@ const Header = () => {
                                                 to="/product/category1/sub1"
                                                 className="block px-4 py-2 hover:bg-gray-100"
                                             >
-                                                BSC CLASS II B2 (Falcon)
+                                                BSC CLASS II B2 <span className='text-[#1782C5]'>(Falcon)</span>
                                             </NavLink>
                                             <NavLink
                                                 to="/product/category1/sub2"
                                                 className="block px-4 py-2 hover:bg-gray-100"
                                             >
-                                                BSC CLASS II B2 (Agies)
+                                                BSC CLASS II B2 <span className='text-[#1782C5]'>(Agies)</span>
                                             </NavLink>
                                             <NavLink
                                                 to="/product/category1/sub1"
@@ -123,7 +123,7 @@ const Header = () => {
                                                 to="/product/category1/sub2"
                                                 className="block px-4 py-2 hover:bg-gray-100"
                                             >
-                                                BSC CLASS II A2 (Agies)
+                                                BSC CLASS II A2 <span className='text-[#1782C5]'>(Agies)</span>
                                             </NavLink>
                                             <NavLink
                                                 to="/product/category1/sub2"
@@ -304,14 +304,14 @@ const Header = () => {
                                                     className={`block hover:text-gray-400 ${isActive("/product/category1/item1") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
-                                                    BSC CLASS II B2 (Falcon)
+                                                    BSC CLASS II B2 <span className='text-[#1782C5]'>(Falcon)</span>
                                                 </Link>
                                                 <Link
                                                     to="/product/category1/sub2"
                                                     className={`block hover:text-gray-400 ${isActive("/product/category1/item2") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
-                                                    BSC CLASS II B2 (Agies)
+                                                    BSC CLASS II B2 <span className='text-[#1782C5]'>(Agies)</span>
                                                 </Link>
                                                 <Link
                                                     to="/product/category1/sub3"
@@ -325,7 +325,7 @@ const Header = () => {
                                                     className={`block hover:text-gray-400 ${isActive("/product/category1/item4") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
-                                                    BSC CLASS II A2 (Agies)
+                                                    BSC CLASS II A2 <span className='text-[#1782C5]'>(Agies)</span>
                                                 </Link>
                                                 <Link
                                                     to="/product/category1/sub5"

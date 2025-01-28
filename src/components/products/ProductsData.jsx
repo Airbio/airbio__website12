@@ -5,6 +5,11 @@ import product4 from '../../assets/images/fume/fume.webp'
 import Bproduct2 from '../../assets/images/biosafety/Main bsc class 2 A2/MAIN BSC CLASS II A2-CROSS.webp'
 import Bproduct3 from '../../assets/images/biosafety/Main bsc class 2 A2/MAIN BSC CLASS II A2-FRONT.webp'
 import Bproduct4 from '../../assets/images/biosafety/bsc class 2 A2 (Agies)/BSC CLASS II A2 (Agies)-FRONT.webp'
+import Lproduct1 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-FRONT.webp'
+import Lproduct2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-CROSS.webp'
+import Lproduct3 from '../../assets/images/laminar/Vertical Laminar AirFlow/Vertical Laminar Airflow-FRONT.webp'
+import Lproduct4 from '../../assets/images/laminar/Vertical Laminar AirFlow/Vertical Laminar Airflow-SIDE (1).webp'
+
 
 const productData = [
   {
@@ -34,10 +39,10 @@ const productData = [
     title: 'Ensure contaminant free, precision tasks in research, healthcare and manufacturing.',
     description1: 'The AirBio laminar flow hood series is available in horizontal and vertical models that provide a clean, sterile, clean environment. These workstations are designed to keep materials and equipment free of contamination, making them ideal for jobs where cleanliness is critical.',
     description2: 'Our laminar flow hoods are ideal for handling non-hazardous materials and provide easy access to the work area. They feature AirBios filtration technology to maintain a clean environment for multiple uses.',
-    img1: product1, 
-    img2: product2,
-    img3: product3,
-    img4: product2,
+    img1: Lproduct1, 
+    img2: Lproduct2,
+    img3: Lproduct3,
+    img4: Lproduct4,
     italics: ["free,", "contaminant", "healthcare"]
   },
   

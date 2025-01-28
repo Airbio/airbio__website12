@@ -12,8 +12,8 @@ const posts = [
         title: 'Beyond Clean Air: What to Look for in Your Next Biosafety Cabinet',
         date: '2024-11-25',
         time: '3 min read',
-        readMore: '#',
-        route: "blog1",
+        readMore: '/blog/blog1',
+        // route: "blog1",
     },
     {
         id: 2,
@@ -21,8 +21,8 @@ const posts = [
         title: 'Laminar Flow Hoods: Are You Sacrificing Safety for Cost?',
         date: '2024-11-24',
         time: '3 min read',
-        readMore: '#',
-        route: "blog2",
+        readMore: '/blog/blog2',
+        // route: "blog2",
     },
     {
         id: 3,
@@ -30,8 +30,8 @@ const posts = [
         title: 'Fume Hoods and the Future of Laboratory Safety: 5 Innovations to Watch',
         date: '2024-11-23',
         time: '3 min read',
-        readMore: '#',
-        route: "blog3",
+        readMore: '/blog/blog3',
+        // route: "blog3",
     },
 ];
 
@@ -76,18 +76,18 @@ const BlogPage = () => {
                             </div>
 
                             {/* Info Section */}
-                            {/* <div className="text-sm text-gray-600 space-y-1">
+                            <div className="text-sm text-gray-600 space-y-1">
                                 <p className='text-end'>
                                     <a href={post.readMore} className="text-[#1782C5] hover:underline">
                                         Read More
                                     </a>
-                                    <img src={vector} alt="vector icon" />
+                                    {/* <img src={vector} alt="vector icon" /> */}
                                 </p>
                                 <div className='flex justify-between'>
                                     <p>{post.date}</p>
                                     <p>{post.time}</p>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     ))}
                 </div>

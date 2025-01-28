@@ -5,8 +5,8 @@ import art1 from '../../assets/images/art1.webp'
 import art2 from '../../assets/images/art2.webp'
 import art3 from '../../assets/images/art3.webp'
 import vector from '../../assets/images/Vector.svg'
-import post2 from '../../assets/images/Post2.png'
-import post3 from '../../assets/images/Post3.png'
+import post2 from '../../assets/images/Post2.webp'
+import post3 from '../../assets/images/Post3.webp'
 import icon1 from '../../assets/images/filtration.svg'
 import arrow from '../../assets/images/crossArrow.svg'
 
@@ -147,8 +147,8 @@ const AllProductPage = () => {
                                 AirBio Bio Safety Cabinets deliver unmatched reliability and protection for laboratory workflows.
                             </p>
                         </div>
-                        <div className='pl-5 md:pl-0'>
-                            <div className="flex overflow-x-scroll scrollbar scrollbar-thumb-customBlue scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full max-w-screen-xl gap-4 md:gap-10 py-4 md:w-[90%] mx-auto">
+                        <div className='pl-5 md:pl-10'>
+                            <div className="flex overflow-x-scroll scrollbar scrollbar-thumb-customBlue scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full  gap-4 md:gap-10 py-4 mx-auto">
                                 {cardsData.map((card, index) => (
                                     <div key={index}>
                                         {/* Card Content */}
@@ -227,7 +227,7 @@ const AllProductPage = () => {
                 <div className='my-10 p-5'>
                     <div className='bg-[#F8F8F8] md:w-[80%] mx-auto p-5 px-6 flex flex-col md:flex-row items-center gap-5 rounded-lg'>
                         <div className='md:w-[40%]'>
-                            <img src={post3} alt="" className='w-[300px] h-auto  md:h-[300px] md:w-auto object-cover ' />
+                            <img src={post3} alt="" className='w-[300px] h-auto  md:h-[300px] md:w-[318px] object-cover rounded-xl' />
                         </div>
 
                         <div className='md:w-[60%] md:mr-8 '>
@@ -240,7 +240,7 @@ const AllProductPage = () => {
                 <div className='my-10 p-5'>
                     <div className='bg-[#F8F8F8] md:w-[80%] mx-auto p-5 px-6 flex flex-col md:flex-row items-center gap-5 rounded-lg'>
                         <div className='md:w-[40%]'>
-                            <img src={post2} alt="" className='w-[300px] h-auto  md:h-[300px] md:w-auto object-cover ' />
+                            <img src={post2} alt="" className='w-[300px] h-auto  md:h-[300px] md:w-auto object-cover' />
                         </div>
 
                         <div className='md:w-[60%] md:mr-8 '>

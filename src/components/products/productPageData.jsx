@@ -7,7 +7,8 @@ import product3 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/BSC CL
 const productPageData = [
     {
       name: 'Biosafety Cabinets',
-      title: 'BSC Class 2 || B2 (Falcon)',
+      title: 'BSC Class II B2 (Falcon)',
+      highlighted: "(Falcon)",
       title1: 'Precision',
       title2: 'Sterility',
       title3: 'Efficiency',

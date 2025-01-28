@@ -20,12 +20,12 @@ const Team = () => {
       </div>
 
 
-      <div className="relative py-8 px-4 mb-10 ">
+      <div className="relative py-8 px-4 md:px-0 md:pl-10 mb-10">
         {/* Navigation Buttons */}
-        <div className="swiper-button-prev custom-prev absolute left-9 md:left-[37%] bottom-[15px] md:bottom-0 translate-y-[-50%] z-10 cursor-pointer ">
+        <div className="swiper-button-prev custom-prev absolute left-9 md:left-[38%] bottom-[15px] md:bottom-0 translate-y-[-50%] z-10 cursor-pointer ">
           <span className="material-icons"><GoChevronLeft className="text-[#1782C5] w-auto h-9 md:w-auto md:h-12"/></span>
         </div>
-        <div className="swiper-button-next custom-next absolute right-9 md:right-[37%] bottom-[15px] md:bottom-0 translate-y-[-50%] z-10 cursor-pointer ">
+        <div className="swiper-button-next custom-next absolute right-9 md:right-[35%] bottom-[15px] md:bottom-0 translate-y-[-50%] z-10 cursor-pointer ">
           <span className="material-icons"><GoChevronRight className="text-[#1782C5] w-auto h-9 md:w-auto md:h-12 "/></span>
         </div>
 
@@ -44,7 +44,7 @@ const Team = () => {
             prevEl: '.custom-prev', // Link to your custom prev button
           }}
           pagination={{ clickable: true }}
-          className="md:w-[95%] overflow-x-auto md:h-auto mx-auto "
+          className="md:w-[100%] overflow-x-auto md:h-auto mx-auto"
         >
           {TeamData.map((member) => (
             <SwiperSlide key={member.id}>

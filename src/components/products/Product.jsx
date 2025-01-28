@@ -130,28 +130,28 @@ const Products = () => {
 
               {/* 4th Div: Images */}
               <div className="flex flex-col justify-center items-center order-1  border-black mb-5">
-                <div className="md:w-full flex justify-center items-center">
+                <div className="md:w-full h-full flex justify-center items-center">
                   <img
                     src={product.img1}
                     alt="Product Image 1"
-                    className="w-[220px] h-[250px] md:w-[400px] md:h-[458px] object-cover rounded-lg  border-green-600"
+                    className="w-[220px] h-[250px] md:w-[400px] md:h-[420px] p-2 md:p-3 object-cover rounded-lg  border-green-600"
                   />
                 </div>
                 <div className=" h-auto md:hidden pl-2 flex justify-between items-center gap-5 mb-5">
                   <img
                     src={product.img2}
                     alt="Product Image 2"
-                    className="w-[69px] h-[69px]  object-cover rounded-lg border"
+                    className="w-[69px] h-[69px] object-cover rounded-lg border"
                   />
                   <img
                     src={product.img3}
                     alt="Product Image 2"
-                    className="w-[69px] h-[69px]  object-cover rounded-lg"
+                    className="w-[69px] h-[69px]  object-cover rounded-lg border"
                   />
                   <img
                     src={product.img2}
                     alt="Product Image 2"
-                    className="w-[69px] h-[69px] object-cover rounded-lg"
+                    className="w-[69px] h-[69px] object-cover rounded-lg border"
                   />
                 </div>
               </div>

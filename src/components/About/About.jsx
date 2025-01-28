@@ -1,33 +1,37 @@
 import React from 'react'
 import Header from '../Home/Header'
 import about from '../../assets/images/about.png'
-import card1 from '../../assets/images/card1.png'
-import card2 from '../../assets/images/card2.png'
-import card3 from '../../assets/images/card3.png'
+import card1 from '../../assets/images/card1.webp'
+import card2 from '../../assets/images/card2.webp'
+import card3 from '../../assets/images/card3.webp'
 import customer from '../../assets/images/customer.svg'
 import truck from '../../assets/images/delivered.svg'
 import industry from '../../assets/images/industry.svg'
 import booking from '../../assets/images/booking.svg'
 import TeamData from '../Home/TeamData';
+import mission from '../../assets/images/mission.webp'
+import vision from '../../assets/images/vision.webp'
+import values from '../../assets/images/values.webp'
+import WhyChoose from './WhyChoose'
 
 const cards = [
   {
     id: 1,
     img: card1,
-    name: "Exclusive Range",
-    description: "Immerse yourself in our meticulously curated selection, backed by over 20 years of industry experience..",
+    name: "Our Commitment to You",
+    description: "To deliver innovative, reliable, and precision-engineered biosafety solutions that empower scientific progress and ensure the highest standards of safety and performance.",
   },
   {
     id: 2,
     img: card2,
-    name: "Exclusive Range",
-    description: "Immerse yourself in our meticulously curated selection, backed by over 20 years of industry experience..",
+    name: "Global Reach, Local Care",
+    description: "To be the global leader in biosafety technology, setting new benchmarks for safety, efficiency, and innovation while supporting advancements in science and healthcare.",
   },
   {
     id: 3,
     img: card3,
-    name: "Exclusive Range",
-    description: "Immerse yourself in our meticulously curated selection, backed by over 20 years of industry experience..",
+    name: "Join the Future of Laboratory Safety",
+    description: "We understand the high-stakes nature of your work, which is why we focus on more than just delivering equipment. We deliver peace of mind. AirBio is your partner in achieving breakthroughs, ensuring your team’s safety, and adhering to the highest industry standards.",
   },
 ];
 
@@ -42,7 +46,8 @@ const About = () => {
           <h1 className='text-3xl font-medium'>Get to Know Us</h1>
           <p className='mt-1 text-[#7A7A7A]'>Driving innovation and excellence to craft products that transform ideas into reality.</p>
           <img src={about} alt="" className='my-8 lg:w-full h-auto' />
-          <p className='text-justify px-2'>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p className='text-justify px-2'>At AirBio, we don’t just manufacture biosafety solutions; we craft an ecosystem of trust, performance, and reliability. Since our inception, AirBio has been driven by a singular mission—to empower laboratories worldwide with cutting-edge equipment that combines scientific precision with robust safety measures. Whether you're safeguarding research or enhancing operational efficiency, AirBio ensures you’re equipped with the best.</p>
+          <p className='text-justify px-2 mt-5'>The AirBio Journey In just six years, AirBio has transformed from a bold idea into a trusted partner for laboratories across the globe. Inspired by the vision to redefine MedTech equipment, our team of scientists, engineers, and innovators continually pushes boundaries, delivering solutions that meet international standards. From biosafety cabinets to laminar flow hoods and fume hoods, every AirBio product is a testament to our relentless commitment to quality and innovation.</p>
         </div>
 
         <div className='md:max-w-[80%] mx-auto flex flex-col md:flex-row flex-wrap justify-center items-center gap-10 my-8 '>
@@ -79,8 +84,76 @@ const About = () => {
           </div>
         </div>
 
+        <div className='md:max-w-[85%] mx-auto'>
+          <div className='lg:flex'>
+            <div className='lg:w-[50%]'>
+              <img src={mission} alt="" className='lg:w-auto lg:h-[350px]' />
+            </div>
+            <div className='lg:w-[50%] lg:flex flex-col justify-center items-end'>
+              <div className='lg:w-[408px]'>
+              <h1 className='text-2xl md:text-3xl text-center lg:text-start my-5'>Mission</h1>
+              <p className='text-[#404040] text-justify mb-5'>To deliver innovative, reliable, and precision-engineered biosafety solutions that empower scientific progress and ensure the highest standards of safety and performance.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className='lg:flex lg:my-10'>
+            <div className='lg:w-[50%] lg:order-2 flex justify-end'>
+              <img src={vision} alt="" className='lg:w-auto lg:h-[350px]' />
+            </div>
+            <div className='lg:w-[50%] lg:flex lg:order-1 flex-col justify-center'>
+              <h1 className='text-2xl md:text-3xl text-center lg:text-start my-5'>Vision</h1>
+              <p className='text-[#404040] lg:w-[408px] text-justify mb-5'>To be the global leader in biosafety technology, setting new benchmarks for safety, efficiency, and innovation while supporting advancements in science and healthcare.</p>
+            </div>
+          </div>
+
+          <div className='lg:flex'>
+            <div className='lg:w-[50%]'>
+              <img src={values} alt="" className='lg:w-auto lg:h-[350px]' />
+            </div>
+
+            <div className='lg:w-[50%] lg:flex flex-col justify-center items-end'>
+              <div className=' lg:w-[408px]'>
+              <h1 className='text-2xl md:text-3xl text-center lg:text-start my-5'>Values</h1>
+              <div className=" lg:mb-5">
+                <ul className="text-[#404040]">
+                  <li className="flex items-start">
+                  <p>
+                    <span className="font-semibold text-black mr-2">1. Innovation:</span> Driving excellence through cutting-edge technology.
+                    </p>
+                  </li>
+                  <li className="flex items-start">
+                  <p>
+                    <span className="font-semibold text-black mr-2">2. Safety:</span>Ensuring uncompromising protection for people and processes.
+                    </p>
+                  </li>
+                  <li className="flex items-start">
+                    <p className='text-[#404040]'>
+                      <span className="font-semibold text-black mr-2">3. Integrity:</span> Building trust through transparency and reliability.
+                      
+                    </p>
+                  </li>
+                  <li className="flex items-start">
+                  <p>
+                    <span className="font-semibold text-black mr-2">4. Sustainability:</span> Creating eco-friendly solutions for a better future.
+                    </p>
+                  </li>
+                  <li className="flex items-start">
+                    <p>
+                    <span className="font-semibold text-black mr-2">5. Collaboration:</span> Partnering with clients to advance scientific discovery.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <WhyChoose/>
+
         <div className=" my-10 md:py-10">
-          <div className="flex md:max-w-[85%] mx-auto overflow-x-auto md:grid md:grid-cols-3 gap-4 md:gap-8 scrollbar-hide ">
+          <div className="flex md:max-w-[85%] mx-auto overflow-x-auto md:grid md:grid-cols-3 gap-4 md:gap-8 scrollbar-hide scrollbar scrollbar-thumb-customBlue scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
             {cards.map((card) => (
               <div
                 key={card.id}
@@ -100,7 +173,7 @@ const About = () => {
 
         <div className=' my-10 pt-5'>
           <div className='text-center md:text-start md:max-w-[85%] mx-auto md:flex justify-between items-center pt-5 border-blue-600'>
-            <h1 className='text-3xl font-medium md:w-[373px]  md:text-4xl md:text-left my-2 '>Our
+            <h1 className='text-3xl font-medium md:w-[373px]  md:text-[40px] md:text-left my-2 '>Our
               Expert Team</h1>
             <p className='text-[15px] py-2 md:py-0 md:w-[283px] text-[#7A7A7A] '>Driving innovation and excellence to craft products that transform ideas into reality.</p>
           </div>

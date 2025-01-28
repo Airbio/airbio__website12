@@ -25,7 +25,7 @@ const CardPost = () => {
       title: 'Laminar Flow Hoods: Are You Sacrificing Safety for Cost?',
       date: '2024-11-24',
       time: '3 min read',
-      readMore: '#',
+      readMore: '/blog/blog2',
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const CardPost = () => {
       title: 'Fume Hoods and the Future of Laboratory Safety: 5 Innovations to Watch',
       date: '2024-11-23',
       time: '3 min read',
-      readMore: '#',
+      readMore: '/blog/blog3',
     },
   ];
 
