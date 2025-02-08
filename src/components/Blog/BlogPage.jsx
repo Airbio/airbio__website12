@@ -13,7 +13,7 @@ const posts = [
         date: '2024-11-25',
         time: '3 min read',
         readMore: '/blog/blog1',
-        // route: "blog1",
+        route: "blog1",
     },
     {
         id: 2,
@@ -22,7 +22,7 @@ const posts = [
         date: '2024-11-24',
         time: '3 min read',
         readMore: '/blog/blog2',
-        // route: "blog2",
+        route: "blog2",
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ const posts = [
         date: '2024-11-23',
         time: '3 min read',
         readMore: '/blog/blog3',
-        // route: "blog3",
+        route: "blog3",
     },
 ];
 
