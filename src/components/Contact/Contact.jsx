@@ -15,7 +15,6 @@ import Header from '../Home/Header'
 import svg from '../../assets/images/calendar-linear.svg'
 
 
-
 const Contact = () => {
     return (
         <div>
@@ -58,7 +57,7 @@ const Contact = () => {
                                     <span
                                         className="text-black transition-colors duration-200 group-hover:text-white"
                                     >
-                                        Schedule meeting
+                                        Schedule Meeting
                                     </span>
 
                                     <div
@@ -99,7 +98,7 @@ const Contact = () => {
                 <div className='flex flex-col gap-8 md:flex-row md:gap-8 md:w-[80%] mx-auto my-10 '>
                     <div className='border flex flex-col gap-4 p-5 pb-10 px-7 w-[90%] mx-auto font-custom rounded-xl border-[#1782C5]'>
                         <img src={contact} alt="" className='w-12 h-12' />
-                        <h1 className='text-lg font-medium '>Connect with us</h1>
+                        <h1 className='text-lg font-medium '>Connect with Us</h1>
                         <div>
                             <div className='flex gap-3'>
                                 <img src={connect1} alt="" />
@@ -113,10 +112,10 @@ const Contact = () => {
                             <div className='flex gap-3 mt-2 mb-3'>
                                 <img src={connect2} alt="" />
                                 <a
-                                    href="mailto:contact.airbio@gmail.com"
+                                    href="mailto:info@airbio.in"
                                     className="font-custom text-[#1E1E1E] text-opacity-75"
                                 >
-                                    contact.airbio@gmail.com
+                                    info@airbio.in
                                 </a>
 
                             </div>
@@ -126,9 +125,9 @@ const Contact = () => {
 
                     <div className='border flex flex-col gap-4 p-5 px-7 w-[90%] mx-auto font-custom rounded-lg border-[#1782C5]'>
                         <img src={social} alt="" className='w-12 h-12' />
-                        <h1 className='text-lg font-medium '>Follow our socials</h1>
+                        <h1 className='text-lg font-medium '>Follow Us on Socials</h1>
                         <div>
-                            <p className='text-[#1E1E1E] text-opacity-75'>connect with our social handles stay updated with latest news</p>
+                            <p className='text-[#1E1E1E] text-opacity-75'>Connect with our Social Handles Stay Updated with Latest News!</p>
                             <div className='font-custom flex justify-center mt-4 gap-5 '>
                                 <a href="https://m.facebook.com/airbio/" target="_blank" rel="noopener noreferrer">
                                     <img src={social1} alt="Facebook" className='w-[28px] h-[28px] ' />
