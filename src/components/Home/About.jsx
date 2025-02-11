@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../../assets/images/banner.jpeg'
+import banner from '../../assets/images/banner_airbio.png'
 import art1 from '../../assets/images/biosafety/bsc.jpg'
 // import art1 from '../../assets/images/biosafety1.jpg'
 import art2 from '../../assets/images/fume/fume.webp'
@@ -55,7 +55,7 @@ const About = () => {
                 </h1>
                 <div className='md:flex justify-between w-full max-w-7xl md:px-5 items-center border-black'>
                     <div className='my-5 md:w-[50%]'>
-                        <img src={banner} className='w-[370px] md:w-[520px] h-[243px] md:h-[358px] rounded-xl' alt="" />
+                        <img src={banner} className='w-[370px] md:w-[520px] h-auto md:h-auto rounded-xl' alt="" />
                     </div>
                     <div className='flex flex-col gap-10 md:w-[50%] border-blue-500'>
                         <h1 className='hidden md:inline-block text-[24px] p-[6px] font-urbanist px-4 border border-[#C0C0C0] rounded-full text-black font-[500px] w-fit'>About Airbio</h1>
