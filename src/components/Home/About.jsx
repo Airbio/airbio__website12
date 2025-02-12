@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../../assets/images/banner_airbio.png'
+import banner from '../../assets/images/AirbioBanner.png'
 import art1 from '../../assets/images/biosafety/bsc.jpg'
 // import art1 from '../../assets/images/biosafety1.jpg'
 import art2 from '../../assets/images/fume/fume.webp'
