@@ -21,48 +21,48 @@ import { Link } from 'react-router-dom'
 const features = [
     {
         icon: icon1,
-        title: "Hinged Front Panel :",
+        title: "Hinged Front Panel",
         description: " Self-support brackets for effortless maintenance and accessibility.",
     },
     {
         icon: icon2,
-        title: "Intuitive Touch Interface :",
+        title: "Intuitive Touch Interface",
         description: "Precise control and monitoring.",
         
     },
     {
         icon: icon3,
-        title: "Dual Rear Cable Managers :",
+        title: "Dual Rear Cable Managers",
         description: "Keep your workspace tidy and organized.",
         
     },
     {
         icon: icon4,
-        title: "Stainless Steel Work Surface :",
+        title: "Stainless Steel Work Surface",
         description: "Offering durability and easy cleaning.",
         
     },
     {
         icon: icon5,
-        title: "Front-Loading HEPA Filter :",
+        title: "Front-Loading HEPA Filter",
         description: "Superior filtration and straightforward replacement.",
        
     },
     {
         icon: icon6,
-        title: "Trace Odor Pre-Filter :",
+        title: "Trace Odor Pre-Filter",
         description:
             "Enhancing air purity.",
     },
     {
         icon: icon7,
-        title: "10° Angled Safety Glass :",
+        title: "10° Angled Safety Glass",
         description:
             "Ergonomic visibility and comfort. ",
     },
     {
         icon: icon8,
-        title: "Glass Side Walls :",
+        title: "Glass Side Walls",
         description:
             "Providing enhanced illumination and visibility during operations. ",
     },

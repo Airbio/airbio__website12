@@ -31,57 +31,57 @@ const features = [
     },
     {
         icon: icon2,
-        title: "Advanced Filtration Technology",
+        title: "Ultra-Efficient DC ECM Motor",
         description:
-            "Utilizes high-efficiency particulate air (HEPA) filters to ensure 99.99% particle capture.",
+            "Simplifies control by managing downflow and inflow, adjusts speed automatically, and enhances energy efficiency.",
     },
     {
         icon: icon3,
-        title: "Energy Efficient Design",
-        description:
-            "Optimized to consume minimal energy while providing maximum performance.",
-    },
-    {
-        icon: icon4,
-        title: "HEPEX™ Zero Leak Airflow System",
+        title: "Monolithic Stainless Steel Shell",
         description:
             "Ensures uniform air distribution, prevents leaks with negative pressure chambers, and minimizes vibration transfer.",
     },
     {
-        icon: icon5,
-        title: "Advanced Filtration Technology",
+        icon: icon4,
+        title: "Double-Walled Design",
         description:
-            "Utilizes high-efficiency particulate air (HEPA) filters to ensure 99.99% particle capture.",
+            "Monolithic stainless steel design ensures long-term durability and simplifies cleaning for a hygienic workspace.",
+    },
+    {
+        icon: icon5,
+        title: "High-Performance Filtration",
+        description:
+            "Maintains sterility with HEPA or ULPA filters and contains hazardous materials effectively.",
     },
     {
         icon: icon6,
-        title: "Energy Efficient Design",
+        title: "Removable Components for Easy Cleaning",
         description:
-            "Optimized to consume minimal energy while providing maximum performance.",
+            "Provides unobstructed access with detachable work tray and grill supports.",
     },
     {
         icon: icon7,
-        title: "Energy Efficient Design",
+        title: "Vibration Control",
         description:
             "Optimized to consume minimal energy while providing maximum performance.",
     },
     {
         icon: icon8,
-        title: "Advanced Filtration Technology",
+        title: "Dynamic Air Barrier",
         description:
-            "Utilizes high-efficiency particulate air (HEPA) filters to ensure 99.99% particle capture.",
+            "Protects against contamination with combined unidirectional airflow and room air inflow.",
     },
     {
         icon: icon9,
-        title: "Energy Efficient Design",
+        title: "Customizable Airflow Options",
         description:
-            "Optimized to consume minimal energy while providing maximum performance.",
+            "Supports specific biosafety levels with tailored air recirculation and exhaust configurations.",
     },
     {
         icon: icon10,
-        title: "Energy Efficient Design",
+        title: "Cost-Effective Operation",
         description:
-            "Optimized to consume minimal energy while providing maximum performance.",
+            "Optimizes performance with energy-efficient components and precise airflow control.",
     },
 ];
 
