@@ -21,7 +21,7 @@ import AgiesQR from './AgiesQR';
 const A2AgiesData = [
     {
         name: 'Biosafety Cabinets',
-        title: 'BSC Class II A2',
+        title: 'BSC Class II A2 ',
         highlighted: "(Agies)",
         title1: 'Precision',
         title2: 'Sterility',
@@ -62,11 +62,11 @@ const A2Agies = () => {
                         {/* 1st Div: Images */}
                         <div className="flex flex-col  md:flex-row justify-center items-center  border-[#1782C5] mb-5">
                             {/* Main Image Display */}
-                            <div className="w-[80%] md:w-full flex justify-center items-center">
+                            <div className="w-[90%] md:w-full flex justify-center items-center">
                                 <img
                                     src={selectedImage}
                                     alt="Selected Product Image"
-                                    className="w-[229px] h-[335px] p-4 px-4  lg:w-[423px] lg:h-[458px] object-cover rounded-lg mb-5 md:m-0 border border-[#1782C5]"
+                                    className="w-full h-[335px] p-4 px-4  lg:w-[423px] lg:h-[458px] object-cover rounded-lg mb-5 md:m-0 border border-[#1782C5]"
                                 />
                             </div>
 

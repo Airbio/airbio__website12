@@ -59,6 +59,7 @@ const Crousal = () => {
                     slidesPerView={1}
                     loop={true}
                     autoplay={{ delay: 3000 }}
+                    speed= {1200}
                     onSlideChange={(swiper) => setCurrentSlide(swiper.realIndex)}
                     className="w-full h-full"
                 >

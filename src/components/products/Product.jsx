@@ -62,7 +62,7 @@ const Products = () => {
       >
         {productData.map((product, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-[#F7F7F7] relative md:w-[80%] mx-auto md:flex justify-between items-center px-4 pt-2 rounded-lg pb-5 md:pb-0 border-[#1782C5]">
+            <div className="bg-[#F7F7F7] relative md:w-[80%] mx-auto md:flex justify-between items-center px-4 pt-2 rounded-lg pb-5 md:pb-0 -mb-5 border-[#1782C5]">
               <img
                 src={logo}
                 alt="logo"

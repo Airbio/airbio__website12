@@ -133,7 +133,7 @@ const LaminarFlow = () => {
                                 {cardsData.map((card, index) => (
                                     <div key={index}>
                                         {/* Card Content */}
-                                        <div className="min-w-[318px] h-auto md:w-[300px] md:h-[370px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
+                                        <div className="min-w-[318px]  md:w-[300px] h-[370px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
                                         {card.showTitle && (
                                                 <h2 className="text-[16px] p-[4px] px-4 border-[#1782C5] text-[#1782C5] border rounded-[50px]">
                                                     {card.title}
