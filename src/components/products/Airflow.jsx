@@ -12,7 +12,7 @@ import product3 from '../../assets/images/laminar/Vertical Laminar AirFlow/Verti
 const AirFlowData = [
     {
         name: 'Laminar Cabinets',
-        title: 'Verticle Laminar Airflow',
+        title: 'Vertical Laminar Airflow',
         //   highlighted: "(Agies)",
         title1: 'Precision',
         title2: 'Sterlity',

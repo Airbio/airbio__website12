@@ -13,7 +13,7 @@ import VelocityQR from './VelocityQR'
 const VelocityData = [
     {
         name: 'Laminar Cabinets',
-        title: 'Verticle Laminar Airflow',
+        title: 'Vertical Laminar Airflow',
         highlighted: " (Velocity)",
         title1: 'Precision',
         title2: 'Sterlity',
