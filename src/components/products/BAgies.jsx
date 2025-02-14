@@ -24,8 +24,8 @@ const B2AgiesData = [
       title1: 'Precision',
       title2: 'Sterility',
       title3: 'Efficiency',
-      description1: 'Laminar air flow cabinets, also known as laminar clean benches, flow hoods, or air flow benches, create a controlled sterile environment to safeguard samples and products from contaminants like microorganisms and airborne particles. These cabinets operate by drawing air through a high-efficiency HEPA filter and channeling it in a consistent, streamlined airflow towards the user – the hallmark of "laminar flow." ',
-      description2: 'Essential for applications requiring stringent cleanliness, these cabinets protect sensitive samples by directing airflow outward to prevent contamination. For handling hazardous chemicals or infectious materials, a biological safety cabinet is recommended to ensure both sample integrity and user safety. ',
+      description1: 'The Class II, Type B2 Biosafety Cabinet is a benchtop model designed for versatility, offering multiple base stand options to function as a full console unit. Engineered for specialized applications, this cabinet ensures that the entire work zone is 100% exhausted through your facility’s internal exhaust system, making it ideal for safely handling minute quantities of volatile chemicals and trace amounts of radionuclides. ',
+      description2: 'When used with proper technique, this cabinet serves as an effective primary engineering control, providing a robust safety solution. The Type B2 design minimizes the risk of exposure to airborne biological pathogens or particulate chemical agents, ensuring optimal protection for both personnel and products. By creating a dynamic air barrier at the front of the cabinet, it enhances safety in low to moderate risk-hazard environments, offering reliable containment and peace of mind.  ',
       img1: product1,  
       img2: product2,
       img3: product3,
@@ -152,8 +152,8 @@ const BAgies = () => {
             </div>
 
             <div className='p-6 md:w-[90%] mx-auto'>
-                <h1 className='text-center md:text-start text-xl md:text-2xl text-[#1782C5] p-1 px-2 py-3 rounded-lg bg-[#F5F5F5] font-medium'>Meet AirBio’s Velocity Laminar Air Flow Cabinet</h1>
-                <p className='my-5 md:px-2 text-justify'>A trusted solution in laboratories worldwide, the Velocity vertical laminar air flow cabinet combines advanced technology with user-friendly features to elevate safety and efficiency. Available in multiple sizes, it boasts a modern touch-screen interface for seamless operation. </p>
+                <h1 className='text-center md:text-start text-xl md:text-2xl text-[#1782C5] p-1 px-2 py-3 rounded-lg bg-[#F5F5F5] font-medium'>Tailored to Meet Biosafety Needs</h1>
+                <p className='my-5 md:px-2 text-justify'>Biosafety Cabinets come in various classes, each catering to specific bio-containment requirements. Within these classes, the cabinets differ based on how air is recirculated or exhausted. Regardless of the type, all AirBio BSCs leverage High Efficiency Particulate Air (HEPA) or Ultra Low Particulate Air (ULPA) filters to maintain a sterile workspace. </p>
             </div>
 
             <KeyFeatures />
