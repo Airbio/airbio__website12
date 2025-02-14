@@ -155,35 +155,35 @@ const BSCA2 = () => {
             <div className='p-6 md:w-[90%] mx-auto'>
                 <h1 className='text-center md:text-start text-xl md:text-2xl text-[#1782C5] p-1 px-2 py-3 rounded-lg bg-[#F5F5F5] font-medium'> Key Features of Class II, Type A2 Biosafety Cabinet</h1>
                 <div className='md:px-2'>
-                    <div className='flex items-start gap-3  mt-5'>
-                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Versatile Design: Compact tabletop model with optional base stand configurations for adaptability in various workspace settings.</p>
-                    </div>
-                    <div className='flex items-start gap-3  mt-5'>
-                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Energy Efficiency: Equipped with a single ultra-high-efficiency DC ECM motor for reduced energy consumption and extended filter life, ensuring economical operation.</p>
-                    </div>
-                    <div className='flex items-start gap-3  mt-5'>
-                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Enhanced Functionality: Optional IV bar attachment available for pharmacy compounding tasks, increasing the cabinet's usability.</p>
-                    </div>
-                    <div className='flex items-start gap-3  mt-5'>
-                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Durable Construction: Monolithic stainless steel design ensures long-term durability and simplifies cleaning for a hygienic workspace.</p>
-                    </div>
-                    <div className='flex items-start gap-3  mt-5'>
-                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Flexible Airflow Options: Recirculates HEPA-filtered air back into the lab or can be fully exhausted through the facility's HVAC system for handling non-flammable or volatile chemicals and trace radionuclides.</p>
-                    </div>
-                    <div className='flex items-start gap-3  mt-5'>
-                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Cost-Effective: Designed for reliable performance at a competitive price point, making it suitable for academic and laboratory environments.</p>
-                    </div>
-                    <div className='flex items-start gap-3  mt-5'>
-                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Optimized Safety: Ensures a controlled and secure environment for handling sensitive materials.</p>
-                    </div>
-                </div>
+                                    <div className='flex items-start gap-3  mt-5'>
+                                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
+                                        <p><b>Versatile Design:</b> Compact tabletop model with optional base stand configurations for adaptability in various workspace settings.</p>
+                                    </div>
+                                    <div className='flex items-start gap-3  mt-5'>
+                                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
+                                        <p><b>Energy Efficiency:</b> Equipped with a single ultra-high-efficiency DC ECM motor for reduced energy consumption and extended filter life, ensuring economical operation.</p>
+                                    </div>
+                                    <div className='flex items-start gap-3  mt-5'>
+                                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
+                                        <p><b>Enhanced Functionality:</b> Optional IV bar attachment available for pharmacy compounding tasks, increasing the cabinet's usability.</p>
+                                    </div>
+                                    <div className='flex items-start gap-3  mt-5'>
+                                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
+                                        <p><b>Durable Construction:</b> Monolithic stainless steel design ensures long-term durability and simplifies cleaning for a hygienic workspace.</p>
+                                    </div>
+                                    <div className='flex items-start gap-3  mt-5'>
+                                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
+                                        <p><b>Flexible Airflow Options:</b>  Recirculates HEPA-filtered air back into the lab or can be fully exhausted through the facility's HVAC system for handling non-flammable or volatile chemicals and trace radionuclides.</p>
+                                    </div>
+                                    <div className='flex items-start gap-3  mt-5'>
+                                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
+                                        <p><b>Cost-Effective:</b>  Designed for reliable performance at a competitive price point, making it suitable for academic and laboratory environments.</p>
+                                    </div>
+                                    <div className='flex items-start gap-3  mt-5'>
+                                        <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
+                                        <p><b>Optimized Safety:</b> Ensures a controlled and secure environment for handling sensitive materials.</p>
+                                    </div>
+                                </div>
             </div>
             {/* <DiscoverProducts/> */}
             <div className='py-10'>
