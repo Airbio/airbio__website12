@@ -156,35 +156,35 @@ const AirFumeHood = () => {
                 <div className='md:px-2'>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Advanced Filtration System with options for carbon or HEPA filters to ensure precise air purification.</p>
+                        <p><b>Advanced Filtration System</b> with options for carbon or HEPA filters to ensure precise air purification.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Aerodynamic Sash Design that reduces turbulence and enhances user protection.</p>
+                        <p><b>Aerodynamic Sash Design</b> that reduces turbulence and enhances user protection.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Digital Touch Interface for accurate airflow monitoring and intuitive control.</p>
+                        <p><b>Digital Touch Interface</b> for accurate airflow monitoring and intuitive control.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Built-in Alarm System to alert users to airflow inconsistencies or filter changes.</p>
+                        <p><b>Built-in Alarm System</b> to alert users to airflow inconsistencies or filter changes.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Durable Work Surface constructed from chemical-resistant materials for extended longevity.</p>
+                        <p><b>Durable Work Surface</b> constructed from chemical-resistant materials for extended longevity.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Customizable Exhaust Options for recirculating or ducted installations.</p>
+                        <p><b>Customizable Exhaust Options</b> for recirculating or ducted installations.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Energy-Efficient LED Lighting that provides excellent visibility with minimal energy consumption.</p>
+                        <p><b>Energy-Efficient LED Lighting</b> that provides excellent visibility with minimal energy consumption.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Ergonomic Sash Handles designed for ease of use and operator comfort.</p>
+                        <p><b>Ergonomic Sash Handles</b> designed for ease of use and operator comfort.</p>
                     </div>
                 </div>
             </div>

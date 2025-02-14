@@ -27,7 +27,7 @@ const A2AgiesData = [
         title2: 'Sterility',
         title3: 'Efficiency',
         description1: 'The Class II, Type A2 Biosafety Cabinet is a versatile and efficient tabletop model, designed to deliver reliable performance at a competitive price point—perfect for academic and laboratory settings. With optional base stand configurations, it offers flexibility to suit various workspace needs.Equipped with a single ultra-high-efficiency DC ECM motor, this cabinet ensures economical operation by reducing energy consumption and extending filter life, providing cost-effective long-term use. For pharmacy compounding tasks, the cabinet can be seamlessly upgraded with an optional IV bar attachment, enhancing its functionality.',
-        description2: "'AirBio's innovative monolithic stainless steel design not only enhances durability but also simplifies cleaning, ensuring a hygienic and robust workspace throughout its lifetime. While most Type A2 cabinets recirculate HEPA-filtered air back into the lab, this unit can also be fully exhausted through the facility's HVAC system when working with non-flammable or volatile chemicals or trace amounts of radionuclides, ensuring optimal safety. This model combines essential features, efficiency, and adaptability, making it a smart choice for various laboratory applications.'",
+        description2: " AirBio's innovative monolithic stainless steel design not only enhances durability but also simplifies cleaning, ensuring a hygienic and robust workspace throughout its lifetime. While most Type A2 cabinets recirculate HEPA-filtered air back into the lab, this unit can also be fully exhausted through the facility's HVAC system when working with non-flammable or volatile chemicals or trace amounts of radionuclides, ensuring optimal safety. This model combines essential features, efficiency, and adaptability, making it a smart choice for various laboratory applications.'",
         img1: product1,
         img2: product2,
         img3: product3,
@@ -163,31 +163,31 @@ const A2Agies = () => {
                 <div className='md:px-2'>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Versatile Design: Compact tabletop model with optional base stand configurations for adaptability in various workspace settings.</p>
+                        <p><b>Versatile Design:</b> Compact tabletop model with optional base stand configurations for adaptability in various workspace settings.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Energy Efficiency: Equipped with a single ultra-high-efficiency DC ECM motor for reduced energy consumption and extended filter life, ensuring economical operation.</p>
+                        <p><b>Energy Efficiency:</b> Equipped with a single ultra-high-efficiency DC ECM motor for reduced energy consumption and extended filter life, ensuring economical operation.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Enhanced Functionality: Optional IV bar attachment available for pharmacy compounding tasks, increasing the cabinet's usability.</p>
+                        <p><b>Enhanced Functionality:</b> Optional IV bar attachment available for pharmacy compounding tasks, increasing the cabinet's usability.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Durable Construction: Monolithic stainless steel design ensures long-term durability and simplifies cleaning for a hygienic workspace.</p>
+                        <p><b>Durable Construction:</b> Monolithic stainless steel design ensures long-term durability and simplifies cleaning for a hygienic workspace.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Flexible Airflow Options: Recirculates HEPA-filtered air back into the lab or can be fully exhausted through the facility's HVAC system for handling non-flammable or volatile chemicals and trace radionuclides.</p>
+                        <p><b>Flexible Airflow Options:</b> Recirculates HEPA-filtered air back into the lab or can be fully exhausted through the facility's HVAC system for handling non-flammable or volatile chemicals and trace radionuclides.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Cost-Effective: Designed for reliable performance at a competitive price point, making it suitable for academic and laboratory environments.</p>
+                        <p><b>Cost-Effective:</b> Designed for reliable performance at a competitive price point, making it suitable for academic and laboratory environments.</p>
                     </div>
                     <div className='flex items-start gap-3  mt-5'>
                         <img src={rightArrow} alt="Right Arrow" className="w-4 h-4 mt-1" />
-                        <p>Optimized Safety: Ensures a controlled and secure environment for handling sensitive materials.</p>
+                        <p><b>Optimized Safety:</b> Ensures a controlled and secure environment for handling sensitive materials.</p>
                     </div>
                 </div>
             </div>
