@@ -148,8 +148,8 @@ const BSCA2 = () => {
             </div>
 
             <div className='p-6 md:w-[90%] mx-auto'>
-                <h1 className='text-center md:text-start text-xl md:text-2xl text-[#1782C5] p-1 px-2 py-3 rounded-lg bg-[#F5F5F5] font-medium'>Meet AirBio’s Velocity Laminar Air Flow Cabinet</h1>
-                <p className='my-5 md:px-2 text-justify'>A trusted solution in laboratories worldwide, the Velocity vertical laminar air flow cabinet combines advanced technology with user-friendly features to elevate safety and efficiency. Available in multiple sizes, it boasts a modern touch-screen interface for seamless operation. </p>
+                <h1 className='text-center md:text-start text-xl md:text-2xl text-[#1782C5] p-1 px-2 py-3 rounded-lg bg-[#F5F5F5] font-medium'>Tailored to Meet Biosafety Needs</h1>
+                <p className='my-5 md:px-2 text-justify'>Biosafety Cabinets come in various classes, each catering to specific bio-containment requirements. Within these classes, the cabinets differ based on how air is recirculated or exhausted. Regardless of the type, all AirBio BSCs leverage High Efficiency Particulate Air (HEPA) or Ultra Low Particulate Air (ULPA) filters to maintain a sterile workspace. </p>
             </div>
 
             <div className='p-6 md:w-[90%] mx-auto'>
