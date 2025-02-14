@@ -16,7 +16,7 @@ const productData = [
   {
     name: 'Biosafety Cabinets',
     title: 'Create a secure environment to handle biological samples with maximum safety and compliance.',
-    description1: 'Our wireless Class II Biological Safety Cabinets (BSC) protect users, samples and the environment from hazardous particles and biological materials. These cabinets are useful when handling infectious diseases, toxins or cell cultures where prevention of contamination is essential.',
+    description1: 'Our World Class II Biological Safety Cabinets (BSC) protect users, samples and the environment from hazardous particles and biological materials. These cabinets are useful when handling infectious diseases, toxins or cell cultures where prevention of contamination is essential.',
     description2: 'It also helps keep lab workers safe by reducing exposure to droplets, splashes or airborne contaminants, ensuring no hazardous materials escape from the work area.',
     img1: Bproduct1,  
     img2: Bproduct2,
