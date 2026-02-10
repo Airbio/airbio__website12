@@ -1,6 +1,7 @@
 import React from 'react'
 // import image from '../../assets/images/Client logo.svg'
-import image from '../../assets/images/client_logo.png'
+import slide1image from '../../assets/images/client_logo1.png'
+import slide2image from '../../assets/images/client_logo2.png'
 // import image2 from '../../assets/images/Slider-Horizontal1.jpg'
 import image1 from '../../assets/images/certification1.png'
 import image2 from '../../assets/images/certification2.png'
@@ -21,10 +22,15 @@ const Slider = () => {
             </div>
 
             {/* Image wrapper that will slide */}
-            <div className="slider-left flex gap-5 animate-slide mb-3">
-                <img src={image} alt="" className='h-16 md:h-20 w-auto object-cover'/>
-                <img src={image} alt="" className='h-16 md:h-20 w-auto object-cover'/>
-                <img src={image} alt="" className='h-16 md:h-20 w-auto object-cover'/>
+            <div className="slider-left flex gap-5 animate-slide mb-3 ">
+                <img src={slide1image} alt="" className='h-16 md:h-20 w-full object-contain'/>
+                <img src={slide1image} alt="" className='h-16 md:h-20 w-full object-contain'/>
+                <img src={slide1image} alt="" className='h-16 md:h-20 w-full object-contain'/>
+            </div>
+            <div className="slider-right flex gap-5 animate-slide mb-3">
+                <img src={slide2image} alt="" className='h-16 md:h-20 w-auto object-cover'/>
+                <img src={slide2image} alt="" className='h-16 md:h-20 w-auto object-cover'/>
+                <img src={slide2image} alt="" className='h-16 md:h-20 w-auto object-cover'/>
             </div>
         </div>
     )

@@ -47,13 +47,13 @@ const TeamData = [
       name: 'Shivani Rawat',
       role: 'Sales & Ops.',
     },
-    {
-      id: 5,
-      icon: svg,
-      imgSrc: img5,
-      name: 'Pratibha Rathore',
-      role: 'Admin',
-    },
+    // {
+    //   id: 5,
+    //   icon: svg,
+    //   imgSrc: img5,
+    //   name: 'Pratibha Rathore',
+    //   role: 'Admin',
+    // },
     {
         id: 6,
         icon: svg,
@@ -100,8 +100,14 @@ const TeamData = [
         id: 12,
         icon: svg,
         imgSrc: img12,
-        name: 'Ajit Singh',
-        role: 'R&D',
+        name: 'Dr Ajit Thakur',
+        // role: 'R&D and Biological Safety Officer',
+        role:  (
+      <>
+        R&D and <br />
+        Biological Safety Officer
+      </>
+    ),
     },
     {
         id: 13,
@@ -110,13 +116,13 @@ const TeamData = [
         name: 'Faisal Khan',
         role: 'Assembly',
     },
-    {
-      id: 14,
-      icon: svg,
-      imgSrc: img14,
-      name: 'Vishal',
-      role: 'Sales & Marketing',
-  },
+  //   {
+  //     id: 14,
+  //     icon: svg,
+  //     imgSrc: img14,
+  //     name: 'Vishal',
+  //     role: 'Sales & Marketing',
+  // },
     
     
   ];
