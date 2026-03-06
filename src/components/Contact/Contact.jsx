@@ -106,7 +106,7 @@ const Contact = () => {
                                     href="tel:+917942962885"
                                     className="font-custom text-[#1E1E1E] text-opacity-75"
                                 >
-                                    +91-7942962885
+                                    +91-9899829299
                                 </a>
                             </div>
                             <div className='flex gap-3 mt-2 mb-3'>
@@ -155,7 +155,7 @@ const Contact = () => {
                         <img src={location} alt="" className='w-12 h-12' />
                         <h1 className='text-lg font-medium '>Address</h1>
                         <div>
-                            <p className='text-[#1E1E1E] text-opacity-75 mb-6'>11/32, Site IV, Sahibabad Industrial Area, Ghaziabad- 201010, Uttar Pradesh.</p>
+                            <p className='text-[#1E1E1E] text-opacity-75 mb-6'>12/42, Pioneer Compound, Site IV, Sahibabad Industrial Area, Ghaziabad- 201010, Uttar Pradesh.</p>
                             <div className='flex justify-center items-center'>
                                 <a href="https://maps.app.goo.gl/TgVT5d8wzAxkSZVb9" target="_blank" rel="noopener noreferrer">
                                     <button className=' bg-black text-white  p-1 px-3 rounded-3xl'>Locate on Maps</button>
