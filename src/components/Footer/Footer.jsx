@@ -39,8 +39,8 @@ const Footer = () => {
                         <div>
                             <h3 className="font-[500px] text-base mb-4 md:text-[21px] ">More Info</h3>
                             <ul className="space-y-2">
-                                <li><a href="#" className="md:text-lg md:font-light hover:text-gray-400">T&C</a></li>
-                                <li><a href="#" className="md:text-lg md:font-light hover:text-gray-400">Privacy Policy</a></li>
+                                <li><a href="/terms-and-conditions" className="md:text-lg md:font-light hover:text-gray-400">T&C</a></li>
+                                <li><a href="/privacy-policy" className="md:text-lg md:font-light hover:text-gray-400">Privacy Policy</a></li>
                                 <li><a href="#faq" className="md:text-lg md:font-light hover:text-gray-400">FAQ</a></li>
                             </ul>
                         </div>

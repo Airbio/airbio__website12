@@ -23,6 +23,8 @@ import Airflow from './components/products/Airflow'
 import AirflowVelocity from './components/products/AirflowVelocity';
 import BAgies from './components/products/BAgies';
 import AirFumeHood from './components/products/AirFumeHood';
+import TermsAndConditions from './components/TermsAndConditions/TermsAndConditions'
+import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy'
 
 function App() {
 
@@ -58,6 +60,8 @@ function App() {
         <Route path="/blog/blog2" element={<Blog2 />} />
         <Route path="/blog/blog3" element={<Blog3 />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
       <Footer />
