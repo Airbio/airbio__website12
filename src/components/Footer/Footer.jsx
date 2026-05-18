@@ -53,7 +53,7 @@ const Footer = () => {
                             <div className="flex items-center gap-3  py-3">
                                 <img src={contact} alt="Contact Icon" className="w-6 h-6" />
                                 <a href="tel:0120 2988099">
-                                    <h3>0120 2988099</h3>
+                                    <h3> +91-9899829299</h3>
                                 </a>
 
                             </div>
