@@ -5,6 +5,7 @@ import rightArrow from '../../assets/images/Chevron_Right.svg'
 import Assistants from '../Home/Assistants'
 import product1 from '../../assets/images/PCRworkstation/PCRWorkststion-GaneSafe.png'
 import product2 from '../../assets/images/PCRworkstation/geneSafe2.png'
+import product3 from '../../assets/images/PCRworkstation/genesafe6.jpeg'
 
 // import PCRWorkstationQR from './PCRWorkstationQR'
 
@@ -21,7 +22,7 @@ const PCRWorkstationData = [
         description2: 'Comparable in performance and functionality to leading international manufacturers such as Thermo Fisher Scientific, Esco Lifesciences, Bio-Rad Laboratories, and Labconco, the workstation is ideally suited for biotechnology, microbiology, molecular diagnostics, genomics, and academic research laboratories.',
         img1: product1,
         img2: product2,
-        // img3: product3,
+        img3: product3,
         // img4: product2,
     },
 ]
@@ -104,12 +105,12 @@ const GeneSafe = () => {
                                     onClick={() => setSelectedImage(product.img2)}
                                     className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer ${selectedImage === product.img2 ? "border-[#1782C5] border" : ""}`}
                                 />
-                                {/* <img
+                                <img
                                     src={product.img3}
                                     alt="Product Image 3"
                                     onClick={() => setSelectedImage(product.img3)}
                                     className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer ${selectedImage === product.img3 ? "border-[#1782C5] border" : ""}`}
-                                /> */}
+                                />
                             </div>
                         </div>
 
