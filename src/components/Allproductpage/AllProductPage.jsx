@@ -115,15 +115,15 @@ const cardsData = [
         buttonText: "Visit Product",
         path: '/product/Biosafety/BscClassIIA2',
     },
-    {
-        title: "Agies",
-        image: art4,
-        subtitle: "Bsc Class II, A2 (Agies)",
-        description: "Equipped with a high-efficiency DC ECM motor, it reduces energy use and extends filter life.",
-        buttonText: "Visit Product",
-        showTitle: true,
-        path: '/product/Biosafety/BscClassIIA2(Agies)',
-    },
+    // {
+    //     title: "Agies",
+    //     image: art4,
+    //     subtitle: "Bsc Class II, A2 (Agies)",
+    //     description: "Equipped with a high-efficiency DC ECM motor, it reduces energy use and extends filter life.",
+    //     buttonText: "Visit Product",
+    //     showTitle: true,
+    //     path: '/product/Biosafety/BscClassIIA2(Agies)',
+    // },
     {
         image: art5,
         subtitle: "Main BSC Class II A2",
@@ -167,7 +167,7 @@ const AllProductPage = () => {
                 {/* all cabinets */}
                 <div>
                     <div>
-                        <div className="gap-3 p-5 flex flex-col my-5 items-center">
+                        <div className="gap-3 p-5 flex flex-col my-5 items-center ">
                             <h1 className="p-2 px-4 text-2xl mt-8 border border-[#C0C0C0] rounded-full font-medium inline-block text-center">
                                 All Biosafety Cabinets
                             </h1>
@@ -175,7 +175,7 @@ const AllProductPage = () => {
                                 AirBio Bio Safety Cabinets deliver unmatched reliability and protection for laboratory workflows.
                             </p>
                         </div>
-                        <div className='pl-5 md:pl-10'>
+                        <div className='pl-5 md:pl-10 flex justify-center'>
                             <div className="flex overflow-x-scroll scrollbar scrollbar-thumb-customBlue scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full pr-5 gap-4 md:gap-10 py-4 mx-auto">
                                 {cardsData.map((card, index) => (
                                     <div key={index}>
