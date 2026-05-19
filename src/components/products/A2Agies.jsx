@@ -11,8 +11,8 @@ import Download from './Download';
 import DiscoverProducts from './DiscoverProducts';
 import Assistants from '../Home/Assistants'
 import rightArrow from '../../assets/images/Chevron_Right.svg'
-import product1 from '../../assets/images/biosafety/bsc class 2 A2 (Agies)/BSC CLASS II A2 (Agies)-FRONT.webp'
-import product2 from '../../assets/images/biosafety/bsc class 2 A2 (Agies)/BSC CLASS II A2 (Agies)-CROSS.webp'
+import product1 from '../../assets/images/biosafety/bsc class 2 A2 (Agies)/BSC CLASS II A2 (Agies)-FRONT.png'
+import product2 from '../../assets/images/biosafety/bsc class 2 A2 (Agies)/BSC CLASS II A2 (Agies)-CROSS.png'
 import product3 from '../../assets/images/biosafety/bsc class 2 A2 (Agies)/BSC CLASS II A2 (Agies)-SIDE.webp'
 import AgiesQR from './AgiesQR';
 
