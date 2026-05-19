@@ -3,7 +3,9 @@ import Header from '../Home/Header'
 import productData from './productPageData';
 import SVG from '../../assets/images/downloadSVG.svg'
 import logo from '../../assets/images/teamSvg.svg'
-import product1 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/BSC CLASS _ B2 (Falcon)-FRONT1.webp'
+// import product1 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/BSC CLASS _ B2 (Falcon)-FRONT1.webp'
+import product1 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/BSC falcon class II B2.jpeg'
+import product2 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/Falcon class II B2.png'
 import whatsapp from '../../assets/images/Whatsapp1.svg'
 import arrow from '../../assets/images/crossArrow.svg'
 import KeyFeatures from './KeyFeatures';
@@ -43,33 +45,33 @@ const ProductPage = () => {
                                 <img
                                     src={selectedImage}
                                     alt="Selected Product Image"
-                                    className="w-full h-[335px] p-4 px-4  lg:w-[423px] lg:h-[458px] object-cover rounded-lg mb-5 md:m-0 border border-[#1782C5]"
+                                    className="w-full h-[335px] p-4 px-4  lg:w-[423px] lg:h-[458px] object-contain rounded-lg mb-5 md:m-0 border border-[#1782C5]"
                                 />
                             </div>
 
                             {/* Thumbnail Images */}
                             <div className="h-auto pl-2 mb-5 flex md:flex-col justify-between items-center gap-5">
                                 <img
-                                    src={product.img1}
+                                    src={product1}
                                     alt="Product Image 1"
-                                    onClick={() => setSelectedImage(product.img1)}
+                                    onClick={() => setSelectedImage(product1)}
                                     className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer  ${selectedImage === product.img1 ? "border-[#1782C5] border" : ""
                                         }`}
                                 />
                                 <img
-                                    src={product.img2}
+                                    src={product2}
                                     alt="Product Image 2"
-                                    onClick={() => setSelectedImage(product.img2)}
+                                    onClick={() => setSelectedImage(product2)}
                                     className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer ${selectedImage === product.img2 ? "border-[#1782C5] border" : ""
                                         }`}
                                 />
-                                <img
+                                {/* <img
                                     src={product.img3}
                                     alt="Product Image 3"
                                     onClick={() => setSelectedImage(product.img3)}
                                     className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer ${selectedImage === product.img3 ? "border-[#1782C5] border" : ""
                                         }`}
-                                />
+                                /> */}
                             </div>
                         </div>
                         <div className="md:w-[60%] ">

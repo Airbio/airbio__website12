@@ -3,9 +3,12 @@ import Header from '../Home/Header'
 import whatsapp from '../../assets/images/Whatsapp1.svg'
 import rightArrow from '../../assets/images/Chevron_Right.svg'
 import Assistants from '../Home/Assistants'
-import product1 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-FRONT.webp'
-import product2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-CROSS.webp'
-import product3 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-SIDE.webp'
+// import product1 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-FRONT.webp'
+// import product2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-CROSS.webp'
+// import product3 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-SIDE.webp'
+import product1 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Velocity VLF img1.jpeg'
+import product2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Velocity VLF img2.jpeg'
+import product3 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Velocity VLF img3.jpeg'
 import VelocityQR from './VelocityQR'
 
 
@@ -58,7 +61,7 @@ const AirflowVelocity = () => {
                                 <img
                                     src={selectedImage}
                                     alt="Selected Product Image"
-                                    className="w-full h-[335px] p-4 px-4  lg:w-[423px] lg:h-[458px] object-cover rounded-lg mb-5 md:m-0 border border-[#1782C5]"
+                                    className="w-full h-[335px] p-4 px-4  lg:w-[423px] lg:h-[458px] object-contain rounded-lg mb-5 md:m-0 border border-[#1782C5]"
                                 />
                             </div>
 

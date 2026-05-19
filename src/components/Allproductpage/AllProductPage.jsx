@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import Header from '../Home/Header'
 import img1 from '../../assets/images/contact1.png'
-import art1 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/BSC CLASS _ B2 (Falcon)-FRONT.webp'
+// import art1 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/BSC CLASS _ B2 (Falcon)-FRONT.webp'
+import art1 from '../../assets/images/biosafety/bsc class_B2 (Falcon)/BSC falcon class II B2.jpeg'
 import art2 from '../../assets/images/biosafety/bsc class 2 B2 (Agies)/BSC CLASS II B2 (Agies)-FRONT.webp'
 import art3 from '../../assets/images/biosafety/bsc class 2 A2/BSC CLASS II A2-FRONT.webp'
 import art4 from '../../assets/images/biosafety/bsc class 2 A2 (Agies)/BSC CLASS II A2 (Agies)-FRONT.webp'
 import art5 from '../../assets/images/biosafety/Main bsc class 2 A2/MAIN BSC CLASS II A2-FRONT.webp'
+import art6 from '../../assets/images/biosafety/bsc class 2 A2/BSC falcon class II A2 img4.jpeg'
 import vector from '../../assets/images/Vector.svg'
 import post2 from '../../assets/images/Post2.webp'
 import post3 from '../../assets/images/Post3.webp'
@@ -106,7 +108,7 @@ const cardsData = [
     },
     {
         title: "Harmony",
-        image: art3,
+        image: art6,
         subtitle: "Bsc Class II, A2",
         description: "A compact, energy-efficient tabletop model ideal for labs and academia.",
         buttonText: "Visit Product",

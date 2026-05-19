@@ -6,9 +6,12 @@ import KeyFeatures from './KeyFeatures';
 import Download from './Download';
 import Assistants from '../Home/Assistants'
 import rightArrow from '../../assets/images/Chevron_Right.svg'
-import product1 from '../../assets/images/biosafety/bsc class 2 A2/BSC CLASS II A2-FRONT.webp'
-import product2 from '../../assets/images/biosafety/bsc class 2 A2/BSC CLASS II A2-CROSS.webp'
+// import product1 from '../../assets/images/biosafety/bsc class 2 A2/BSC CLASS II A2-FRONT.webp'
+// import product2 from '../../assets/images/biosafety/bsc class 2 A2/BSC CLASS II A2-CROSS.webp'
 import product3 from '../../assets/images/biosafety/bsc class 2 A2/BSC CLASS II A2-SIDE.webp'
+import product1 from '../../assets/images/biosafety/bsc class 2 A2/BSC falcon class II A2 img4.jpeg'
+import product2 from '../../assets/images/biosafety/bsc class 2 A2/BSC falcon class II A2 img2.png'
+import product4 from '../../assets/images/biosafety/bsc class 2 A2/BSC falcon class II A2 img3.jpeg'
 
 
 
@@ -26,6 +29,7 @@ const BSCA2Data = [
         img2: product2,
         img3: product3,
         img4: product2,
+        img4: product4,
     },
 ]
 
@@ -60,7 +64,7 @@ const BSCA2 = () => {
                                 <img
                                     src={selectedImage}
                                     alt="Selected Product Image"
-                                    className="w-full h-[335px] p-4 px-4  lg:w-[423px] lg:h-[458px] object-cover rounded-lg mb-5 md:m-0 border border-[#1782C5]"
+                                    className="w-full h-[335px] p-4 px-4  lg:w-[423px] lg:h-[458px] object-contain rounded-lg mb-5 md:m-0 border border-[#1782C5]"
                                 />
                             </div>
 
@@ -87,6 +91,13 @@ const BSCA2 = () => {
                                     className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer ${selectedImage === product.img3 ? "border-[#1782C5] border" : ""
                                         }`}
                                 />
+                                {/* <img
+                                    src={product.img4}
+                                    alt="Product Image 3"
+                                    onClick={() => setSelectedImage(product.img4)}
+                                    className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer ${selectedImage === product.img3 ? "border-[#1782C5] border" : ""
+                                        }`}
+                                /> */}
                             </div>
                         </div>
                         <div className="md:w-[60%] ">
