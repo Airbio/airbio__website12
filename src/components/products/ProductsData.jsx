@@ -10,6 +10,10 @@ import Lproduct1 from '../../assets/images/laminar/Vertical Laminar Flow (Veloci
 import Lproduct2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-CROSS.webp'
 import Lproduct3 from '../../assets/images/laminar/Vertical Laminar AirFlow/Vertical Laminar Airflow-FRONT.webp'
 import Lproduct4 from '../../assets/images/laminar/Vertical Laminar AirFlow/Vertical Laminar Airflow-SIDE (1).webp'
+import PCRproduct1 from '../../assets/images/PCRworkstation/genesafe5.png'
+import PCRproduct2 from '../../assets/images/PCRworkstation/genesafe3.png'
+import PCRproduct3 from '../../assets/images/PCRworkstation/PCRWorkststion-GaneSafe.png'
+import PCRproduct4 from '../../assets/images/PCRworkstation/genesafe6.jpeg'
 
 
 const productData = [
@@ -48,6 +52,18 @@ const productData = [
     img4: Lproduct4,
     italics: ["free,", "contaminant", "healthcare"],
     route: "/product/laminar"
+  },
+  {
+    name: 'PCR Workstations',
+    title: 'Advanced Contamination-Control Workstation for Molecular Biology Applications',
+    description1: 'AirBio GeneSafe PCR Workstation is a high-performance clean working enclosure engineered for contamination-free PCR setup and molecular biology applications. ',
+    description2: ' Designed in accordance with international laboratory standards, the workstation combines UV decontamination technology, ergonomic design, and  HEPA-filtered airflow to ensure reliable and reproducible PCR preparation.',
+    img1: PCRproduct1, 
+    img2: PCRproduct2,
+    img3: PCRproduct3,
+    img4: PCRproduct4,
+    italics: ["free,", "contaminant", "healthcare"],
+    route: "/product/PCRworkstation"
   },
   
 ];
