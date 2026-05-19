@@ -191,6 +191,37 @@ const Header = () => {
                                         </div>
                                     )}
                                 </div>
+
+                                {/* PCR WorkStation */}
+                                <div
+                                    className="relative"
+                                    onMouseEnter={() => setActiveSubmenu("PCRworkstation")}
+                                    onMouseLeave={() => setActiveSubmenu("")}
+                                >
+                                    <NavLink
+                                        to="/product/PCRworkstation"
+                                        className=" px-4 py-2 flex gap-12 hover:bg-gray-100"
+                                    >
+                                        PCR WorkStation
+                                        <img src={right} alt="" className="w-4 h-4 mt-1" />
+                                    </NavLink>
+                                    {activeSubmenu === "PCRworkstation" && (
+                                        <div className="absolute top-0 left-[230px] bg-white shadow-lg  w-[280px] py-2 z-20">
+                                            <NavLink
+                                                to="/product/PCRworkstation/GeneSafe"
+                                                className="block px-4 py-2 hover:bg-gray-100"
+                                            >
+                                                GaneSafe PCR WorkStation
+                                            </NavLink>
+                                            {/* <NavLink
+                                                to="/product/laminar/Airflow(Velocity)"
+                                                className="block px-4 py-2 hover:bg-gray-100"
+                                            >
+                                                Vertical Laminar Airflow <span className='text-[#1782C5]'>(Velocity)</span>
+                                            </NavLink> */}
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                         )}
 

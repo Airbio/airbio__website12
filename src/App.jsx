@@ -26,6 +26,8 @@ import AirFumeHood from './components/products/AirFumeHood';
 import TermsAndConditions from './components/TermsAndConditions/TermsAndConditions';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import FAQ from './components/FAQ/FAQ';
+import PCRworkstation from './components/Allproductpage/PCRworkstation';
+import GeneSafe from './components/products/GeneSafe';
 
 function App() {
 
@@ -40,6 +42,7 @@ function App() {
         <Route path="/product/Biosafety" element={<AllProductPage />} />
         <Route path="/product/FumeHoods" element={<FumeHoods/>} />
         <Route path="/product/laminar" element={<LaminarFlow/>} />
+        <Route path="/product/PCRworkstation" element={<PCRworkstation/>} />
 
         {/* //biosafety subpages// */}
         <Route path="/product/Biosafety/BscClassIIB2" element={<ProductPage />} />
@@ -54,6 +57,10 @@ function App() {
         {/* //Laminar subpages// */}
         <Route path="/product/laminar/Airflow" element={<Airflow />} />
         <Route path="/product/laminar/Airflow(Velocity)" element={<AirflowVelocity />} />
+
+        {/* //PCR Workstation subpages// */}
+        <Route path="/product/PCRworkstation/GeneSafe" element={<GeneSafe />} />
+
 
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<BlogPage />} />
