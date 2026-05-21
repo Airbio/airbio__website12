@@ -6,7 +6,7 @@ import art2 from '../../assets/images/fume/fume.webp'
 // import art2 from '../../assets/images/biosafety.jpg'
 import art3 from '../../assets/images/laminar/laf.webp'
 // import art4 from '../../assets/images/PCRworkstation/PCRWorkststion-GaneSafe.png'
-import art4 from '../../assets/images/PCRworkstation/genesafe3.png'
+import art4 from '../../assets/images/PCRworkstation/GeneSafe with glassdoor handle.png'
 // import art3 from '../../assets/images/biosafety.jpg'
 import vector from '../../assets/images/Vector.svg'
 import customer from '../../assets/images/customer.svg'
@@ -178,7 +178,7 @@ const About = () => {
 
                         <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
                             <h2 className="p-[4px] py-2  px-4 mb-2 bg-[#1782C5] text-white  rounded-[50px]">PCR Workstation</h2>
-                            <img src={art4} alt="Card 2" className="w-full h-[369px] md:w-[280px] object-cover mb-2" />
+                            <img src={art4} alt="Card 2" className="w-full h-[369px] md:w-[280px] object-contain mb-2" />
                             <Link to="/product/PCRworkstation">
                             <button className=" px-4 py-2 bg-black flex  justify-center items-center hover:bg-[#1782C5] text-white gap-2 rounded-[50px]  border-[#CDCDCD] hover:border-[#1782C5]">View More
                                 <img src={vector} alt="vector icon" />

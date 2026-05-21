@@ -10,8 +10,8 @@ import Lproduct1 from '../../assets/images/laminar/Vertical Laminar Flow (Veloci
 import Lproduct2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-CROSS.webp'
 import Lproduct3 from '../../assets/images/laminar/Vertical Laminar AirFlow/Vertical Laminar Airflow-FRONT.webp'
 import Lproduct4 from '../../assets/images/laminar/Vertical Laminar AirFlow/Vertical Laminar Airflow-SIDE (1).webp'
-import PCRproduct1 from '../../assets/images/PCRworkstation/genesafe5.png'
-import PCRproduct2 from '../../assets/images/PCRworkstation/genesafe3.png'
+import PCRproduct1 from '../../assets/images/PCRworkstation/GeneSafe with glassdoor handle.png'
+import PCRproduct2 from '../../assets/images/PCRworkstation/GeneSafe with glassdoor handle.png'
 import PCRproduct3 from '../../assets/images/PCRworkstation/PCRWorkststion-GaneSafe.png'
 import PCRproduct4 from '../../assets/images/PCRworkstation/genesafe6.jpeg'
 

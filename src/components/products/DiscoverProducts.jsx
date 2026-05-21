@@ -7,7 +7,7 @@ import Header from '../Home/Header'
 import art1 from '../../assets/images/biosafety/bsc.jpg'
 import art2 from '../../assets/images/fume/fume.webp'
 import art3 from '../../assets/images/laminar/laf.webp'
-import art4 from '../../assets/images/PCRworkstation/PCRWorkststion-GaneSafe.png'
+import art4 from '../../assets/images/PCRworkstation/GeneSafe with glassdoor handle.png'
 import { Link, Route } from 'react-router-dom'
 
 const cardData = [

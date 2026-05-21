@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Header from '../Home/Header'
-import img1 from '../../assets/images/PCRworkstation/PCRWorkststion-GaneSafe.png'
+import img1 from '../../assets/images/PCRworkstation/GeneSafe with glassdoor handle.png'
 import art1 from '../../assets/images/laminar/Vertical Laminar AirFlow/Vertical Laminar Airflow-FRONT.webp'
 import art2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-FRONT.webp'
 import vector from '../../assets/images/Vector.svg'
