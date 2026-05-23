@@ -37,7 +37,7 @@ const technicalSpecs = [
     { parameter: 'Airflow Type', specification: 'Vertical Laminar Flow' },
     { parameter: 'HEPA Filter Efficiency', specification: '99.97% @ 0.3 µm' },
     { parameter: 'Air Velocity', specification: '0.3 – 0.5 m/s' },
-    { parameter: 'Noise Level', specification: '≤ 65 dB' },
+    { parameter: 'Noise Level', specification: '≤ 60 dB' },
     { parameter: 'Illumination', specification: 'LED / Fluorescent' },
     { parameter: 'Control System', specification: 'Digital / Microprocessor Based' },
     { parameter: 'Power Supply', specification: '220–240 V AC, 50 Hz' },
