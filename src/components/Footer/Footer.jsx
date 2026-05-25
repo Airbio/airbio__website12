@@ -46,43 +46,66 @@ const Footer = () => {
                         </div>
                     </div>
 
+                 
+
                     {/* Contact & Social Icons Section */}
                     <div className="flex justify-between items-center">
-                        {/* Contact Email */}
+                        {/* Contact & Email */}
                         <div className='md:flex flex-center justify-center gap-10'>
-                            <div className="flex items-center gap-3  py-3">
+                            <div className="flex items-center gap-3 py-3">
                                 <img src={contact} alt="Contact Icon" className="w-6 h-6" />
-                                <a href="tel:0120 2988099">
-                                    <h3> +91-9899829299</h3>
+                                <a href="tel:+919899829299">
+                                    <h3>+91-9899829299</h3>
                                 </a>
-
                             </div>
 
-                            <div className='flex items-center gap-3 '>
-                                <img src={email} alt="" className="w-6 h-6" />
+                            <div className='flex items-center gap-3'>
+                                <img src={email} alt="Email Icon" className="w-6 h-6" />
                                 <a href="mailto:Info@airbio.in">
                                     <p>Info@airbio.in</p>
                                 </a>
-
                             </div>
                         </div>
 
                         {/* Social Icons */}
                         <div className="flex space-x-4">
                             <a href="https://m.facebook.com/airbio/" className="hover:text-gray-400">
-                                <img src={facebook} alt="" />
+                                <img src={facebook} alt="Facebook" />
                             </a>
                             <a href="https://www.linkedin.com/company/airbiotechnologies/?originalSubdomain=in" className="hover:text-gray-400">
-                                <img src={linkedin} alt="" />
+                                <img src={linkedin} alt="LinkedIn" />
                             </a>
                             <a href="https://api.whatsapp.com/send?phone=9899829299" className="hover:text-gray-400">
-                                <img src={whatsapp} alt="" />
+                                <img src={whatsapp} alt="WhatsApp" />
                             </a>
                         </div>
                     </div>
+                       {/* Address Section */}
+                    <div className="flex items-start gap-3 mb-4 mt-4">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="w-6 h-6 mt-0.5 shrink-0"
+                            fill="white"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={1.8}
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"
+                            />
+                        </svg>
+                        <p className="text-sm md:text-base md:font-light leading-relaxed">
+                            12/42, Pioneer Compound, Site IV,
+                            Sahibabad Industrial Area,
+                            Ghaziabad - 201010, Uttar Pradesh.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <br /><p className='text-[10px] mb-1 md:hidden text-center'>Copyright © 2025 AirBio Technologies</p>
+            <br />
+            <p className='text-[10px] mb-1 md:hidden text-center'>Copyright © 2025 AirBio Technologies</p>
             <hr className='w-full' />
         </div>
     );
