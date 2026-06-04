@@ -26,7 +26,7 @@ const VelocityData = [
         img1: product1,
         img2: product2,
         // img3: product3,
-        img4: product2,
+        // img4: product2,
     },
 ]
 
