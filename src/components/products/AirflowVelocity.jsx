@@ -25,7 +25,7 @@ const VelocityData = [
         description2: 'Essential for applications requiring stringent cleanliness, these cabinets protect sensitive samples by directing airflow outward to prevent contamination. For handling hazardous chemicals or infectious materials, a biological safety cabinet is recommended to ensure both sample integrity and user safety.',
         img1: product1,
         img2: product2,
-        img3: product3,
+        // img3: product3,
         img4: product2,
     },
 ]
@@ -81,13 +81,13 @@ const AirflowVelocity = () => {
                                     className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-contain p-1 rounded-lg cursor-pointer ${selectedImage === product.img2 ? "border-[#1782C5] border" : ""
                                         }`}
                                 />
-                                <img
+                                {/* <img
                                     src={product.img3}
                                     alt="Product Image 3"
                                     onClick={() => setSelectedImage(product.img3)}
                                     className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer ${selectedImage === product.img3 ? "border-[#1782C5] border" : ""
                                         }`}
-                                />
+                                /> */}
                             </div>
                         </div>
                         <div className="md:w-[60%] ">

@@ -48,7 +48,7 @@ function App() {
         <Route path="/product/Biosafety/BscClassIIB2" element={<ProductPage />} />
         <Route path="/product/Biosafety/BscClassIIB2(Agies)" element={<BAgies />} />
         <Route path="/product/Biosafety/BscClassIIA2(Agies)" element={< A2Agies/>} />
-        <Route path="/product/Biosafety/BscClassIIA2" element={<BSCA2 />} />
+        {/* <Route path="/product/Biosafety/BscClassIIA2" element={<BSCA2 />} /> */}
         <Route path="/product/Biosafety/BscMainClassIIA2" element={<MainA2 />} />
 
         {/* //Fume subpages// */}
