@@ -8,7 +8,7 @@ import Assistants from '../Home/Assistants'
 // import product3 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-SIDE.webp'
 import product1 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Velocity VLF img1.jpeg'
 import product2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/VLF-Velocity.png'
-import product3 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Velocity VLF img3.jpeg'
+// import product3 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Velocity VLF img3.jpeg'
 import VelocityQR from './VelocityQR'
 
 
