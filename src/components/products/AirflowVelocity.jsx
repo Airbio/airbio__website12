@@ -25,7 +25,7 @@ const VelocityData = [
         description2: 'Essential for applications requiring stringent cleanliness, these cabinets protect sensitive samples by directing airflow outward to prevent contamination. For handling hazardous chemicals or infectious materials, a biological safety cabinet is recommended to ensure both sample integrity and user safety.',
         img1: product1,
         img2: product2,
-        img3: product3,
+        // img3: product3,
         img4: product2,
     },
 ]
