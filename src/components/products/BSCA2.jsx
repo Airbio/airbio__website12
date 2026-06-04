@@ -29,7 +29,7 @@ const BSCA2Data = [
         img2: product2,
         img3: product3,
         img4: product2,
-        img5: product4,
+        // img5: product4,
     },
 ]
 
