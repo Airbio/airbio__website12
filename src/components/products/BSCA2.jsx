@@ -11,7 +11,7 @@ import rightArrow from '../../assets/images/Chevron_Right.svg'
 import product3 from '../../assets/images/biosafety/bsc class 2 A2/BSC CLASS II A2-SIDE.webp'
 import product1 from '../../assets/images/biosafety/bsc class 2 A2/BSC falcon class II A2 img4.jpeg'
 import product2 from '../../assets/images/biosafety/bsc class 2 A2/BSC falcon class II A2 img2.png'
-import product4 from '../../assets/images/biosafety/bsc class 2 A2/BSC falcon class II A2 img3.jpeg'
+// import product4 from '../../assets/images/biosafety/bsc class 2 A2/BSC falcon class II A2 img3.jpeg'
 
 
 
@@ -27,7 +27,7 @@ const BSCA2Data = [
         description2: "'AirBio's innovative monolithic stainless steel design not only enhances durability but also simplifies cleaning, ensuring a hygienic and robust workspace throughout its lifetime. While most Type A2 cabinets recirculate HEPA-filtered air back into the lab, this unit can also be fully exhausted through the facility's HVAC system when working with non-flammable or volatile chemicals or trace amounts of radionuclides, ensuring optimal safety. This model combines essential features, efficiency, and adaptability, making it a smart choice for various laboratory applications.'",
         img1: product1,
         img2: product2,
-        // img3: product3,
+        img3: product3,
         // img4: product2,
         // img5: product4,
     },
