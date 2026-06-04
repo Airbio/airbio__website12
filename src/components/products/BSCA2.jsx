@@ -27,7 +27,7 @@ const BSCA2Data = [
         description2: "'AirBio's innovative monolithic stainless steel design not only enhances durability but also simplifies cleaning, ensuring a hygienic and robust workspace throughout its lifetime. While most Type A2 cabinets recirculate HEPA-filtered air back into the lab, this unit can also be fully exhausted through the facility's HVAC system when working with non-flammable or volatile chemicals or trace amounts of radionuclides, ensuring optimal safety. This model combines essential features, efficiency, and adaptability, making it a smart choice for various laboratory applications.'",
         img1: product1,
         img2: product2,
-        img3: product3,
+        // img3: product3,
         // img4: product2,
         // img5: product4,
     },
