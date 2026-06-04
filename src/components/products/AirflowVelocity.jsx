@@ -7,7 +7,7 @@ import Assistants from '../Home/Assistants'
 // import product2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-CROSS.webp'
 // import product3 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Vertical Laminar Flow (Velocity)-SIDE.webp'
 import product1 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Velocity VLF img1.jpeg'
-import product2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Velocity VLF img2.jpeg'
+import product2 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/VLF-Velocity.png'
 import product3 from '../../assets/images/laminar/Vertical Laminar Flow (Velocity)/Velocity VLF img3.jpeg'
 import VelocityQR from './VelocityQR'
 
@@ -78,16 +78,16 @@ const AirflowVelocity = () => {
                                     src={product.img2}
                                     alt="Product Image 2"
                                     onClick={() => setSelectedImage(product.img2)}
-                                    className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer ${selectedImage === product.img2 ? "border-[#1782C5] border" : ""
+                                    className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-contain p-1 rounded-lg cursor-pointer ${selectedImage === product.img2 ? "border-[#1782C5] border" : ""
                                         }`}
                                 />
-                                <img
+                                {/* <img
                                     src={product.img3}
                                     alt="Product Image 3"
                                     onClick={() => setSelectedImage(product.img3)}
                                     className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer ${selectedImage === product.img3 ? "border-[#1782C5] border" : ""
                                         }`}
-                                />
+                                /> */}
                             </div>
                         </div>
                         <div className="md:w-[60%] ">
