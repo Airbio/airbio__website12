@@ -119,12 +119,12 @@ const Header = () => {
                                             >
                                                 BSC CLASS II A2
                                             </NavLink>
-                                            <NavLink
+                                            {/* <NavLink
                                                 to="/product/Biosafety/BscClassIIA2(Agies)"
                                                 className="block px-4 py-2 hover:bg-gray-100"
                                             >
                                                 BSC CLASS II A2 <span className='text-[#1782C5]'>(Agies)</span>
-                                            </NavLink>
+                                            </NavLink> */}
                                             <NavLink
                                                 to="/product/Biosafety/BscMainClassIIA2"
                                                 className="block px-4 py-2 hover:bg-gray-100"
@@ -351,13 +351,13 @@ const Header = () => {
                                                 >
                                                     BSC CLASS II A2
                                                 </Link>
-                                                <Link
+                                                {/* <Link
                                                     to="/product/Biosafety/BscClassIIA2(Agies)"
                                                     className={`block hover:text-gray-400 ${isActive("/product/category1/item4") ? "text-[#1782C5]" : ""}`}
                                                     onClick={toggleMenu}
                                                 >
                                                     BSC CLASS II A2 <span className='text-[#1782C5]'>(Agies)</span>
-                                                </Link>
+                                                </Link> */}
                                                 <Link
                                                     to="/product/Biosafety/BscMainClassIIA2"
                                                     className={`block hover:text-gray-400 ${isActive("/product/category1/item5") ? "text-[#1782C5]" : ""}`}

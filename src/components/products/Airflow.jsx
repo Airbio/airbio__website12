@@ -119,6 +119,16 @@ const Airflow = () => {
                             <div className="mb-4 flex flex-col md:flex-row justify-center md:justify-start md:items-start md:flex-wrap items-center gap-5 mt-8 ">
                                 <div className='flex justify-between gap-2'>
                                     <a href="https://api.whatsapp.com/send?phone=9899829299" target="_blank" rel="noopener noreferrer">
+                                        <button className="bg-[#1782C5] text-white w-[193px] px-4 py-2 rounded-full hover:bg-[#1e1e1e]">
+                                            Buy Now
+                                        </button>
+                                    </a>
+                                    {/* <button className="px-4 py-2 bg-[#1E1E1E] text-white flex items-center gap-2 rounded-full border border-[#7A7A7A]">
+                                        Request a Demo
+                                    </button> */}
+                                </div>
+                                <div className='flex justify-between gap-2'>
+                                    <a href="https://api.whatsapp.com/send?phone=9899829299" target="_blank" rel="noopener noreferrer">
                                         <button className="bg-[#1E1E1E] text-white w-[193px] px-4 py-2 rounded-full hover:bg-[#1782C5]">
                                             Get a Quote
                                         </button>
