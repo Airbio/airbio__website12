@@ -122,7 +122,7 @@ const AirflowVelocity = () => {
                             {/* 3rd Div: Buttons */}
                             <div className="mb-4 flex flex-col md:flex-row justify-center md:justify-start md:items-start md:flex-wrap items-center gap-5 mt-8 ">
                                 <div className='flex justify-between gap-2'>
-                                    <a href="https://api.whatsapp.com/send?phone=9899829299" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://dashboard.skydo.com/pay/pyl_dJkZ2O" target="_blank" rel="noopener noreferrer">
                                         <button className="bg-[#1782C5] text-white w-[193px] px-4 py-2 rounded-full hover:bg-[#1e1e1e]">
                                             Buy Now
                                         </button>
