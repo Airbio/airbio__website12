@@ -201,7 +201,7 @@ const About = () => {
             {/* Card 5 - Pass Boxes */}
             <div className="min-w-[318px] md:min-w-0 w-full max-w-[350px] h-[530px] md:h-[500px] flex flex-col justify-center items-center rounded-3xl p-4 border border-[#CDCDCD]">
                 <h2 className="p-[4px] py-2 px-4 mb-2 bg-[#1782C5] text-white rounded-[50px]">Pass Boxes</h2>
-                <img src={art5} alt="Pass Boxes" className="w-full h-[369px] md:w-[280px] object-cover mb-2 rounded-xl" />
+                <img src={art5} alt="Pass Boxes" className="w-full h-[369px] md:w-[280px] object-contain mb-2 rounded-xl" />
                 <Link to="/product/PassBox">
                     <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px] border-[#CDCDCD] hover:border-[#1782C5]">
                         View More

@@ -88,6 +88,7 @@ const Products = () => {
                     src={product.img2}
                     alt="Product Image 2"
                     className="w-[69px] h-[69px] p-1 bg-white object-contain rounded-lg border"
+                    object-fit="contain"
                   />
                   <img
                     src={product.img3}
