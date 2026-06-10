@@ -14,6 +14,10 @@ import PCRproduct1 from '../../assets/images/PCRworkstation/GeneSafe with glassd
 import PCRproduct2 from '../../assets/images/PCRworkstation/GeneSafe with glassdoor handle.png'
 import PCRproduct3 from '../../assets/images/PCRworkstation/PCRWorkststion-GaneSafe.png'
 import PCRproduct4 from '../../assets/images/PCRworkstation/genesafe6.jpeg'
+import PassBoxproduct1 from '../../assets/images/StaticPassBox/Static-Pass-Box.png'
+import PassBoxproduct2 from '../../assets/images/StaticPassBox/Static-Pass-Box.png'
+import PassBoxproduct3 from '../../assets/images/DynamicPassBox/Dynamic-Pass-Box.png'
+import PassBoxproduct4 from '../../assets/images/StaticPassBox/Static-Pass-Box-2.png'
 
 
 const productData = [
@@ -64,6 +68,18 @@ const productData = [
     img4: PCRproduct4,
     italics: ["free,", "contaminant", "healthcare"],
     route: "/product/PCRworkstation"
+  },
+  {
+    name: 'Pass Boxes',
+    title: 'Pass Boxes ensure safe and contamination-free material transfer between cleanroom areas.',
+    description1: 'AirBio Pass Boxes are essential cleanroom equipment designed to transfer materials between two different classified areas without compromising the sterility of the environment.',
+    description2: 'They act as an airlock system that prevents cross-contamination during material movement.',
+    img1: PassBoxproduct1, 
+    img2: PassBoxproduct2,
+    img3: PassBoxproduct3,
+    img4: PassBoxproduct4,
+    italics: ["free,", "contaminant", "healthcare"],
+    route: "/product/PassBox"
   },
   
 ];

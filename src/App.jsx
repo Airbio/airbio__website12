@@ -28,6 +28,9 @@ import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import FAQ from './components/FAQ/FAQ';
 import PCRworkstation from './components/Allproductpage/PCRworkstation';
 import GeneSafe from './components/products/GeneSafe';
+import PassBox from './components/Allproductpage/PassBox';
+import StaticPassBox from './components/products/StaticPassBox';
+import DynamicPassBox from './components/products/DynamicPassBox';
 
 function App() {
 
@@ -43,6 +46,8 @@ function App() {
         <Route path="/product/FumeHoods" element={<FumeHoods/>} />
         <Route path="/product/laminar" element={<LaminarFlow/>} />
         <Route path="/product/PCRworkstation" element={<PCRworkstation/>} />
+        <Route path="/product/PassBox" element={<PassBox/>} />
+
 
         {/* //biosafety subpages// */}
         <Route path="/product/Biosafety/BscClassIIB2" element={<ProductPage />} />
@@ -61,6 +66,9 @@ function App() {
         {/* //PCR Workstation subpages// */}
         <Route path="/product/PCRworkstation/GeneSafe" element={<GeneSafe />} />
 
+        {/* //Static Pass Box subpages// */}
+        <Route path="/product/PassBox/StaticPassBox" element={<StaticPassBox />} />
+        <Route path="/product/PassBox/DynamicPassBox" element={<DynamicPassBox />} />
 
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<BlogPage />} />

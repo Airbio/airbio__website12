@@ -200,7 +200,7 @@ const Header = () => {
                                 >
                                     <NavLink
                                         to="/product/PCRworkstation"
-                                        className=" px-4 py-2 flex gap-12 hover:bg-gray-100"
+                                        className=" px-4 py-2 flex justify-between gap-4 hover:bg-gray-100"
                                     >
                                         PCR WorkStation
                                         <img src={right} alt="" className="w-4 h-4 mt-1" />
@@ -211,14 +211,40 @@ const Header = () => {
                                                 to="/product/PCRworkstation/GeneSafe"
                                                 className="block px-4 py-2 hover:bg-gray-100"
                                             >
-                                                GaneSafe PCR WorkStation
+                                                GeneSafe PCR WorkStation
                                             </NavLink>
-                                            {/* <NavLink
-                                                to="/product/laminar/Airflow(Velocity)"
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Pass Boxes */}
+                                <div
+                                    className="relative"
+                                    onMouseEnter={() => setActiveSubmenu("PassBoxe")}
+                                    onMouseLeave={() => setActiveSubmenu("")}
+                                >
+                                    <NavLink
+                                        to="/product/PassBox"
+                                        className=" px-4 py-2 flex justify-between gap-4 hover:bg-gray-100"
+                                    >
+                                        Pass Boxes
+                                        <img src={right} alt="" className="w-4 h-4 mt-1" />
+                                    </NavLink>
+                                    {activeSubmenu === "PassBoxe" && (
+                                        <div className="absolute top-0 left-[230px] bg-white shadow-lg  w-[280px] py-2 z-20">
+                                            <NavLink
+                                                to="/product/PassBox/staticpassbox"
                                                 className="block px-4 py-2 hover:bg-gray-100"
                                             >
-                                                Vertical Laminar Airflow <span className='text-[#1782C5]'>(Velocity)</span>
-                                            </NavLink> */}
+                                                Static Pass Box
+                                            </NavLink>
+                        
+                                            <NavLink
+                                                to="/product/PassBox/dynamicpassbox"
+                                                className="block px-4 py-2 hover:bg-gray-100"
+                                            >
+                                                Dynamic Pass Box
+                                            </NavLink>
                                         </div>
                                     )}
                                 </div>
@@ -415,6 +441,56 @@ const Header = () => {
                                                     onClick={toggleMenu}
                                                 >
                                                     Vertical Laminar Airflow <span className='text-[#1782C5]'>(Velocity)</span>
+                                                </Link>
+                                            </div>
+                                        )}
+                                    </div>
+                                    {/* Submenu 4 */}
+                                    <div>
+                                        <div
+                                            className={`flex justify-between items-center hover:text-gray-400 cursor-pointer ${currentSubmenu === "submenu4" ? "text-[#1782C5]" : ""}`}
+                                            onClick={() => toggleMobileNestedMenu("submenu4")}
+                                        >
+                                            <Link to='/product/PCRworkstation'>PCR Workstation</Link>
+                                            {currentSubmenu === "submenu4" ? <FaMinus /> : <FaPlus />}
+                                        </div>
+                                        {currentSubmenu === "submenu4" && (
+                                            <div className="ml-4 mt-2 space-y-2">
+                                                <Link
+                                                    to="/product/PCRworkstation/genesafe"
+                                                    className={`block hover:text-gray-400 ${isActive("/product/category3/item1") ? "text-[#1782C5]" : ""}`}
+                                                    onClick={toggleMenu}
+                                                >
+                                                    GeneSafe PCR WorkStation
+                                                </Link>
+                                                
+                                            </div>
+                                        )}
+                                    </div>
+                                    {/* Submenu 5 */}
+                                    <div>
+                                        <div
+                                            className={`flex justify-between items-center hover:text-gray-400 cursor-pointer ${currentSubmenu === "submenu5" ? "text-[#1782C5]" : ""}`}
+                                            onClick={() => toggleMobileNestedMenu("submenu5")}
+                                        >
+                                            <Link to='/product/PassBox'>Pass Boxes</Link>
+                                            {currentSubmenu === "submenu5" ? <FaMinus /> : <FaPlus />}
+                                        </div>
+                                        {currentSubmenu === "submenu5" && (
+                                            <div className="ml-4 mt-2 space-y-2">
+                                                <Link
+                                                    to="/product/PassBox/staticpassbox"
+                                                    className={`block hover:text-gray-400 ${isActive("/product/category3/item1") ? "text-[#1782C5]" : ""}`}
+                                                    onClick={toggleMenu}
+                                                >
+                                                    Static Pass Box
+                                                </Link>
+                                                <Link
+                                                    to="/product/PassBox/dynamicpassbox"
+                                                    className={`block hover:text-gray-400 ${isActive("/product/category3/item2") ? "text-[#1782C5]" : ""}`}
+                                                    onClick={toggleMenu}
+                                                >
+                                                    Dynamic Pass Box
                                                 </Link>
                                             </div>
                                         )}

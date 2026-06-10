@@ -8,6 +8,7 @@ import art3 from '../../assets/images/laminar/laf.webp'
 // import art4 from '../../assets/images/PCRworkstation/PCRWorkststion-GaneSafe.png'
 import art4 from '../../assets/images/PCRworkstation/GeneSafe with glassdoor handle.png'
 // import art3 from '../../assets/images/biosafety.jpg'
+import art5 from '../../assets/images/StaticPassBox/Static-Pass-Box.png'
 import vector from '../../assets/images/Vector.svg'
 import customer from '../../assets/images/customer.svg'
 import truck from '../../assets/images/delivered.svg'
@@ -132,63 +133,86 @@ const About = () => {
           </div>
         </div>
 
-            <div>
-                <div id='product-section' className="flex justify-center items-center pt-10 mt-10 mb-10     ">
-                    <h1 className="text-center text-xl md:text-2xl  p-3 px-8 border border-[#C0C0C0] rounded-full text-black">
-                        Our Products
-                    </h1>
-                </div>
-                <div>
-                    <div className="flex md:justify-center items-center overflow-x-scroll md:overflow-x-hidden gap-4 p-4 max-w-screen-xl mx-auto scrollbar scrollbar-thumb-customBlue scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
-                        {/* Card 1 */}
-                        <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
-                            <h2 className="p-[4px] py-2 px-4 mb-2 bg-[#1782C5] text-white rounded-[50px]">Biosafety Cabinets</h2>
-                            <img src={art1} alt="Card 1" className="w-full h-[369px] md:w-[280px] object-cover mb-2" />
-                            <Link to="/product/Biosafety">
-                            <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px]  border-[#CDCDCD] hover:border-[#1782C5] group">View More
-                                <img src={vector} alt="vector icon" className='text-white' />
-                            </button>
-                            </Link>
-                        </div>
+           <div>
+    <div id='product-section' className="flex justify-center items-center pt-10 mt-10 mb-10">
+        <h1 className="text-center text-xl md:text-2xl p-3 px-8 border border-[#C0C0C0] rounded-full text-black">
+            Our Products
+        </h1>
+    </div>
 
-
-                        {/* Card 2 */}
-                        <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
-                            <h2 className="p-[4px] py-2  px-4 mb-2 bg-[#1782C5] text-white  rounded-[50px]">Fume Hoods</h2>
-                            <img src={art2} alt="Card 1" className="w-[254px] md:w-[280px] h-[369px] object-cover mb-2" />
-                            <Link to="/product/FumeHoods">
-                            <button className=" px-4 py-2 bg-black flex  justify-center items-center hover:bg-[#1782C5] text-white gap-2 rounded-[50px]  border-[#CDCDCD] hover:border-[#1782C5]">View More
-                                <img src={vector} alt="vector icon" />
-                            </button>
-                            </Link>
-                        </div>
-
-                        {/* Card 3 */}
-
-                        <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
-                            <h2 className="p-[4px] py-2  px-4 mb-2 bg-[#1782C5] text-white  rounded-[50px]">Laminar Flow Cabinets</h2>
-                            <img src={art3} alt="Card 2" className="w-full h-[369px] md:w-[280px] object-cover mb-2" />
-                            <Link to="/product/laminar">
-                            <button className=" px-4 py-2 bg-black flex  justify-center items-center hover:bg-[#1782C5] text-white gap-2 rounded-[50px]  border-[#CDCDCD] hover:border-[#1782C5]">View More
-                                <img src={vector} alt="vector icon" />
-                            </button>
-                            </Link>
-                        </div>
-                        {/* Card 4 */}
-
-                        <div className="min-w-[318px] h-[530px] md:w-[350px] md:h-[500px] flex flex-col justify-center items-center md:min-w-0 rounded-3xl p-4 border border-[#CDCDCD]">
-                            <h2 className="p-[4px] py-2  px-4 mb-2 bg-[#1782C5] text-white  rounded-[50px]">PCR Workstation</h2>
-                            <img src={art4} alt="Card 2" className="w-full h-[369px] md:w-[280px] object-contain mb-2" />
-                            <Link to="/product/PCRworkstation">
-                            <button className=" px-4 py-2 bg-black flex  justify-center items-center hover:bg-[#1782C5] text-white gap-2 rounded-[50px]  border-[#CDCDCD] hover:border-[#1782C5]">View More
-                                <img src={vector} alt="vector icon" />
-                            </button>
-                            </Link>
-                        </div>
-                    </div>
-
-                </div>
+    {/* Updated Grid Layout */}
+    <div className="max-w-screen-xl mx-auto px-4 pb-10">
+        
+        {/* First Row - 3 Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mb-6">
+            
+            {/* Card 1 - Biosafety Cabinets */}
+            <div className="min-w-[318px] md:min-w-0 w-full max-w-[350px] h-[530px] md:h-[500px] flex flex-col justify-center items-center rounded-3xl p-4 border border-[#CDCDCD]">
+                <h2 className="p-[4px] py-2 px-4 mb-2 bg-[#1782C5] text-white rounded-[50px]">Biosafety Cabinets</h2>
+                <img src={art1} alt="Biosafety Cabinets" className="w-full h-[369px] md:w-[280px] object-cover mb-2 rounded-xl" />
+                <Link to="/product/Biosafety">
+                    <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px] border-[#CDCDCD] hover:border-[#1782C5]">
+                        View More
+                        <img src={vector} alt="vector icon" />
+                    </button>
+                </Link>
             </div>
+
+            {/* Card 2 - Fume Hoods */}
+            <div className="min-w-[318px] md:min-w-0 w-full max-w-[350px] h-[530px] md:h-[500px] flex flex-col justify-center items-center rounded-3xl p-4 border border-[#CDCDCD]">
+                <h2 className="p-[4px] py-2 px-4 mb-2 bg-[#1782C5] text-white rounded-[50px]">Fume Hoods</h2>
+                <img src={art2} alt="Fume Hoods" className="w-full h-[369px] md:w-[280px] object-cover mb-2 rounded-xl" />
+                <Link to="/product/FumeHoods">
+                    <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px] border-[#CDCDCD] hover:border-[#1782C5]">
+                        View More
+                        <img src={vector} alt="vector icon" />
+                    </button>
+                </Link>
+            </div>
+
+            {/* Card 3 - Laminar Flow Cabinets */}
+            <div className="min-w-[318px] md:min-w-0 w-full max-w-[350px] h-[530px] md:h-[500px] flex flex-col justify-center items-center rounded-3xl p-4 border border-[#CDCDCD]">
+                <h2 className="p-[4px] py-2 px-4 mb-2 bg-[#1782C5] text-white rounded-[50px]">Laminar Flow Cabinets</h2>
+                <img src={art3} alt="Laminar Flow" className="w-full h-[369px] md:w-[280px] object-cover mb-2 rounded-xl" />
+                <Link to="/product/laminar">
+                    <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px] border-[#CDCDCD] hover:border-[#1782C5]">
+                        View More
+                        <img src={vector} alt="vector icon" />
+                    </button>
+                </Link>
+            </div>
+        </div>
+
+        {/* Second Row - 2 Cards (Perfectly Centered) */}
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+            
+            {/* Card 4 - PCR Workstation */}
+            <div className="min-w-[318px] md:min-w-0 w-full max-w-[350px] h-[530px] md:h-[500px] flex flex-col justify-center items-center rounded-3xl p-4 border border-[#CDCDCD]">
+                <h2 className="p-[4px] py-2 px-4 mb-2 bg-[#1782C5] text-white rounded-[50px]">PCR Workstation</h2>
+                <img src={art4} alt="PCR Workstation" className="w-full h-[369px] md:w-[280px] object-contain mb-2 rounded-xl" />
+                <Link to="/product/PCRworkstation">
+                    <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px] border-[#CDCDCD] hover:border-[#1782C5]">
+                        View More
+                        <img src={vector} alt="vector icon" />
+                    </button>
+                </Link>
+            </div>
+
+            {/* Card 5 - Pass Boxes */}
+            <div className="min-w-[318px] md:min-w-0 w-full max-w-[350px] h-[530px] md:h-[500px] flex flex-col justify-center items-center rounded-3xl p-4 border border-[#CDCDCD]">
+                <h2 className="p-[4px] py-2 px-4 mb-2 bg-[#1782C5] text-white rounded-[50px]">Pass Boxes</h2>
+                <img src={art5} alt="Pass Boxes" className="w-full h-[369px] md:w-[280px] object-cover mb-2 rounded-xl" />
+                <Link to="/product/PassBox">
+                    <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px] border-[#CDCDCD] hover:border-[#1782C5]">
+                        View More
+                        <img src={vector} alt="vector icon" />
+                    </button>
+                </Link>
+            </div>
+
+        </div>
+    </div>
+</div>
 
             <div className="container mx-auto mt-14 p-2 md:p-6">
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-6 lg:gap-0">

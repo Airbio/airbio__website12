@@ -8,6 +8,7 @@ import art1 from '../../assets/images/biosafety/bsc.jpg'
 import art2 from '../../assets/images/fume/fume.webp'
 import art3 from '../../assets/images/laminar/laf.webp'
 import art4 from '../../assets/images/PCRworkstation/GeneSafe with glassdoor handle.png'
+import art5 from '../../assets/images/StaticPassBox/Static-Pass-Box.png'
 import { Link, Route } from 'react-router-dom'
 
 const cardData = [
@@ -29,11 +30,17 @@ const cardData = [
         description: "Create a secure environment to handle biological samples with maximum safety and compliance",
         Route: '/product/laminar'
     },
-     {
+    {
         title: "PCR Workstations",
         image: art4,
         description: "Advanced Contamination-Control Workstation for Molecular Biology Applications",
         Route: '/product/PCRworkstation'
+    },
+    {
+        title: "Pass Boxes",
+        image: art5,
+        description: "Pass Boxes ensure safe and contamination-free material transfer between cleanroom areas.",
+        Route: '/product/PassBox'
     },
 ];
 
