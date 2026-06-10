@@ -73,7 +73,7 @@ const DiscoverProducts = () => {
                             <img
                                 src={card.image}
                                 alt={`Card ${index + 1}`}
-                                className="w-full md:w-[260px] md:h-[310px] mb-2 object-cover"
+                                className="w-full md:w-[280px] md:h-[310px] mb-2 object-contain"
                             />
                             <p className="mb-4 text-center text-[#1782C5]">{card.description}</p>
                             <Link to={card.Route}>
