@@ -204,7 +204,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className=' my-10 pt-5'>
+        {/* <div className=' my-10 pt-5'>
           <div className='text-center md:text-start md:max-w-[85%] mx-auto md:flex justify-between items-center pt-5 border-blue-600'>
             <h1 className='text-3xl font-medium md:w-[373px]  md:text-[40px] md:text-left my-2 '>Our
               Expert Team</h1>
@@ -233,7 +233,41 @@ const About = () => {
             ))}
           </div>
 
+        </div> */}
+
+        <div className='my-10 pt-5'>
+  <div className='text-center md:text-start md:max-w-[85%] mx-auto md:flex justify-between items-center pt-5 border-blue-600'>
+    <h1 className='text-3xl font-medium md:w-[373px] md:text-[40px] md:text-left my-2'>
+      Our Expert Team
+    </h1>
+    <p className='text-[15px] py-2 md:py-0 md:w-[283px] text-[#7A7A7A]'>
+      Driving innovation and excellence to craft products that transform ideas into reality.
+    </p>
+  </div>
+
+  <div className="grid grid-cols-2 md:grid-cols-5 md:max-w-[85%] h-auto my-10 mx-auto gap-4">
+    {TeamData.map((card) => (
+      <div
+        key={card.id}
+        className="bg-white border border-[#CDCDCD] rounded-lg overflow-hidden"
+      >
+        {/* Fixed Image Container */}
+        <div className="relative w-full aspect-[4/4.2] bg-gray-100">   {/* Consistent aspect ratio */}
+          <img
+            src={card.imgSrc}
+            alt={card.name}
+            className="w-full h-full object-cover rounded-t-lg"   
+          />
         </div>
+
+        <div className="pt-3 pb-4 bg-[#f8f8f8]">
+          <h3 className="text-lg text-center font-medium">{card.name}</h3>
+          <p className="mt-1 text-center text-[#1782C5]">{card.role}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
       </div>
     </div>
   )

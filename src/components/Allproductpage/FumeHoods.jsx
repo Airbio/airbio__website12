@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../Home/Header";
-import img1 from "../../assets/images/fume/fumehoods.webp";
-import art1 from "../../assets/images/fume/fume.webp";
+import img1 from "../../assets/images/fume/Fume-Hoods-Stage.png";
+import art1 from "../../assets/images/fume/Fume-Hoods.png";
 import art2 from "../../assets/images/art2.webp";
 import art3 from "../../assets/images/art3.webp";
 import vector from "../../assets/images/Vector.svg";
@@ -145,7 +145,7 @@ const FumeHoods = () => {
                       <img
                         src={card.image}
                         alt={`Card ${index + 1}`}
-                        className="w-auto h-[302px] md:w-[221px] object-cover"
+                        className="w-auto h-[302px] md:w-[221px] object-contain"
                       />
                     </div>
 

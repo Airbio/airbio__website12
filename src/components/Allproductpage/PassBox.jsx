@@ -127,6 +127,7 @@ const PassBox = () => {
                                             src={card.image}
                                             alt={card.subtitle}
                                             className="w-auto h-[302px] md:w-[221px] object-cover py-4"
+                                            style={{ objectFit: "contain" }}
                                         />
                                     </div>
 

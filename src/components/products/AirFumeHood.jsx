@@ -3,9 +3,9 @@ import Header from '../Home/Header'
 import whatsapp from '../../assets/images/Whatsapp1.svg'
 import rightArrow from '../../assets/images/Chevron_Right.svg'
 import Assistants from '../Home/Assistants'
-import product1 from '../../assets/images/fume/fume.webp'
-import product2 from '../../assets/images/fume/fume.webp'
-import product3 from '../../assets/images/fume/fume.webp'
+import product1 from '../../assets/images/fume/Fume-Hoods.png'
+import product2 from '../../assets/images/fume/Fume-Hoods.png'
+import product3 from '../../assets/images/fume/Fume-Hoods.png'
 
 
 
