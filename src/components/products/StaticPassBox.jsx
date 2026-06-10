@@ -81,7 +81,7 @@ const StaticPassBox = () => {
                                 <img
                                     src={selectedImage}
                                     alt="Selected Product Image"
-                                    className="w-full h-[335px] p-4 px-4 lg:w-[423px] lg:h-[458px] object-cover rounded-lg mb-5 md:m-0 border border-[#1782C5]"
+                                    className="w-full h-[335px] p-4 px-4 lg:w-[423px] lg:h-[458px] object-contain rounded-lg mb-5 md:m-0 border border-[#1782C5]"
                                 />
                             </div>
 
@@ -90,7 +90,7 @@ const StaticPassBox = () => {
                                     src={product.img1}
                                     alt="Product Image 1"
                                     onClick={() => setSelectedImage(product.img1)}
-                                    className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-cover p-1 rounded-lg cursor-pointer ${selectedImage === product.img1 ? "border-[#1782C5] border" : ""}`}
+                                    className={`w-[75px] h-[75px] md:w-[107px] md:h-[107px] bg-[#F7F7F7] object-contain p-1 rounded-lg cursor-pointer ${selectedImage === product.img1 ? "border-[#1782C5] border" : ""}`}
                                 />
                                 <img
                                     src={product.img2}
