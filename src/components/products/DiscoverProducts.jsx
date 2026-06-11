@@ -9,7 +9,7 @@ import art2 from '../../assets/images/fume/Fume-Hoods.png'
 import art3 from '../../assets/images/laminar/laf.webp'
 import art4 from '../../assets/images/PCRworkstation/GeneSafe with glassdoor handle.png'
 import art5 from '../../assets/images/StaticPassBox/Static-Pass-Box.png'
-import art6 from '../../assets/images/AirShower/Air-Shower-main.png'
+import art6 from '../../assets/images/AirShower/Air-Shower-Main.png'
 import { Link, Route } from 'react-router-dom'
 
 const cardData = [

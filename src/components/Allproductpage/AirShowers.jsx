@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 // Air Shower Image
 import airShowerMain from '../../assets/images/AirShower/Air-Shower-Stage.png'
-import airShowerimg from '../../assets/images/AirShower/Air-Shower-main.png'
+import airShowerimg from '../../assets/images/AirShower/Air-Shower-Main.png'
 
 import post3 from '../../assets/images/Post3.webp'
 import airShowerwithbg from '../../assets/images/AirShower/Air-Shower-with-bg.avif'
