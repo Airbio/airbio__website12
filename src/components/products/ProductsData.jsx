@@ -18,7 +18,7 @@ import PassBoxproduct1 from '../../assets/images/StaticPassBox/Static-Pass-Box.p
 import PassBoxproduct2 from '../../assets/images/StaticPassBox/Static-Pass-Box.png'
 import PassBoxproduct3 from '../../assets/images/DynamicPassBox/Dynamic-Pass-Box.png'
 import PassBoxproduct4 from '../../assets/images/StaticPassBox/Static-Pass-Box-2.png'
-import AirShowerproduct1 from '../../assets/images/AirShower/Air-Shower-main.png'
+import AirShowerproduct1 from '../../assets/images/AirShower/Air-Shower-Main.png'
 import AirShowerproduct2 from '../../assets/images/AirShower/Air-Shower-2.png'
 import AirShowerproduct3 from '../../assets/images/AirShower/Air-Shower-Main.png'
 import AirShowerproduct4 from '../../assets/images/AirShower/Air-Shower-with-bg.avif'
