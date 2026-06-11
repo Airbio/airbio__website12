@@ -107,7 +107,7 @@ const AirShower = () => {
                             </div>
 
                             <div className="mb-4 flex flex-col md:flex-row gap-5 mt-8">
-                                <a href="https://dashboard.skydo.com/pay/pyl_dd2QAQ" target="_blank" rel="noopener noreferrer">
+                                <a href=" https://dashboard.skydo.com/pay/pyl_5IEig6" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-[#1782C5] text-white w-[193px] px-4 py-2 rounded-full hover:bg-[#1e1e1e]">Buy Now</button>
                                 </a>
                                 <a href="https://api.whatsapp.com/send?phone=9899829299" target="_blank" rel="noopener noreferrer">
