@@ -9,6 +9,7 @@ import art2 from '../../assets/images/fume/Fume-Hoods.png'
 import art3 from '../../assets/images/laminar/laf.webp'
 import art4 from '../../assets/images/PCRworkstation/GeneSafe with glassdoor handle.png'
 import art5 from '../../assets/images/StaticPassBox/Static-Pass-Box.png'
+import art6 from '../../assets/images/AirShower/Air-Shower-main.png'
 import { Link, Route } from 'react-router-dom'
 
 const cardData = [
@@ -41,6 +42,12 @@ const cardData = [
         image: art5,
         description: "Pass Boxes ensure safe and contamination-free material transfer between cleanroom areas.",
         Route: '/product/PassBox'
+    },
+    {
+        title: "Air Showers",
+        image: art6,
+        description: "High-velocity HEPA filtered air shower for personnel decontamination",
+        Route: '/product/AirShowers'
     },
 ];
 

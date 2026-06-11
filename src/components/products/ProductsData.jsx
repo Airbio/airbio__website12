@@ -18,6 +18,10 @@ import PassBoxproduct1 from '../../assets/images/StaticPassBox/Static-Pass-Box.p
 import PassBoxproduct2 from '../../assets/images/StaticPassBox/Static-Pass-Box.png'
 import PassBoxproduct3 from '../../assets/images/DynamicPassBox/Dynamic-Pass-Box.png'
 import PassBoxproduct4 from '../../assets/images/StaticPassBox/Static-Pass-Box-2.png'
+import AirShowerproduct1 from '../../assets/images/AirShower/Air-Shower-main.png'
+import AirShowerproduct2 from '../../assets/images/AirShower/Air-Shower-2.png'
+import AirShowerproduct3 from '../../assets/images/AirShower/Air-Shower-main.png'
+import AirShowerproduct4 from '../../assets/images/AirShower/Air-Shower-with-bg.avif'
 
 
 const productData = [
@@ -80,6 +84,18 @@ const productData = [
     img4: PassBoxproduct4,
     italics: ["free,", "contaminant", "healthcare"],
     route: "/product/PassBox"
+  },
+  {
+    name: 'Air Showers',
+    title: 'High-velocity HEPA filtered air shower for personnel decontamination',
+    description1: 'AirBio Air Shower is a high-performance contamination control equipment designed to eliminate dust, particles, and germs from personnel before entering cleanroom areas. It uses high-velocity HEPA filtered air to ensure maximum cleanliness and regulatory compliance.',
+    description2: 'Ideal for Pharmaceutical, Biotechnology, API Manufacturing, Electronics, Food Processing, and other controlled environments.',
+    img1: AirShowerproduct1,
+    img2: AirShowerproduct2,
+    img3: AirShowerproduct3,
+    img4: AirShowerproduct4,
+    italics: ["free,", "contaminant", "healthcare"],
+    route: "/product/AirShowers"
   },
   
 ];

@@ -248,6 +248,31 @@ const Header = () => {
                                         </div>
                                     )}
                                 </div>
+
+                                {/* Air Showers */}
+                                <div
+                                    className="relative"
+                                    onMouseEnter={() => setActiveSubmenu("AirShowers")}
+                                    onMouseLeave={() => setActiveSubmenu("")}
+                                >
+                                    <NavLink
+                                        to="/product/AirShowers"
+                                        className=" px-4 py-2 flex justify-between gap-4 hover:bg-gray-100"
+                                    >
+                                        Air Showers
+                                        <img src={right} alt="" className="w-4 h-4 mt-1" />
+                                    </NavLink>
+                                    {activeSubmenu === "AirShowers" && (
+                                        <div className="absolute top-0 left-[230px] bg-white shadow-lg  w-[280px] py-2 z-20">
+                                            <NavLink
+                                                to="/product/AirShowers/airshower"
+                                                className="block px-4 py-2 hover:bg-gray-100"
+                                            >
+                                                Air Shower
+                                            </NavLink>
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                         )}
 
@@ -491,6 +516,27 @@ const Header = () => {
                                                     onClick={toggleMenu}
                                                 >
                                                     Dynamic Pass Box
+                                                </Link>
+                                            </div>
+                                        )}
+                                    </div>
+                                    {/* Submenu 6 */}
+                                    <div>
+                                        <div
+                                            className={`flex justify-between items-center hover:text-gray-400 cursor-pointer ${currentSubmenu === "submenu6" ? "text-[#1782C5]" : ""}`}
+                                            onClick={() => toggleMobileNestedMenu("submenu6")}
+                                        >
+                                            <Link to='/product/AirShowers'>Air Showers</Link>
+                                            {currentSubmenu === "submenu6" ? <FaMinus /> : <FaPlus />}
+                                        </div>
+                                        {currentSubmenu === "submenu6" && (
+                                            <div className="ml-4 mt-2 space-y-2">
+                                                <Link
+                                                    to="/product/AirShowers/airshower"
+                                                    className={`block hover:text-gray-400 ${isActive("/product/category3/item1") ? "text-[#1782C5]" : ""}`}
+                                                    onClick={toggleMenu}
+                                                >
+                                                    Air Shower
                                                 </Link>
                                             </div>
                                         )}

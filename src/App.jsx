@@ -31,6 +31,8 @@ import GeneSafe from './components/products/GeneSafe';
 import PassBox from './components/Allproductpage/PassBox';
 import StaticPassBox from './components/products/StaticPassBox';
 import DynamicPassBox from './components/products/DynamicPassBox';
+import AirShower from './components/products/AirShower';
+import AirShowers from './components/Allproductpage/AirShowers';
 
 function App() {
 
@@ -47,6 +49,7 @@ function App() {
         <Route path="/product/laminar" element={<LaminarFlow/>} />
         <Route path="/product/PCRworkstation" element={<PCRworkstation/>} />
         <Route path="/product/PassBox" element={<PassBox/>} />
+        <Route path="/product/AirShowers" element={<AirShowers />} />
 
 
         {/* //biosafety subpages// */}
@@ -69,6 +72,9 @@ function App() {
         {/* //Static Pass Box subpages// */}
         <Route path="/product/PassBox/StaticPassBox" element={<StaticPassBox />} />
         <Route path="/product/PassBox/DynamicPassBox" element={<DynamicPassBox />} />
+
+        {/* //Air Shower subpages// */}
+        <Route path="/product/AirShowers/airshower" element={<AirShower />} />
 
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<BlogPage />} />

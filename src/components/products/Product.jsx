@@ -140,7 +140,7 @@ const Products = () => {
                   <img
                     src={product.img1}
                     alt="Product Image 1"
-                    className="w-[220px] h-[250px] md:w-[400px] md:h-[420px] p-2 md:p-3 object-cover rounded-lg  border-green-600"
+                    className="w-[220px] h-[250px] md:w-[400px] md:h-[420px] p-2 md:p-3 object-contain rounded-lg  border-green-600"
                   />
                 </div>
                 <div className=" h-auto md:hidden pl-2 flex justify-between items-center gap-5 mb-5">
