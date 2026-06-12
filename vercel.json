@@ -1,7 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
   "build": {
     "env": {
       "NODE_ENV": "production"
@@ -13,7 +11,61 @@
       "source": "/contact-us",
       "destination": "/contact",
       "permanent": true
+    },
+    {
+      "source": "/support",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/products",
+      "destination": "/product",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/resources",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/products/air-showers",
+      "destination": "/product/AirShowers",
+      "permanent": true
+    },
+    {
+      "source": "/products/biosafety-cabinets",
+      "destination": "/product/Biosafety",
+      "permanent": true
+    },
+    {
+      "source": "/products/fume-hoods",
+      "destination": "/product/FumeHoods",
+      "permanent": true
+    },
+    {
+      "source": "/products/laminar-flow-cabinets",
+      "destination": "/product/laminar",
+      "permanent": true
+    },
+    {
+      "source": "/products/pass-boxes",
+      "destination": "/product/PassBox",
+      "permanent": true
+    },
+    {
+      "source": "/products/pcr-workstations",
+      "destination": "/product/PCRworkstation",
+      "permanent": true
+    },
+    {
+      "source": "/industries",
+      "destination": "/",
+      "permanent": true
     }
   ]
-
 }
