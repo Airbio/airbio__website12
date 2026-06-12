@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../../assets/images/AirbioBanner.png'
-import art1 from '../../assets/images/biosafety/bsc.jpg'
+import art1 from '../../assets/images/biosafety/bsc class 2 A2/BSC falcon class II A2 img4.jpeg'
+// import art1 from '../../assets/images/biosafety/bsc.jpg'
 // import art1 from '../../assets/images/biosafety1.jpg'
 import art2 from '../../assets/images/fume/Fume-Hoods.png'
 // import art2 from '../../assets/images/biosafety.jpg'
@@ -150,7 +151,7 @@ const About = () => {
         {/* Card 1 - Biosafety Cabinets */}
         <div className="w-full max-w-[350px] mx-auto h-[530px] md:h-[500px] flex flex-col justify-center items-center rounded-3xl p-4 border border-[#CDCDCD]">
             <h2 className="p-[4px] py-2 px-4 mb-2 bg-[#1782C5] text-white rounded-[50px]">Biosafety Cabinets</h2>
-            <img src={art1} alt="Biosafety Cabinets" className="w-full h-[369px] md:w-[280px] object-cover mb-2 rounded-xl" />
+            <img src={art1} alt="Biosafety Cabinets" className="w-full h-[369px] md:w-[280px] object-contain mb-2 rounded-xl" />
             <Link to="/product/Biosafety">
                 <button className="px-4 py-2 flex bg-black hover:bg-[#1782C5] text-white justify-center items-center gap-2 rounded-[50px] border-[#CDCDCD] hover:border-[#1782C5]">
                     View More
