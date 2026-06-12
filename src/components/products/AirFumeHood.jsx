@@ -7,6 +7,8 @@ import product1 from '../../assets/images/fume/Fume-Hoods.png'
 import product2 from '../../assets/images/fume/Fume-Hoods.png'
 import product3 from '../../assets/images/fume/Fume-Hoods.png'
 
+import { Helmet } from "react-helmet-async";
+
 
 
 const AirFumeData = [
@@ -31,6 +33,15 @@ const AirFumeHood = () => {
     const [selectedImage, setSelectedImage] = useState(product1);
 
     return (
+        <>
+              <Helmet>
+                <title>Air Foom Hood | Airbio</title>
+        
+                <link
+                  rel="canonical"
+                  href="https://www.airbio.in/product/FumeHoods/FumeHood"
+                />
+              </Helmet>
         <div>
             <Header />
             <hr className="w-[95%] h-1 mt-6 border-t-1 border-[#C3C3C3] mx-auto" />
@@ -203,6 +214,7 @@ const AirFumeHood = () => {
                 <Assistants />
             </div>
         </div>
+        </>
     )
 }
 

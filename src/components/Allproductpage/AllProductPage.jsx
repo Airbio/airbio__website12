@@ -25,6 +25,8 @@ import icon10 from '../../assets/images/biosafety/keyfeatures/features10.svg'
 import arrow from '../../assets/images/crossArrow.svg'
 import { Link } from 'react-router-dom'
 
+import { Helmet } from "react-helmet-async";
+
 const features = [
     {
         icon: icon1,
@@ -145,6 +147,12 @@ const AllProductPage = () => {
 
 
     return (
+        <>
+              <Helmet>
+                <title>Biosafety Cabinets | Airbio</title>
+        
+                <link rel="canonical" href="https://www.airbio.in/product/Biosafety" />
+              </Helmet>
         <div>
             <Header />
             <hr className="w-[95%] h-1 mt-6 border-t-1 border-[#C3C3C3] mx-auto" />
@@ -284,6 +292,7 @@ const AllProductPage = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
