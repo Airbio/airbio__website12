@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import Header from '../Home/Header'
 
+import { Helmet } from "react-helmet-async";
+
 const faqData = [
   {
     category: "General Questions",
@@ -463,6 +465,15 @@ const FAQ = () => {
   }
 
   return (
+     <>
+          <Helmet>
+            <title>FAQs | Airbio</title>
+    
+            <link
+              rel="canonical"
+              href="https://www.airbio.in/faq"
+            />
+          </Helmet>
     <div>
       <Header />
       <hr className="w-[95%] h-1 mt-6 border-t-1 border-[#C3C3C3] mx-auto" />
@@ -539,6 +550,7 @@ const FAQ = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

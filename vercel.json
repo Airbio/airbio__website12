@@ -6,5 +6,14 @@
     "env": {
       "NODE_ENV": "production"
     }
-  }
+  },
+
+  "redirects": [
+    {
+      "source": "/contact-us",
+      "destination": "/contact",
+      "permanent": true
+    }
+  ]
+
 }
