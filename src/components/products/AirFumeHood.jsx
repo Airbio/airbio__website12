@@ -40,6 +40,8 @@ const AirFumeHood = () => {
           rel="canonical"
           href="https://www.airbio.in/product/FumeHoods/FumeHood"
         />
+
+         {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -56,6 +58,40 @@ const AirFumeHood = () => {
               name: "AirBio",
             },
             category: "Fume Hood",
+          })}
+        </script>
+
+        {/* FaQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is a laboratory fume hood?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A laboratory fume hood is a ventilated enclosure that protects users from hazardous fumes and vapors.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Why is a fume hood important?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It improves laboratory safety by removing harmful airborne contaminants.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can it be customized?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, AirBio fume hoods can be customized according to laboratory requirements.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>

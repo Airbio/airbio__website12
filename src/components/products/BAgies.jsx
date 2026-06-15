@@ -47,6 +47,8 @@ const BAgies = () => {
           rel="canonical"
           href="https://www.airbio.in/product/Biosafety/BscClassIIB2(Agies)"
         />
+
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -63,6 +65,40 @@ const BAgies = () => {
               name: "AirBio",
             },
             category: "Biosafety Cabinet",
+          })}
+        </script>
+
+        {/* FAQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What makes the Agies B2 cabinet different?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The Agies model offers enhanced airflow control, containment performance and operator protection.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is it suitable for pharmaceutical laboratories?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, it is designed for pharmaceutical, biotechnology and research laboratory applications.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does it provide contamination protection?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, it protects personnel, products and the environment from biological contamination.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>

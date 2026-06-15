@@ -42,6 +42,8 @@ const MainA2 = () => {
           rel="canonical"
           href="https://www.airbio.in/product/Biosafety/BscMainClassIIA2"
         />
+
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -58,6 +60,48 @@ const MainA2 = () => {
               name: "AirBio",
             },
             category: "Biosafety Cabinet",
+          })}
+        </script>
+
+        {/* FAQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is a Class II Type A2 Biosafety Cabinet?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A Class II Type A2 Biosafety Cabinet provides personnel, product and environmental protection using HEPA filtered airflow.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Where is the Main BSC Class II A2 used?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It is widely used in microbiology laboratories, pharmaceutical facilities, hospitals and research centers.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does the cabinet use HEPA filtration?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, the cabinet uses HEPA filtration to maintain a sterile working environment.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can the cabinet handle hazardous biological materials?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, it is designed for safe handling of biological samples and microbiological agents.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>

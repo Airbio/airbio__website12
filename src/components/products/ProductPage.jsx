@@ -29,6 +29,8 @@ const ProductPage = () => {
           rel="canonical"
           href="https://www.airbio.in/product/Biosafety/BscClassIIB2"
         />
+
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -45,6 +47,40 @@ const ProductPage = () => {
               name: "AirBio",
             },
             category: "Biosafety Cabinet",
+          })}
+        </script>
+
+        {/* FAQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is a Class II B2 Biosafety Cabinet?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A Class II B2 Biosafety Cabinet provides personnel, product and environmental protection using 100% exhaust airflow.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Where is the BSC Class II B2 Falcon used?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It is used in microbiology laboratories, pharmaceutical facilities and research institutions handling hazardous biological materials.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does the cabinet support volatile chemicals?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, the Class II B2 design is suitable for applications involving volatile toxic chemicals and radionuclides.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>

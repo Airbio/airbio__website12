@@ -40,6 +40,8 @@ const Airflow = () => {
           rel="canonical"
           href="https://www.airbio.in/product/laminar/Airflow"
         />
+
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -56,6 +58,40 @@ const Airflow = () => {
               name: "AirBio",
             },
             category: "Laminar Air Flow",
+          })}
+        </script>
+
+        {/* FAQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is a Vertical Laminar Air Flow unit?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A Vertical Laminar Air Flow unit provides a sterile work area using HEPA-filtered vertical airflow.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Where is it used?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It is used in laboratories, pharmaceutical facilities and electronics manufacturing.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does it protect samples from contamination?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, it creates a clean environment that protects samples from airborne contamination.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>

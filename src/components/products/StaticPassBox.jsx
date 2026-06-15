@@ -84,6 +84,8 @@ const StaticPassBox = () => {
           rel="canonical"
           href="https://www.airbio.in/product/PassBox/staticpassbox"
         />
+
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -100,6 +102,40 @@ const StaticPassBox = () => {
               name: "AirBio",
             },
             category: "Pass Box",
+          })}
+        </script>
+
+        {/* FaQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is a Static Pass Box?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A Static Pass Box is used for material transfer between clean and non-clean areas.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How does a Static Pass Box reduce contamination?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It minimizes direct movement of personnel between controlled environments.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Where is it commonly used?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It is widely used in pharmaceutical, healthcare and cleanroom facilities.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>

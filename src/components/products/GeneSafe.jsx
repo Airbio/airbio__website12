@@ -85,6 +85,8 @@ const GeneSafe = () => {
           rel="canonical"
           href="https://www.airbio.in/product/PCRworkstation/GeneSafe"
         />
+
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -101,6 +103,40 @@ const GeneSafe = () => {
               name: "AirBio",
             },
             category: "PCR Workstation",
+          })}
+        </script>
+
+        {/* FAQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is a PCR workstation?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A PCR workstation provides a contamination-controlled workspace for PCR sample preparation.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Why is contamination control important in PCR?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Contamination can affect PCR results, making a controlled environment essential.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is GeneSafe suitable for molecular biology labs?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, it is specifically designed for PCR and molecular biology applications.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>

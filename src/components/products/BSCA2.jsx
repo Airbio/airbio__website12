@@ -46,6 +46,8 @@ const BSCA2 = () => {
           rel="canonical"
           href="https://www.airbio.in/product/Biosafety/BscClassIIA2"
         />
+
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -62,6 +64,40 @@ const BSCA2 = () => {
               name: "AirBio",
             },
             category: "Biosafety Cabinet",
+          })}
+        </script>
+
+        {/* FAQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is a Class II A2 Biosafety Cabinet?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A Class II A2 Biosafety Cabinet provides personnel, product and environmental protection through recirculated HEPA-filtered air.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Which laboratories use Class II A2 cabinets?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "They are commonly used in clinical, pharmaceutical, academic and research laboratories.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does it include HEPA filtration?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, the cabinet uses HEPA filtration to maintain a clean and safe working environment.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>

@@ -89,6 +89,8 @@ const AirShower = () => {
           rel="canonical"
           href="https://www.airbio.in/product/PassBox/airshowers/airshower"
         />
+
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -105,6 +107,40 @@ const AirShower = () => {
               name: "AirBio",
             },
             category: "Air Shower",
+          })}
+        </script>
+
+        {/* FAQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is an Air Shower?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "An Air Shower removes dust and contaminants from personnel before entering cleanrooms.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How does an Air Shower work?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "High-velocity HEPA-filtered air removes particles from clothing and surfaces.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Where are Air Showers used?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "They are commonly used in pharmaceutical, semiconductor and biotechnology facilities.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>

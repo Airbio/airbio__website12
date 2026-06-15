@@ -44,6 +44,8 @@ const AirflowVelocity = () => {
           rel="canonical"
           href="https://www.airbio.in/product/laminar/Airflow(Velocity)"
         />
+
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -60,6 +62,48 @@ const AirflowVelocity = () => {
               name: "AirBio",
             },
             category: "Laminar Air Flow",
+          })}
+        </script>
+
+        {/* FAQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is a Vertical Laminar Airflow Cabinet?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A Vertical Laminar Airflow Cabinet provides a sterile workspace using HEPA filtered vertical airflow.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is Velocity Laminar Airflow used for?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Velocity Laminar Airflow is used for sample preparation, electronics assembly, microbiology and laboratory applications.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does Velocity Laminar Airflow include HEPA filtration?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, it uses a high-efficiency HEPA filtration system to ensure clean airflow.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is Velocity suitable for contamination-sensitive work?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, it helps maintain a particle-free environment for contamination-sensitive processes.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>

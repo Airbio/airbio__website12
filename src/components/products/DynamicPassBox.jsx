@@ -101,6 +101,8 @@ const DynamicPassBox = () => {
           rel="canonical"
           href="https://www.airbio.in/product/PassBox/dynamicpassbox"
         />
+
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -117,6 +119,40 @@ const DynamicPassBox = () => {
               name: "AirBio",
             },
             category: "Pass Box",
+          })}
+        </script>
+
+        {/* FAQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is a Dynamic Pass Box?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A Dynamic Pass Box uses HEPA-filtered airflow for contamination-free material transfer.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the advantage of a Dynamic Pass Box?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It provides a cleaner transfer environment than a standard static pass box.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is it suitable for cleanrooms?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, it is specifically designed for cleanroom applications.",
+                },
+              },
+            ],
           })}
         </script>
       </Helmet>
