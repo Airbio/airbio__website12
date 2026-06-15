@@ -81,6 +81,16 @@ const AirShowers = () => {
         <title>Air Showers | Airbio</title>
 
         <link rel="canonical" href="https://www.airbio.in/product/AirShowers" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Air Showers",
+            description:
+              "AirBio Air Showers help remove particulate contamination from personnel before entering controlled environments.",
+            url: "https://www.airbio.in/product/AirShowers",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

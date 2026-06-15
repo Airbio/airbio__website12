@@ -84,6 +84,24 @@ const StaticPassBox = () => {
           rel="canonical"
           href="https://www.airbio.in/product/PassBox/staticpassbox"
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "Static Pass Box",
+            description:
+              "Mechanical interlock pass box for safe and contamination-controlled material transfer.",
+            brand: {
+              "@type": "Brand",
+              name: "AirBio",
+            },
+            manufacturer: {
+              "@type": "Organization",
+              name: "AirBio",
+            },
+            category: "Pass Box",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

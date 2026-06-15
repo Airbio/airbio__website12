@@ -47,6 +47,24 @@ const BAgies = () => {
           rel="canonical"
           href="https://www.airbio.in/product/Biosafety/BscClassIIB2(Agies)"
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "BSC Class II B2 Agies",
+            description:
+              "Advanced biosafety cabinet ensuring reliable containment with dynamic air barrier and engineering controls.",
+            brand: {
+              "@type": "Brand",
+              name: "AirBio",
+            },
+            manufacturer: {
+              "@type": "Organization",
+              name: "AirBio",
+            },
+            category: "Biosafety Cabinet",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

@@ -97,6 +97,17 @@ const FumeHoods = () => {
         <title>Fume Hoods | Airbio</title>
 
         <link rel="canonical" href="https://www.airbio.in/product/FumeHoods" />
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Fume Hoods",
+            description:
+              "Browse AirBio Fume Hoods designed for laboratory safety, chemical handling and contamination control.",
+            url: "https://www.airbio.in/product/FumeHoods",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />
@@ -239,7 +250,9 @@ const FumeHoods = () => {
               <div className="md:w-[60%] md:px-5 lg:px-0 lg:mr-8 ">
                 <h1 className="text-xl text-center md:text-start md:text-3xl font-medium mb-5">
                   About{" "}
-                  <span className="text-[#1782C5]">AirBio’s Fume Hoods</span>{" "}
+                  <span className="text-[#1782C5]">
+                    AirBio’s Fume Hoods
+                  </span>{" "}
                 </h1>
                 <p className="text-justify text-[14px] text-opacity-75">
                   AirBio fume hoods are engineered to provide a secure

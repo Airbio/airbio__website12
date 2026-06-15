@@ -42,6 +42,24 @@ const MainA2 = () => {
           rel="canonical"
           href="https://www.airbio.in/product/Biosafety/BscMainClassIIA2"
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "Main BSC Class II A2",
+            description:
+              "Durable stainless steel biosafety cabinet with flexible airflow options and enhanced laboratory safety.",
+            brand: {
+              "@type": "Brand",
+              name: "AirBio",
+            },
+            manufacturer: {
+              "@type": "Organization",
+              name: "AirBio",
+            },
+            category: "Biosafety Cabinet",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

@@ -29,6 +29,24 @@ const ProductPage = () => {
           rel="canonical"
           href="https://www.airbio.in/product/Biosafety/BscClassIIB2"
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "BSC Class II B2 Falcon",
+            description:
+              "Benchtop biosafety cabinet with 100% exhaust system for volatile chemicals and radionuclides.",
+            brand: {
+              "@type": "Brand",
+              name: "AirBio",
+            },
+            manufacturer: {
+              "@type": "Organization",
+              name: "AirBio",
+            },
+            category: "Biosafety Cabinet",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

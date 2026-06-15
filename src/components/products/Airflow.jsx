@@ -40,6 +40,24 @@ const Airflow = () => {
           rel="canonical"
           href="https://www.airbio.in/product/laminar/Airflow"
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "Vertical Laminar Air Flow",
+            description:
+              "HEPA-filtered laminar airflow cabinet providing a sterile and contamination-free workspace.",
+            brand: {
+              "@type": "Brand",
+              name: "AirBio",
+            },
+            manufacturer: {
+              "@type": "Organization",
+              name: "AirBio",
+            },
+            category: "Laminar Air Flow",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

@@ -101,6 +101,24 @@ const DynamicPassBox = () => {
           rel="canonical"
           href="https://www.airbio.in/product/PassBox/dynamicpassbox"
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "Dynamic Pass Box",
+            description:
+              "HEPA-filtered dynamic pass box with interlock protection for cleanroom material transfer.",
+            brand: {
+              "@type": "Brand",
+              name: "AirBio",
+            },
+            manufacturer: {
+              "@type": "Organization",
+              name: "AirBio",
+            },
+            category: "Pass Box",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

@@ -21,6 +21,10 @@ const Contact = () => {
     <>
       <Helmet>
         <title>Contact | Airbio</title>
+        <meta
+          name="description"
+          content="Contact AirBio for biosafety cabinets, laminar airflow units, fume hoods and cleanroom equipment solutions."
+        />
 
         <link rel="canonical" href="https://www.airbio.in/contact" />
       </Helmet>

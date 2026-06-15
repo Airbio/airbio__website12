@@ -85,6 +85,24 @@ const GeneSafe = () => {
           rel="canonical"
           href="https://www.airbio.in/product/PCRworkstation/GeneSafe"
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "GeneSafe PCR Workstation",
+            description:
+              "Advanced contamination-control workstation designed for PCR preparation and molecular biology applications.",
+            brand: {
+              "@type": "Brand",
+              name: "AirBio",
+            },
+            manufacturer: {
+              "@type": "Organization",
+              name: "AirBio",
+            },
+            category: "PCR Workstation",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

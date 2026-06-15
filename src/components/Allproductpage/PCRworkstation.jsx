@@ -102,6 +102,16 @@ const PCRworkstation = () => {
           rel="canonical"
           href="https://www.airbio.in/product/PCRworkstation"
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "PCR Workstations",
+            description:
+              "AirBio PCR Workstations provide contamination-free environments for PCR preparation and molecular biology applications.",
+            url: "https://www.airbio.in/product/PCRworkstation",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />
@@ -245,7 +255,8 @@ const PCRworkstation = () => {
 
               <div className="md:w-[60%] md:px-5 lg:px-0 lg:mr-8 ">
                 <h1 className="text-xl text-center md:text-start md:text-3xl font-medium mb-5">
-                  About <span className="text-[#1782C5]">PCR Workstations</span>{" "}
+                  About{" "}
+                  <span className="text-[#1782C5]">PCR Workstations</span>{" "}
                 </h1>
                 <p className="text-justify text-[14px] text-opacity-75">
                   PCR Workstations are specially designed clean working

@@ -27,9 +27,48 @@ const Home = () => {
     <>
       <Helmet>
         <title>Home | Airbio</title>
+        <meta
+          name="description"
+          content="AirBio is a leading manufacturer of Biosafety Cabinets, Laminar Air Flow Units, Fume Hoods, Pass Boxes, Air Showers and Cleanroom Equipment in India."
+        />
 
         <link rel="canonical" href="https://www.airbio.in/" />
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "AirBio",
+            url: "https://www.airbio.in",
+            email: "info@airbio.in",
+            telephone: "+91-9899829299",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "12/42, Pioneer Compound, Site IV",
+              addressLocality: "Ghaziabad",
+              addressRegion: "Uttar Pradesh",
+              postalCode: "201010",
+              addressCountry: "IN",
+            },
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+91-9899829299",
+              contactType: "sales",
+              email: "info@airbio.in",
+            },
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "AirBio",
+            url: "https://www.airbio.in",
+          })}
+        </script>
+        
       </Helmet>
+
       <div className="w-full relative">
         <Crousal />
 

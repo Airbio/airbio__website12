@@ -99,6 +99,16 @@ const LaminarFlow = () => {
         <title>Laminar Air Flow Cabinets | Airbio</title>
 
         <link rel="canonical" href="https://www.airbio.in/product/laminar" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Laminar Air Flow Units",
+            description:
+              "Discover AirBio Laminar Air Flow Units for clean air environments, contamination control and laboratory applications.",
+            url: "https://www.airbio.in/product/laminar",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

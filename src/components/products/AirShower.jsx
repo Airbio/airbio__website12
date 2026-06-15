@@ -89,6 +89,24 @@ const AirShower = () => {
           rel="canonical"
           href="https://www.airbio.in/product/PassBox/airshowers/airshower"
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "AirBio Air Shower",
+            description:
+              "High-velocity HEPA filtered air shower system for personnel decontamination before entering controlled environments.",
+            brand: {
+              "@type": "Brand",
+              name: "AirBio",
+            },
+            manufacturer: {
+              "@type": "Organization",
+              name: "AirBio",
+            },
+            category: "Air Shower",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

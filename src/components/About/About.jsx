@@ -46,6 +46,10 @@ const About = () => {
     <>
       <Helmet>
         <title>About | Airbio</title>
+        <meta
+          name="description"
+          content="Learn about AirBio, a trusted manufacturer of biosafety cabinets, laminar airflow systems, fume hoods and cleanroom equipment."
+        />
 
         <link rel="canonical" href="https://www.airbio.in/about" />
       </Helmet>

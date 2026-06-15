@@ -87,6 +87,16 @@ const PassBox = () => {
         <title>Pass Boxes | Airbio</title>
 
         <link rel="canonical" href="https://www.airbio.in/product/PassBox" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Pass Boxes",
+            description:
+              "Explore AirBio Static and Dynamic Pass Boxes for cleanroom material transfer and contamination control.",
+            url: "https://www.airbio.in/product/PassBox",
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />
