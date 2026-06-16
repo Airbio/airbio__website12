@@ -32,6 +32,36 @@ import StaticPassBox from "./components/products/StaticPassBox";
 import DynamicPassBox from "./components/products/DynamicPassBox";
 import AirShower from "./components/products/AirShower";
 import AirShowers from "./components/Allproductpage/AirShowers";
+import Header from "./components/Home/Header";
+import Footer from "./components/Footer/Footer";
+import AllProductPage from "./components/Allproductpage/AllProductPage";
+import DiscoverProducts from "./components/products/DiscoverProducts";
+import BlogPage from "./components/Blog/BlogPage";
+import ScrollToTop from "./components/ScrollToTop";
+import Blog from "./components/Blog/Blog";
+import Blog2 from "./components/Blog/Blog2";
+import Blog3 from "./components/Blog/Blog3";
+import FumeHoods from "./components/Allproductpage/FumeHoods";
+import LaminarFlow from "./components/Allproductpage/LaminarFlow";
+import A2Agies from "./components/products/A2Agies";
+import BSCA2 from "./components/products/BSCA2";
+import MainA2 from "./components/products/MainA2";
+import Airflow from "./components/products/Airflow";
+import AirflowVelocity from "./components/products/AirflowVelocity";
+import BAgies from "./components/products/BAgies";
+import AirFumeHood from "./components/products/AirFumeHood";
+import TermsAndConditions from "./components/TermsAndConditions/TermsAndConditions";
+import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
+import FAQ from "./components/FAQ/FAQ";
+import ReturnRefundPolicy from "./components/ReturnRefundPolicy/ReturnRefundPolicy";
+
+import PCRworkstation from "./components/Allproductpage/PCRworkstation";
+import GeneSafe from "./components/products/GeneSafe";
+import PassBox from "./components/Allproductpage/PassBox";
+import StaticPassBox from "./components/products/StaticPassBox";
+import DynamicPassBox from "./components/products/DynamicPassBox";
+import AirShower from "./components/products/AirShower";
+import AirShowers from "./components/Allproductpage/AirShowers";
 
 function App() {
   return (
@@ -102,6 +132,8 @@ function App() {
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/return-refund-policy" element={<ReturnRefundPolicy />} />
+        {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
 
       <Footer />
