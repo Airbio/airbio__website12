@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="flex justify-between md:justify-around text-[14px] my-5 gap-6 md:gap-0">
             {/* Company Section */}
             <div>
-              <h3 className="font-[500px] text-base md:text-[21px] mb-4 ">
+              <h3 className="font-[500px] text-base md:text-[21px] mb-4">
                 Company
               </h3>
               <ul className="space-y-2">
@@ -44,12 +44,20 @@ const Footer = () => {
                     Products
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/blog"
+                    className="md:text-lg md:font-light hover:text-gray-400"
+                  >
+                    Blogs
+                  </a>
+                </li>
               </ul>
             </div>
 
             {/* Need Help Section */}
             <div>
-              <h3 className="mb-4 text-base font-medium md:text-[21px] ">
+              <h3 className="mb-4 text-base font-medium md:text-[21px]">
                 Need Help
               </h3>
               <ul className="space-y-2">
@@ -61,12 +69,20 @@ const Footer = () => {
                     Contact Us
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/faq"
+                    className="md:text-lg md:font-light hover:text-gray-400"
+                  >
+                    FAQ
+                  </a>
+                </li>
               </ul>
             </div>
 
             {/* More Info Section */}
             <div>
-              <h3 className="font-[500px] text-base mb-4 md:text-[21px] ">
+              <h3 className="font-[500px] text-base mb-4 md:text-[21px]">
                 More Info
               </h3>
               <ul className="space-y-2">
@@ -88,10 +104,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/faq"
+                    href="/return-refund-policy"
                     className="md:text-lg md:font-light hover:text-gray-400"
                   >
-                    FAQ
+                    Return and Refund Policy
                   </a>
                 </li>
               </ul>
