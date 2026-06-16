@@ -24,6 +24,7 @@ const Footer = () => {
                             <ul className="space-y-2">
                                 <li><a href="/about" className="md:text-lg md:font-light hover:text-gray-400">About Us</a></li>
                                 <li><a href="/product" className="md:text-lg md:font-light hover:text-gray-400">Products</a></li>
+                                <li><a href="/blog" className="md:text-lg md:font-light hover:text-gray-400">Blogs</a></li>
                             </ul>
                         </div>
 
@@ -32,6 +33,7 @@ const Footer = () => {
                             <h3 className="mb-4 text-base font-medium md:text-[21px] ">Need Help</h3>
                             <ul className="space-y-2">
                                 <li><a href="/contact" className="md:text-lg md:font-light hover:text-gray-400">Contact Us</a></li>
+                                <li><a href="/faq" className="md:text-lg md:font-light hover:text-gray-400">FAQs</a></li>
                             </ul>
                         </div>
 
@@ -41,7 +43,7 @@ const Footer = () => {
                             <ul className="space-y-2">
                                 <li><a href="/terms-and-conditions" className="md:text-lg md:font-light hover:text-gray-400">T&C</a></li>
                                 <li><a href="/privacy-policy" className="md:text-lg md:font-light hover:text-gray-400">Privacy Policy</a></li>
-                                <li><a href="/faq" className="md:text-lg md:font-light hover:text-gray-400">FAQ</a></li>
+                                <li><a href="/return-refund-policy" className="md:text-lg md:font-light hover:text-gray-400">Return and Refund Policy</a></li>            
                             </ul>
                         </div>
                     </div>

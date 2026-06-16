@@ -26,6 +26,8 @@ import AirFumeHood from './components/products/AirFumeHood';
 import TermsAndConditions from './components/TermsAndConditions/TermsAndConditions';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import FAQ from './components/FAQ/FAQ';
+import ReturnRefundPolicy from './components/ReturnRefundPolicy/ReturnRefundPolicy';
+
 import PCRworkstation from './components/Allproductpage/PCRworkstation';
 import GeneSafe from './components/products/GeneSafe';
 import PassBox from './components/Allproductpage/PassBox';
@@ -85,6 +87,7 @@ function App() {
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/return-refund-policy" element={<ReturnRefundPolicy />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
       <Footer />

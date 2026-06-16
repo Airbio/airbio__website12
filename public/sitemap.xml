@@ -8,7 +8,7 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <!-- created with AirBio Sitemap Generator -->
 
-<url>
+<!-- <url>
   <loc>https://www.airbio.in/</loc>
   <lastmod>2026-05-23T19:54:53+05:30</lastmod>
   <priority>1.00</priority>
@@ -109,5 +109,156 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <lastmod>2026-05-23T19:54:53+05:30</lastmod>
   <priority>0.30</priority>
 </url>
+
+</urlset> -->
+
+
+<!-- updated -->
+
+  <!-- Main Pages -->
+
+  <url>
+    <loc>https://www.airbio.in/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/about</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/blog</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/contact</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/faq</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/privacy-policy</loc>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/terms-and-conditions</loc>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Product Categories -->
+
+  <url>
+    <loc>https://www.airbio.in/product/Biosafety</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/FumeHoods</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/laminar</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/PCRworkstation</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/PassBox</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/AirShowers</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Biosafety Products -->
+
+  <url>
+    <loc>https://www.airbio.in/product/Biosafety/BscClassIIB2</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/Biosafety/BscClassIIB2(Agies)</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/Biosafety/BscClassIIA2</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/Biosafety/BscClassIIA2(Agies)</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/Biosafety/BscMainClassIIA2</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Fume Hood -->
+
+  <url>
+    <loc>https://www.airbio.in/product/FumeHoods/FumeHood</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Laminar Flow -->
+
+  <url>
+    <loc>https://www.airbio.in/product/laminar/Airflow</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/laminar/Airflow(Velocity)</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- PCR Workstation -->
+
+  <url>
+    <loc>https://www.airbio.in/product/PCRworkstation/GeneSafe</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pass Box -->
+
+  <url>
+    <loc>https://www.airbio.in/product/PassBox/StaticPassBox</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.airbio.in/product/PassBox/DynamicPassBox</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Air Shower -->
+
+  <url>
+    <loc>https://www.airbio.in/product/AirShowers/airshower</loc>
+    <priority>0.8</priority>
+  </url>
 
 </urlset>
