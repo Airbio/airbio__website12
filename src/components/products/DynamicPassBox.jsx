@@ -95,7 +95,13 @@ const DynamicPassBox = () => {
   return (
     <>
       <Helmet>
-        <title>Dynamic Pass Box | Airbio</title>
+        <title>
+          AirBio Dynamic Pass Box - HEPA Filtered Cleanroom Pass Box
+        </title>
+        <meta
+          name="description"
+          content="Discover AirBio Dynamic Pass Box featuring HEPA-filtered airflow and advanced contamination control for secure material transfer in cleanroom environments."
+        />
 
         <link
           rel="canonical"

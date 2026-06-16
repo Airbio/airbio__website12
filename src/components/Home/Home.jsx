@@ -26,10 +26,13 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Home | Airbio</title>
+        <title>
+          AirBio | Biosafety Cabinet & Laminar Flow Cabinet Manufacturer in
+          India
+        </title>
         <meta
           name="description"
-          content="AirBio is a leading manufacturer of Biosafety Cabinets, Laminar Air Flow Units, Fume Hoods, Pass Boxes, Air Showers and Cleanroom Equipment in India."
+          content="AirBio is a leading manufacturer of Biosafety Cabinet, Class II Biosafety Cabinet, Biosafety Cabinet Class 2, Laminar Flow Cabinet and Laminar Air Flow Chamber solutions for laboratories, healthcare and pharmaceutical industries in India."
         />
 
         <link rel="canonical" href="https://www.airbio.in/" />
@@ -66,7 +69,6 @@ const Home = () => {
             url: "https://www.airbio.in",
           })}
         </script>
-        
       </Helmet>
 
       <div className="w-full relative">

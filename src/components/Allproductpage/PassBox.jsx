@@ -84,8 +84,11 @@ const PassBox = () => {
   return (
     <>
       <Helmet>
-        <title>Pass Boxes | Airbio</title>
-
+        <title>AirBio Pass Boxes - Static and Dynamic Pass Box Solutions for Cleanrooms</title>
+        <meta
+          name="description"
+          content="Explore AirBio Pass Box solutions including Static Pass Box and Dynamic Pass Box systems designed for contamination-free material transfer in cleanrooms and controlled environments."
+        />
         <link rel="canonical" href="https://www.airbio.in/product/PassBox" />
         <script type="application/ld+json">
           {JSON.stringify({

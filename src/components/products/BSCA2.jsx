@@ -40,7 +40,13 @@ const BSCA2 = () => {
   return (
     <>
       <Helmet>
-        <title>BSC Class II A2 | Airbio</title>
+        <title>
+          AirBio BSC Class II A2 - Biological Safety Cabinet for Laboratories
+        </title>
+        <meta
+          name="description"
+          content="AirBio BSC Class II A2 provides superior personnel, product and environmental protection with advanced airflow control for microbiology, healthcare and research laboratories."
+        />
 
         <link
           rel="canonical"

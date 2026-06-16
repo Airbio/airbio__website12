@@ -42,8 +42,13 @@ const BlogPage = () => {
   return (
     <>
       <Helmet>
-        <title>Blog | Airbio</title>
-
+        <title>
+          AirBio Blog - Learn, Explore and Stay Updated with Laboratory Innovations
+        </title>
+        <meta
+          name="description"
+          content="Discover expert content from AirBio on Biosafety Cabinet, Class II Biosafety Cabinet, Laminar Flow Cabinet, Laminar Air Flow Vertical and laboratory safety innovations for modern labs."
+        />
         <link rel="canonical" href="https://www.airbio.in/blog" />
       </Helmet>
       <div>

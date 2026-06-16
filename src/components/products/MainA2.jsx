@@ -36,7 +36,13 @@ const MainA2 = () => {
   return (
     <>
       <Helmet>
-        <title>Main BSC Class II A2 | Airbio</title>
+        <title>
+          AirBio Main BSC Class II A2 - Laboratory Biosafety Cabinet
+        </title>
+        <meta
+          name="description"
+          content="Explore AirBio Main BSC Class II A2 featuring durable stainless steel construction, optimized airflow and enhanced biosafety protection for laboratory environments."
+        />
 
         <link
           rel="canonical"

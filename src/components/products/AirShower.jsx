@@ -83,7 +83,13 @@ const AirShower = () => {
   return (
     <>
       <Helmet>
-        <title>Air Shower | Airbio</title>
+        <title>
+          AirBio Air Shower - HEPA Filtered Personnel Decontamination System
+        </title>
+        <meta
+          name="description"
+          content="Explore AirBio Air Shower systems designed for personnel decontamination, particulate removal and contamination control before entering cleanroom environments."
+        />
 
         <link
           rel="canonical"

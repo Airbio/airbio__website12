@@ -96,8 +96,13 @@ const LaminarFlow = () => {
   return (
     <>
       <Helmet>
-        <title>Laminar Air Flow Cabinets | Airbio</title>
-
+        <title>
+          AirBio Laminar Air Flow - Vertical Laminar Air Flow Cabinets for Clean Air Environments
+        </title>
+        <meta
+          name="description"
+          content="Explore AirBio Laminar Air Flow systems including Vertical Laminar Air Flow cabinets engineered to provide HEPA-filtered clean air, contamination control and sterile working environments."
+        />
         <link rel="canonical" href="https://www.airbio.in/product/laminar" />
         <script type="application/ld+json">
           {JSON.stringify({

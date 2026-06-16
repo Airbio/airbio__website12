@@ -41,7 +41,13 @@ const BAgies = () => {
   return (
     <>
       <Helmet>
-        <title>BSC Class II B2 (Agies) | Airbio</title>
+        <title>
+          AirBio BSC Class II B2 Agies - Advanced Biological Safety Cabinet for Laboratory Protection
+        </title>
+        <meta
+          name="description"
+          content="Discover AirBio BSC Class II B2 Agies featuring advanced containment technology, high-efficiency filtration and reliable protection for research, diagnostics and pharmaceutical laboratories."
+        />
 
         <link
           rel="canonical"

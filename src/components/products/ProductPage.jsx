@@ -23,7 +23,13 @@ const ProductPage = () => {
   return (
     <>
       <Helmet>
-        <title>BSC Class II B2 (Falcon) | Airbio</title>
+        <title>
+          AirBio BSC Class II B2 (Falcon)- Biosafety Cabinet Class 2 for Advanced Laboratories
+        </title>
+        <meta
+          name="description"
+          content="Discover AirBio BSC Class II B2 (Falcon) - a benchtop biosafety cabinet with 100% exhaust system designed for volatile chemicals and radionuclides. Engineered for superior protection, contamination control and laboratory safety in microbiology labs, pharmaceutical facilities and research institutions."
+        />
 
         <link
           rel="canonical"

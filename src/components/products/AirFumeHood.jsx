@@ -34,14 +34,20 @@ const AirFumeHood = () => {
   return (
     <>
       <Helmet>
-        <title>Air Foom Hood | Airbio</title>
+        <title>
+          AirBio Air Fume Hood - Laboratory Chemical Fume Hood System
+        </title>
+        <meta
+          name="description"
+          content="Discover AirBio Air Fume Hood solutions engineered for chemical handling, laboratory safety and hazardous fume extraction with reliable airflow performance."
+        />
 
         <link
           rel="canonical"
           href="https://www.airbio.in/product/FumeHoods/FumeHood"
         />
 
-         {/* Meta Description + Schema */}
+        {/* Meta Description + Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

@@ -34,8 +34,13 @@ const Airflow = () => {
   return (
     <>
       <Helmet>
-        <title>Vertical Laminar Airflow | Airbio</title>
-
+        <title>
+          AirBio Vertical Laminar Air Flow - HEPA Filtered Clean Air Cabinet
+        </title>
+        <meta
+          name="description"
+          content="AirBio Vertical Laminar Air Flow provides a sterile and contamination-free workspace with HEPA filtration for laboratory applications."
+        />
         <link
           rel="canonical"
           href="https://www.airbio.in/product/laminar/Airflow"

@@ -38,7 +38,11 @@ const AirflowVelocity = () => {
   return (
     <>
       <Helmet>
-        <title>Vertical Laminar Airflow (Velocity) | Airbio</title>
+        <title>AirBio Velocity Laminar Air Flow - Advanced Clean Air Workstation</title>
+        <meta
+          name="description"
+          content="AirBio Velocity Laminar Air Flow provides advanced clean air protection for laboratory applications with optimized airflow and HEPA filtration."
+        />
 
         <link
           rel="canonical"

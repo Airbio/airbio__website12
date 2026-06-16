@@ -78,7 +78,13 @@ const AirShowers = () => {
   return (
     <>
       <Helmet>
-        <title>Air Showers | Airbio</title>
+        <title>
+          AirBio Air Showers - HEPA Filtered Air Shower Systems for Cleanroom Entry
+        </title>
+        <meta
+          name="description"
+          content="AirBio Air Showers provide high-velocity HEPA filtered air to effectively remove contaminants from personnel before entering cleanroom areas."
+        />
 
         <link rel="canonical" href="https://www.airbio.in/product/AirShowers" />
         <script type="application/ld+json">

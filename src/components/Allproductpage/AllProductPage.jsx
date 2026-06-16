@@ -149,7 +149,13 @@ const AllProductPage = () => {
   return (
     <>
       <Helmet>
-        <title>Biosafety Cabinets | Airbio</title>
+        <title>
+          AirBio Biosafety Cabinets - Class II Biosafety Cabinet for Advanced Laboratory Safety
+        </title>
+        <meta
+          name="description"
+          content="Explore AirBio Biosafety Cabinet solutions including Class II Biosafety Cabinet, Biosafety Cabinet Class 2 and Class II BSC systems engineered for superior protection, contamination control and laboratory safety."
+        />
 
         <link rel="canonical" href="https://www.airbio.in/product/Biosafety" />
 

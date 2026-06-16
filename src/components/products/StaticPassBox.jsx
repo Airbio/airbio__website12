@@ -78,7 +78,13 @@ const StaticPassBox = () => {
   return (
     <>
       <Helmet>
-        <title>Static Pass Box | Airbio</title>
+        <title>
+          AirBio Static Pass Box - Cleanroom Material Transfer Solution
+        </title>
+        <meta
+          name="description"
+          content="AirBio Static Pass Box provides a safe and contamination-controlled solution for material transfer between clean and non-clean areas in laboratory environments."
+        />
 
         <link
           rel="canonical"

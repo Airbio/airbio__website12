@@ -96,8 +96,13 @@ const PCRworkstation = () => {
   return (
     <>
       <Helmet>
-        <title>PCR Workstation | Airbio</title>
-
+        <title>
+          AirBio PCR Workstations - Advanced PCR Cabinets for Molecular Biology Laboratories
+        </title>
+        <meta
+          name="description"
+          content="Discover AirBio PCR Workstation solutions designed for contamination control, PCR preparation and molecular biology applications with reliable protection and clean working conditions."
+        />
         <link
           rel="canonical"
           href="https://www.airbio.in/product/PCRworkstation"

@@ -94,8 +94,13 @@ const FumeHoods = () => {
   return (
     <>
       <Helmet>
-        <title>Fume Hoods | Airbio</title>
-
+        <title>
+          AirBio Fume Hoods - Laboratory Fume Hood Systems for Chemical Safety
+        </title>
+        <meta
+          name="description"
+          content="Discover AirBio Fume Hood solutions designed for chemical handling, hazardous fume extraction and laboratory safety with advanced airflow control and contamination protection."
+        />
         <link rel="canonical" href="https://www.airbio.in/product/FumeHoods" />
 
         <script type="application/ld+json">

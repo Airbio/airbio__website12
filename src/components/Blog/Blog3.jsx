@@ -10,7 +10,7 @@ const Blog3 = () => {
   return (
     <>
       <Helmet>
-        <title>Blog3 | Airbio</title>
+        <title>Blog | Airbio</title>
 
         <link rel="canonical" href="https://www.airbio.in/blog/blog3" />
       </Helmet>

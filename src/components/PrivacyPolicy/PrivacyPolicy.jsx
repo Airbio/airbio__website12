@@ -7,12 +7,15 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | Airbio</title>
-
-        <link
-          rel="canonical"
-          href="https://www.airbio.in/privacy-policy"
+        <title>
+          AirBio Privacy Policy - Secure Data Practices and User Information
+        </title>
+        <meta
+          name="description"
+          content="Read AirBio's Privacy Policy to understand how we collect, use and protect your information while providing Biosafety Cabinet, Class II Biosafety Cabinet, Laminar Flow Cabinet and Laminar Air Flow Chamber solutions."
         />
+
+        <link rel="canonical" href="https://www.airbio.in/privacy-policy" />
       </Helmet>
       <div>
         <Header />

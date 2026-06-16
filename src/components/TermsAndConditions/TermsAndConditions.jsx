@@ -7,8 +7,13 @@ const TermsAndConditions = () => {
   return (
     <>
       <Helmet>
-        <title>T&C | Airbio</title>
-
+        <title>
+          AirBio Terms and Conditions - Website Usage and Product Policies
+        </title>
+        <meta
+          name="description"
+          content="Review AirBio website terms, product policies and user guidelines for Biosafety Cabinet, Class II BSC, Laminar Flow Cabinet and laboratory safety solutions."
+        />
         <link
           rel="canonical"
           href="https://www.airbio.in/terms-and-conditions"

@@ -45,10 +45,13 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About | Airbio</title>
+        <title>
+          AirBio About Us - Biosafety Cabinet and Laminar Flow Cabinet
+          Manufacturer
+        </title>
         <meta
           name="description"
-          content="Learn about AirBio, a trusted manufacturer of biosafety cabinets, laminar airflow systems, fume hoods and cleanroom equipment."
+          content="Learn about AirBio, a trusted manufacturer of Biosafety Cabinet, Class II Biosafety Cabinet, Biosafety Cabinet Class 2, Laminar Flow Cabinet and Laminar Air Flow Chamber solutions for laboratories, research facilities, healthcare and pharmaceutical industries."
         />
 
         <link rel="canonical" href="https://www.airbio.in/about" />

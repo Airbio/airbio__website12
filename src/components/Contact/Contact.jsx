@@ -20,10 +20,10 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact | Airbio</title>
+        <title>AirBio Contact Us - Class II Biosafety Cabinet Manufacturer</title>
         <meta
           name="description"
-          content="Contact AirBio for biosafety cabinets, laminar airflow units, fume hoods and cleanroom equipment solutions."
+          content="Contact AirBio for Biosafety Cabinet, Class II Biosafety Cabinet, Laminar Flow Cabinet and Laminar Air Flow Chamber solutions. Reach our experts for product inquiries, technical support and laboratory safety requirements."
         />
 
         <link rel="canonical" href="https://www.airbio.in/contact" />

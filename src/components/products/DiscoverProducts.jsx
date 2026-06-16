@@ -64,7 +64,14 @@ const DiscoverProducts = () => {
   return (
     <>
       <Helmet>
-        <title>Products | Airbio</title>
+        <title>
+          AirBio Products - Biosafety Cabinet, Class II Biosafety Cabinet and
+          Laminar Flow Cabinet
+        </title>
+        <meta
+          name="description"
+          content="Explore AirBio products including Biosafety Cabinet, Class II Biosafety Cabinet, Biosafety Cabinet Class 2, Class II BSC, Laminar Flow Cabinet, Laminar Air Flow Chamber and Laminar Air Flow Vertical solutions for laboratories and research facilities."
+        />
 
         <link rel="canonical" href="https://www.airbio.in/product" />
       </Helmet>

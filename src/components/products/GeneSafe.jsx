@@ -79,7 +79,13 @@ const GeneSafe = () => {
   return (
     <>
       <Helmet>
-        <title>GeneSafe PCR Workstation | Airbio</title>
+        <title>
+          AirBio GeneSafe PCR Workstation - Contamination Control for PCR Labs
+        </title>
+        <meta
+          name="description"
+          content="AirBio GeneSafe PCR Workstation provides superior contamination control for PCR laboratories with advanced clean air technology."
+        />
 
         <link
           rel="canonical"
