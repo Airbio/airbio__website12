@@ -23,7 +23,8 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^12.2.0",
     "tailwind-scrollbar": "^3.1.0",
-    "vite-plugin-svgr": "^4.3.0"
+    "vite-plugin-svgr": "^4.3.0",
+    "vite-ssg": "^28.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
