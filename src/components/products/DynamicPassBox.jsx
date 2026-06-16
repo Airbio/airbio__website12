@@ -161,6 +161,34 @@ const DynamicPassBox = () => {
             ],
           })}
         </script>
+
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.airbio.in/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Pass Box",
+                item: "https://www.airbio.in/product/PassBox",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Dynamic Pass Box",
+                item: "https://www.airbio.in/product/PassBox/dynamicpassbox",
+              },
+            ],
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

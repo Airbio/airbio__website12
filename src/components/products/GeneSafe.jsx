@@ -145,6 +145,34 @@ const GeneSafe = () => {
             ],
           })}
         </script>
+
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.airbio.in/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "PCR Workstation",
+                item: "https://www.airbio.in/product/PCRworkstation",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "GeneSafe PCR Workstation",
+                item: "https://www.airbio.in/product/PCRworkstation/GeneSafe",
+              },
+            ],
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

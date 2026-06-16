@@ -100,6 +100,34 @@ const AirFumeHood = () => {
             ],
           })}
         </script>
+
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.airbio.in/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Fume Hoods",
+                item: "https://www.airbio.in/product/FumeHoods",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Air Fume Hood",
+                item: "https://www.airbio.in/product/FumeHoods/FumeHood",
+              },
+            ],
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

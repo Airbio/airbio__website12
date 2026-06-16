@@ -110,6 +110,34 @@ const MainA2 = () => {
             ],
           })}
         </script>
+
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.airbio.in/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Biosafety Cabinets",
+                item: "https://www.airbio.in/product/Biosafety",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Main BSC Class II A2",
+                item: "https://www.airbio.in/product/Biosafety/BscMainClassIIA2",
+              },
+            ],
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />

@@ -63,6 +63,11 @@
       "permanent": true
     },
     {
+      "source": "/products/hepa-filtration-systems",
+      "destination": "/product",
+      "permanent": true
+    },
+    {
       "source": "/industries",
       "destination": "/",
       "permanent": true

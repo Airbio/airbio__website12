@@ -99,6 +99,34 @@ const Airflow = () => {
             ],
           })}
         </script>
+
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.airbio.in/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Laminar Air Flow",
+                item: "https://www.airbio.in/product/laminar",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Airflow Laminar Cabinet",
+                item: "https://www.airbio.in/product/laminar/Airflow",
+              },
+            ],
+          })}
+        </script>
       </Helmet>
       <div>
         <Header />
